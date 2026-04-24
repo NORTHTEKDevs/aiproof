@@ -60,6 +60,23 @@ impl Rule for KnownJailbreakPattern {
     }
 
     fn check(&self, doc: &Document, _ctx: &Ctx) -> Vec<Diagnostic> {
+        // Test fixtures routinely embed jailbreak strings to exercise defenses.
+        // Skip well-known fixture directories to avoid noise.
+        let path_str = doc.path.to_string_lossy().replace('\\', "/");
+        const FIXTURE_PATH_HINTS: &[&str] = &[
+            "/tests/cassettes/",
+            "/tests/recordings/",
+            "/tests/fixtures/",
+            "/test_specs/",
+            "/recordings/",
+            "/cassettes/",
+            "/test_data/",
+            "/tests/data/",
+        ];
+        if FIXTURE_PATH_HINTS.iter().any(|h| path_str.contains(h)) {
+            return Vec::new();
+        }
+
         let text_lower = doc.prompt.text.to_lowercase();
         let mut diags = Vec::new();
 

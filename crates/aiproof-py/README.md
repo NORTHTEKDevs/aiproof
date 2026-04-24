@@ -2,4 +2,4 @@
 
 `pip install aiproof` — static analyzer for AI prompts.
 
-See https://github.com/northtek/aiproof.
+See https://github.com/Frostbyte-Devs/aiproof.

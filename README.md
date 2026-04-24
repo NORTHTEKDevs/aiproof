@@ -28,7 +28,7 @@ pip install aiproof
 cargo install aiproof-cli
 
 # Prebuilt binaries
-# Download from https://github.com/northtek/aiproof/releases
+# Download from https://github.com/Frostbyte-Devs/aiproof/releases
 ```
 
 Python wheels are built for macOS, Linux, and Windows on CPython 3.9+.

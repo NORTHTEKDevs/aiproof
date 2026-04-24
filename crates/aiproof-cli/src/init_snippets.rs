@@ -4,8 +4,20 @@ pub const STARTER_AIPROOFRC: &str = r#"# aiproof config — see https://aiproof.
 # Files to lint. Defaults cover common locations; override for custom layouts.
 # include = ["prompts/**/*.md", "src/**/*.py"]
 
-# Files to skip.
-exclude = ["fixtures/**", "tests/**"]
+# Files to skip. Default excludes cover common sources of false positives:
+# long design/planning docs, release notes, and test fixtures/cassettes that
+# intentionally embed prompt-shaped content.
+exclude = [
+    "docs/plans/**",
+    "releasenotes/**",
+    "fixtures/**",
+    "tests/cassettes/**",
+    "tests/recordings/**",
+    "tests/fixtures/**",
+    "node_modules/**",
+    "target/**",
+    ".venv/**",
+]
 
 # Disable noisy rules if needed.
 # ignore = ["AIP019"]

@@ -142,7 +142,7 @@ pub fn render<W: Write>(report: &crate::Report, out: &mut W) -> anyhow::Result<(
                 driver: Driver {
                     name: "aiproof".to_string(),
                     version: "0.1.0".to_string(),
-                    information_uri: "https://github.com/northtek/aiproof".to_string(),
+                    information_uri: "https://github.com/Frostbyte-Devs/aiproof".to_string(),
                     rules,
                 },
             },

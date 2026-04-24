@@ -19,8 +19,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/northtek/aiproof"
-Repository = "https://github.com/northtek/aiproof"
+Homepage = "https://github.com/Frostbyte-Devs/aiproof"
+Repository = "https://github.com/Frostbyte-Devs/aiproof"
 
 [tool.maturin]
 features = ["pyo3/extension-module"]

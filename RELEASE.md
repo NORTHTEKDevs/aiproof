@@ -17,15 +17,15 @@ It's intentionally terse. Run each step only when the one above is green.
 
 - [ ] Create the public repo:
   ```sh
-  gh repo create northtek/aiproof --public --description "ESLint for AI prompts" --homepage "https://aiproof.dev"
+  gh repo create Frostbyte-Devs/aiproof --public --description "ESLint for AI prompts" --homepage "https://aiproof.dev"
   ```
-  (Pick the real org name if not `northtek`. The `repository` field in
-  `Cargo.toml` is currently `https://github.com/northtek/aiproof` — adjust
+  (Pick the org is `Frostbyte-Devs`. The `repository` field in
+  `Cargo.toml` is currently `https://github.com/Frostbyte-Devs/aiproof` — adjust
   if different.)
 
 - [ ] Push `feat/v0` and `main`:
   ```sh
-  git remote add origin git@github.com:northtek/aiproof.git
+  git remote add origin git@github.com:Frostbyte-Devs/aiproof.git
   git push -u origin feat/v0
   # merge feat/v0 → main via PR, then:
   git push origin main
