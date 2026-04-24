@@ -25,3 +25,8 @@ tracing-subscriber = { workspace = true }
 assert_cmd = { workspace = true }
 tempfile   = { workspace = true }
 predicates = "3"
+criterion = { workspace = true }
+
+[[bench]]
+name = "single_file"
+harness = false
