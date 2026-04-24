@@ -3,9 +3,14 @@ name = "aiproof-parse"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+description = "Per-format parsers plus LLM SDK call-site extractor for aiproof."
+repository = { workspace = true }
+readme = "README.md"
+keywords = ["llm", "linter", "prompts", "static-analysis", "ai"]
+categories = ["development-tools", "command-line-utilities"]
 
 [dependencies]
-aiproof-core = { path = "../aiproof-core" }
+aiproof-core = { path = "../aiproof-core", version = "0.1.0" }
 logos = { workspace = true }
 tree-sitter = { workspace = true }
 tree-sitter-python = { workspace = true }

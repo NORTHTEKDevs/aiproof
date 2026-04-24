@@ -3,17 +3,22 @@ name = "aiproof-cli"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+description = "CLI for aiproof, the static analyzer for AI prompts (ESLint for prompts)."
+repository = { workspace = true }
+readme = "README.md"
+keywords = ["llm", "linter", "prompts", "static-analysis", "ai"]
+categories = ["development-tools", "command-line-utilities"]
 
 [[bin]]
 name = "aiproof"
 path = "src/main.rs"
 
 [dependencies]
-aiproof-core   = { path = "../aiproof-core" }
-aiproof-parse  = { path = "../aiproof-parse" }
-aiproof-rules  = { path = "../aiproof-rules" }
-aiproof-config = { path = "../aiproof-config" }
-aiproof-report = { path = "../aiproof-report" }
+aiproof-core   = { path = "../aiproof-core", version = "0.1.0" }
+aiproof-parse  = { path = "../aiproof-parse", version = "0.1.0" }
+aiproof-rules  = { path = "../aiproof-rules", version = "0.1.0" }
+aiproof-config = { path = "../aiproof-config", version = "0.1.0" }
+aiproof-report = { path = "../aiproof-report", version = "0.1.0" }
 clap           = { workspace = true }
 ignore         = { workspace = true }
 glob           = { workspace = true }

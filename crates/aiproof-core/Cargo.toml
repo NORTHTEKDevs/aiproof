@@ -3,6 +3,11 @@ name = "aiproof-core"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+description = "Core types (Document, Rule trait, Diagnostic, Severity, Span) for aiproof."
+repository = { workspace = true }
+readme = "README.md"
+keywords = ["llm", "linter", "prompts", "static-analysis", "ai"]
+categories = ["development-tools", "command-line-utilities"]
 
 [dependencies]
 serde = { workspace = true }

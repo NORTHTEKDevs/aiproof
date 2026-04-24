@@ -3,9 +3,14 @@ name = "aiproof-report"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+description = "Pretty, JSON, and SARIF 2.1.0 diagnostic renderers for aiproof."
+repository = { workspace = true }
+readme = "README.md"
+keywords = ["llm", "linter", "prompts", "static-analysis", "ai"]
+categories = ["development-tools", "command-line-utilities"]
 
 [dependencies]
-aiproof-core = { path = "../aiproof-core" }
+aiproof-core = { path = "../aiproof-core", version = "0.1.0" }
 codespan-reporting = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }

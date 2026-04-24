@@ -3,10 +3,15 @@ name = "aiproof-rules"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+description = "The 20 bundled lint rules for aiproof."
+repository = { workspace = true }
+readme = "README.md"
+keywords = ["llm", "linter", "prompts", "static-analysis", "ai"]
+categories = ["development-tools", "command-line-utilities"]
 
 [dependencies]
-aiproof-core  = { path = "../aiproof-core" }
-aiproof-parse = { path = "../aiproof-parse" }
+aiproof-core  = { path = "../aiproof-core", version = "0.1.0" }
+aiproof-parse = { path = "../aiproof-parse", version = "0.1.0" }
 regex         = { workspace = true }
 once_cell     = { workspace = true }
 

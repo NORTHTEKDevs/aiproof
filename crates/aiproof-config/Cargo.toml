@@ -3,6 +3,11 @@ name = "aiproof-config"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+description = "Configuration loader (.aiproofrc and pyproject.toml [tool.aiproof]) for aiproof."
+repository = { workspace = true }
+readme = "README.md"
+keywords = ["llm", "linter", "prompts", "static-analysis", "ai"]
+categories = ["development-tools", "command-line-utilities"]
 
 [dependencies]
 serde = { workspace = true }
