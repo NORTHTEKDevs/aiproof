@@ -2,7 +2,7 @@
 //!
 //! Detect unresolved placeholders in the prompt (TODO, FIXME, XXX, PLACEHOLDER, ...TBD).
 
-use crate::util::project_span;
+use crate::util::{is_prompt_shaped, project_span};
 use aiproof_core::{
     diagnostic::{Category, Diagnostic},
     document::Document,
@@ -38,6 +38,9 @@ impl Rule for UnhandledPlaceholder {
     }
 
     fn check(&self, doc: &Document, _ctx: &Ctx) -> Vec<Diagnostic> {
+        if !is_prompt_shaped(doc) {
+            return Vec::new();
+        }
         let text = &doc.prompt.text;
         let mut diags = Vec::new();
 
