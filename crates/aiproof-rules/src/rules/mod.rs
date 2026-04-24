@@ -15,6 +15,9 @@ pub mod aip012_unused_template_variable;
 pub mod aip013_missing_format_example;
 pub mod aip014_undefined_tool_reference;
 pub mod aip015_unhandled_placeholder;
+pub mod aip016_claude_specific_tags_on_gpt;
+pub mod aip017_system_message_mismatch;
+pub mod aip018_temperature_determinism_mismatch;
 
 /// Called by `crate::registry::all_rules` to populate the rule vector.
 pub fn register_all(out: &mut Vec<Box<dyn Rule>>) {
@@ -33,4 +36,7 @@ pub fn register_all(out: &mut Vec<Box<dyn Rule>>) {
     aip013_missing_format_example::register(out);
     aip014_undefined_tool_reference::register(out);
     aip015_unhandled_placeholder::register(out);
+    aip016_claude_specific_tags_on_gpt::register(out);
+    aip017_system_message_mismatch::register(out);
+    aip018_temperature_determinism_mismatch::register(out);
 }
