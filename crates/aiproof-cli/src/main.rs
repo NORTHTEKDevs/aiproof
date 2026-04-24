@@ -9,14 +9,37 @@ fn main() {
 
     let cli = Cli::parse();
 
-    if cli.explain.is_some() || cli.init {
-        eprintln!("aiproof: --explain/--init wired in Phase 7b");
-        std::process::exit(2);
+    if let Some(code) = cli.explain.as_deref() {
+        std::process::exit(aiproof_cli::explain::run_explain(code));
+    }
+
+    if cli.init {
+        std::process::exit(aiproof_cli::init_snippets::run_init());
     }
 
     if cli.fix {
-        eprintln!("aiproof: --fix wired in Phase 7b");
-        std::process::exit(2);
+        // Load config anchored at cwd for fix command.
+        let anchor = cli.paths.first().cloned().unwrap_or_else(|| ".".into());
+        let config = match aiproof_config::load(&anchor) {
+            Ok(c) => c,
+            Err(e) => {
+                eprintln!("aiproof: config error — {e}");
+                std::process::exit(2);
+            }
+        };
+        match aiproof_cli::fix::run_fix(&cli.paths, &config, cli.unsafe_fixes) {
+            Ok(outcome) => {
+                println!(
+                    "aiproof --fix: {} fixes applied across {} files",
+                    outcome.fixes_applied, outcome.files_changed
+                );
+                std::process::exit(0);
+            }
+            Err(e) => {
+                eprintln!("aiproof: --fix error: {e:?}");
+                std::process::exit(2);
+            }
+        }
     }
 
     // Load config anchored at cwd (first path arg is the primary hint).
