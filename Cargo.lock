@@ -54,6 +54,13 @@ version = "0.1.0"
 [[package]]
 name = "aiproof-rules"
 version = "0.1.0"
+dependencies = [
+ "aiproof-core",
+ "aiproof-parse",
+ "insta",
+ "once_cell",
+ "regex",
+]
 
 [[package]]
 name = "anyhow"

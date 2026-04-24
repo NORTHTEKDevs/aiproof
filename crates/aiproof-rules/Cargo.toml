@@ -1,4 +1,14 @@
 [package]
 name = "aiproof-rules"
-version = "0.1.0"
-edition = "2024"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+aiproof-core  = { path = "../aiproof-core" }
+aiproof-parse = { path = "../aiproof-parse" }
+regex         = { workspace = true }
+once_cell     = { workspace = true }
+
+[dev-dependencies]
+insta = { workspace = true }
