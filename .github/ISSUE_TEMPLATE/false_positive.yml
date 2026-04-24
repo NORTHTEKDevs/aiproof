@@ -1,0 +1,55 @@
+name: False positive
+description: A rule fires on prompt content that isn't actually the issue the rule describes.
+labels: [false-positive, rule]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        False positives matter a lot for linter adoption. Thank you for reporting.
+
+  - type: input
+    id: rule
+    attributes:
+      label: Rule code
+      placeholder: "AIP011"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: aiproof version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source that triggers the FP
+      description: The exact prompt / file content that gets flagged. Redact credentials.
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this isn't actually an issue
+      description: What's the legitimate intent here that aiproof is misreading?
+    validations:
+      required: true
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Your config (if any)
+      description: Contents of `.aiproofrc` or `[tool.aiproof]`, or CLI flags used.
+      render: toml
+
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: Full diagnostic output
+      description: Output of `aiproof --format json <file>` pretty-printed.
+      render: json

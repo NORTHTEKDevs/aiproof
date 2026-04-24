@@ -1,0 +1,62 @@
+name: Bug report
+description: aiproof crashes, panics, produces wrong output, or doesn't match its docs.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a bug. For false positives (rule fires on correct prompt content),
+        use the **False positive** template instead — it has different fields.
+
+  - type: input
+    id: version
+    attributes:
+      label: aiproof version
+      description: Output of `aiproof --version`
+      placeholder: "aiproof 0.1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS (Intel)
+        - macOS (Apple Silicon)
+        - Linux x86_64
+        - Linux aarch64
+        - Windows x86_64
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproducer
+      description: Minimal command + input that reproduces the bug.
+      placeholder: |
+        ```
+        echo "You are helpful." > t.prompt.md
+        aiproof t.prompt.md
+        ```
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: "Expected 0 findings, exit code 0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include any error messages, stack traces, or unexpected output.
+    validations:
+      required: true
