@@ -24,7 +24,7 @@ pub struct Cli {
     #[arg(long = "target-model")]
     pub target_models: Vec<String>,
 
-    /// Apply safe autofixes (placeholder for Phase 7b).
+    /// Apply safe autofixes to files in place. Idempotent.
     #[arg(long)]
     pub fix: bool,
 
