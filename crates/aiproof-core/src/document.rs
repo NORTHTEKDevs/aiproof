@@ -34,6 +34,14 @@ pub enum Kind {
     Mustache { variables: Vec<String> },
     YamlConfig,
     JsonSchema,
-    ExtractedPython { call_site: Span },
-    ExtractedTypeScript { call_site: Span },
+    ExtractedPython {
+        call_site: Span,
+        #[allow(unused)]
+        temperature: Option<f32>,
+    },
+    ExtractedTypeScript {
+        call_site: Span,
+        #[allow(unused)]
+        temperature: Option<f32>,
+    },
 }
