@@ -1,0 +1,6 @@
+---
+source: crates/aiproof-parse/src/markdown.rs
+assertion_line: 86
+expression: "docs[0].prompt.text"
+---
+"---\nrole: system\nYou are helpful."

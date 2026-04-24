@@ -1,0 +1,6 @@
+---
+source: crates/aiproof-parse/src/markdown.rs
+assertion_line: 77
+expression: "docs[0].prompt.text"
+---
+"# Prompt\n\nAnswer concisely."

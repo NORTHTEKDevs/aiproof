@@ -1,0 +1,6 @@
+---
+source: crates/aiproof-parse/src/markdown.rs
+assertion_line: 101
+expression: "docs[0].prompt.text"
+---
+Test message.
