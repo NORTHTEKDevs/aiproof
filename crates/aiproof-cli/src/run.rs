@@ -61,7 +61,7 @@ pub fn run(args: RunArgs) -> anyhow::Result<i32> {
     Ok(max_severity.map(|s| s.exit_code()).unwrap_or(0))
 }
 
-fn filtered_rules(config: &Config) -> Vec<Box<dyn Rule>> {
+pub fn filtered_rules(config: &Config) -> Vec<Box<dyn Rule>> {
     let all = aiproof_rules::all_rules();
     all.into_iter()
         .filter(|r| {
@@ -77,7 +77,7 @@ fn filtered_rules(config: &Config) -> Vec<Box<dyn Rule>> {
         .collect()
 }
 
-fn code_matches(pattern: &str, code: &str) -> bool {
+pub fn code_matches(pattern: &str, code: &str) -> bool {
     // Support "AIP*" wildcard and exact match.
     if let Some(prefix) = pattern.strip_suffix('*') {
         code.starts_with(prefix)
