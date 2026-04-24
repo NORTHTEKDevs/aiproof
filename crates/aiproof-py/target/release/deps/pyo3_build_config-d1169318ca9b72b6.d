@@ -1,0 +1,14 @@
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\deps\pyo3_build_config-d1169318ca9b72b6.d: C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\build\pyo3-build-config-2717905f40977a93\out/pyo3-build-config-file.txt C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\build\pyo3-build-config-2717905f40977a93\out/pyo3-build-config.txt
+
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\deps\libpyo3_build_config-d1169318ca9b72b6.rlib: C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\build\pyo3-build-config-2717905f40977a93\out/pyo3-build-config-file.txt C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\build\pyo3-build-config-2717905f40977a93\out/pyo3-build-config.txt
+
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\deps\libpyo3_build_config-d1169318ca9b72b6.rmeta: C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\build\pyo3-build-config-2717905f40977a93\out/pyo3-build-config-file.txt C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\build\pyo3-build-config-2717905f40977a93\out/pyo3-build-config.txt
+
+C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs:
+C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs:
+C:\Users\Krist\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\build\pyo3-build-config-2717905f40977a93\out/pyo3-build-config-file.txt:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\build\pyo3-build-config-2717905f40977a93\out/pyo3-build-config.txt:
+
+# env-dep:CARGO_PKG_VERSION=0.22.6
+# env-dep:OUT_DIR=C:\\Users\\Krist\\projects\\active\\aiproof\\crates\\aiproof-py\\target\\release\\build\\pyo3-build-config-2717905f40977a93\\out

@@ -1,0 +1,15 @@
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\deps\aiproof_parse-df42273133fc71b3.d: C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\lib.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\jinja.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\json_schema.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\markdown.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\mustache.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\plain.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\python_extract.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\ts_extract.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\yaml.rs
+
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\deps\libaiproof_parse-df42273133fc71b3.rlib: C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\lib.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\jinja.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\json_schema.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\markdown.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\mustache.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\plain.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\python_extract.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\ts_extract.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\yaml.rs
+
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-py\target\release\deps\libaiproof_parse-df42273133fc71b3.rmeta: C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\lib.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\jinja.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\json_schema.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\markdown.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\mustache.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\plain.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\python_extract.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\ts_extract.rs C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\yaml.rs
+
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\lib.rs:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\jinja.rs:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\json_schema.rs:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\markdown.rs:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\mustache.rs:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\plain.rs:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\python_extract.rs:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\ts_extract.rs:
+C:\Users\Krist\projects\active\aiproof\crates\aiproof-parse\src\yaml.rs:
