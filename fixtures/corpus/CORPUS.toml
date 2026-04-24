@@ -1,0 +1,103 @@
+# Pinned snapshots of real-world AI projects. Used for aiproof's regression
+# corpus and false-positive budget gates. Run `scripts/sync_corpus.sh` to
+# materialize these under fixtures/corpus/<name>/ at the exact commit.
+
+[[repo]]
+name = "langchain"
+url  = "https://github.com/langchain-ai/langchain.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "anthropic-cookbook"
+url  = "https://github.com/anthropics/anthropic-cookbook.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "openai-cookbook"
+url  = "https://github.com/openai/openai-cookbook.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "llama_index"
+url  = "https://github.com/run-llama/llama_index.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "autogen"
+url  = "https://github.com/microsoft/autogen.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "crewAI"
+url  = "https://github.com/joaomdmoura/crewAI.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "AutoGPT"
+url  = "https://github.com/Significant-Gravitas/AutoGPT.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "babyagi"
+url  = "https://github.com/yoheinakajima/babyagi.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "chatgpt-api"
+url  = "https://github.com/transitive-bullshit/chatgpt-api.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "prompty"
+url  = "https://github.com/microsoft/prompty.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "semantic-kernel"
+url  = "https://github.com/microsoft/semantic-kernel.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "haystack"
+url  = "https://github.com/deepset-ai/haystack.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "marvin"
+url  = "https://github.com/PrefectHQ/marvin.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "guidance"
+url  = "https://github.com/guidance-ai/guidance.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "promptflow"
+url  = "https://github.com/microsoft/promptflow.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "instructor"
+url  = "https://github.com/jxnl/instructor.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "dspy"
+url  = "https://github.com/stanfordnlp/dspy.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "mirascope"
+url  = "https://github.com/Mirascope/mirascope.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "agno"
+url  = "https://github.com/agno-agi/agno.git"
+sha  = "HEAD"  # TODO pin exact SHA
+
+[[repo]]
+name = "llmware"
+url  = "https://github.com/llmware-ai/llmware.git"
+sha  = "HEAD"  # TODO pin exact SHA
