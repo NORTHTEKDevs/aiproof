@@ -87,25 +87,22 @@ impl Rule for UnusedTemplateVariable {
 
 /// Check if a variable has any references outside its declaration.
 fn has_references(text: &str, var_name: &str, decl_span: std::ops::Range<usize>) -> bool {
-    // Simply search for the variable name in the text, excluding the declaration.
-    // For Jinja, look for patterns like {{ var }}, {%if var%}, etc.
+    // Search for the variable name in the text, excluding the declaration.
+    // Look for word-boundary matches (to avoid partial matches like "total" in "totally").
 
-    // Count occurrences: if there's more than 1 (the declaration itself), it's used.
+    // Build a regex that matches the variable name as a complete word.
     let escaped = regex::escape(var_name);
+    let word_pattern = format!(r"\b{}\b", escaped);
 
-    // Pattern 1: {{ var }} (with any spacing)
-    if let Ok(re) = Regex::new(&format!(r"{{\{{\s*{}\s*\}}\}}", escaped)) {
-        let matches: Vec<_> = re.find_iter(text).collect();
-        for m in matches {
-            if !decl_span.contains(&m.start()) {
-                return true;
+    if let Ok(re) = Regex::new(&word_pattern) {
+        for m in re.find_iter(text) {
+            // Skip if this match is within the declaration span.
+            if decl_span.contains(&m.start()) {
+                continue;
             }
+            // Found a reference outside the declaration.
+            return true;
         }
-    }
-
-    // Pattern 2: {% ... var ... %} but not {% set var
-    if let Ok(re) = Regex::new(&format!(r"{{\%(?!set)[^%]*{}\s*[^%]*%\}}", escaped)) {
-        return re.is_match(text);
     }
 
     false
@@ -164,7 +161,6 @@ mod tests {
     }
 
     #[test]
-    #[ignore] // Variable reference detection needs refinement in v0
     fn used_jinja_variable_not_flagged() {
         let doc = Document {
             path: PathBuf::from("test.txt"),
@@ -268,7 +264,6 @@ mod tests {
     }
 
     #[test]
-    #[ignore] // Variable reference detection needs refinement in v0
     fn variable_used_in_block() {
         let doc = Document {
             path: PathBuf::from("test.txt"),

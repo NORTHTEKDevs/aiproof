@@ -10,12 +10,7 @@ use aiproof_core::{
     severity::Severity,
     span::Span,
 };
-use once_cell::sync::Lazy;
-use regex::Regex;
 use std::collections::HashSet;
-
-static SENTENCE_SPLIT_RE: Lazy<Regex> =
-    Lazy::new(|| Regex::new(r"(?:\.|\!|\?)\s+|\n\n").expect("regex should compile"));
 
 pub struct RedundantInstruction;
 
@@ -113,20 +108,43 @@ fn split_sentences(text: &str) -> Vec<(String, std::ops::Range<usize>)> {
     let mut sentences = Vec::new();
     let mut current_start = 0;
 
-    // Split on: ". ", "! ", "? ", "\n\n"
-    for m in SENTENCE_SPLIT_RE.find_iter(text) {
-        let sent_end = m.start();
-        let sentence = text[current_start..sent_end].trim().to_string();
-        if !sentence.is_empty() {
-            sentences.push((sentence, current_start..sent_end));
+    // Split on sentence terminators: ". ", "! ", "? ", or "\n\n"
+    let bytes = text.as_bytes();
+    let mut i = 0;
+
+    while i < bytes.len() {
+        let is_period_space = i + 1 < bytes.len() && bytes[i] == b'.' && bytes[i + 1] == b' ';
+        let is_exclaim_space = i + 1 < bytes.len() && bytes[i] == b'!' && bytes[i + 1] == b' ';
+        let is_question_space = i + 1 < bytes.len() && bytes[i] == b'?' && bytes[i + 1] == b' ';
+        let is_dblnl = i + 1 < bytes.len() && bytes[i] == b'\n' && bytes[i + 1] == b'\n';
+
+        if is_period_space || is_exclaim_space || is_question_space {
+            // Include the terminator in the range, but trim before processing.
+            let sent_end = i + 1; // Include the terminator character.
+            let raw_sent = text[current_start..sent_end].trim();
+            if !raw_sent.is_empty() {
+                // Store the trimmed sentence text and its original range.
+                sentences.push((raw_sent.to_string(), current_start..sent_end));
+            }
+            current_start = i + 2; // Skip the terminator and space.
+            i += 2;
+        } else if is_dblnl {
+            let sent_end = i;
+            let raw_sent = text[current_start..sent_end].trim();
+            if !raw_sent.is_empty() {
+                sentences.push((raw_sent.to_string(), current_start..sent_end));
+            }
+            current_start = i + 2; // Skip the double newline.
+            i += 2;
+        } else {
+            i += 1;
         }
-        current_start = m.end();
     }
 
     // Add remaining text as final sentence.
-    let final_sentence = text[current_start..].trim().to_string();
-    if !final_sentence.is_empty() {
-        sentences.push((final_sentence, current_start..text.len()));
+    let raw_sent = text[current_start..].trim();
+    if !raw_sent.is_empty() {
+        sentences.push((raw_sent.to_string(), current_start..text.len()));
     }
 
     sentences
@@ -165,7 +183,6 @@ mod tests {
     use std::path::PathBuf;
 
     #[test]
-    #[ignore] // Sentence splitting needs refinement in v0
     fn duplicate_instructions_detected() {
         let doc = Document {
             path: PathBuf::from("test.txt"),
@@ -190,7 +207,6 @@ mod tests {
     }
 
     #[test]
-    #[ignore] // Sentence splitting needs refinement in v0
     fn autofix_removes_duplicate() {
         let text = "Be concise and helpful. Do not be verbose. Be concise and helpful.";
         let doc = Document {
@@ -266,7 +282,6 @@ mod tests {
     }
 
     #[test]
-    #[ignore] // Sentence splitting needs refinement in v0
     fn newline_separated_duplicates() {
         let doc = Document {
             path: PathBuf::from("test.txt"),
