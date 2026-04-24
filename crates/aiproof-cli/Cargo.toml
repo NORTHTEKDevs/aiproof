@@ -1,4 +1,27 @@
 [package]
 name = "aiproof-cli"
-version = "0.1.0"
-edition = "2024"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "aiproof"
+path = "src/main.rs"
+
+[dependencies]
+aiproof-core   = { path = "../aiproof-core" }
+aiproof-parse  = { path = "../aiproof-parse" }
+aiproof-rules  = { path = "../aiproof-rules" }
+aiproof-config = { path = "../aiproof-config" }
+aiproof-report = { path = "../aiproof-report" }
+clap           = { workspace = true }
+ignore         = { workspace = true }
+glob           = { workspace = true }
+anyhow         = { workspace = true }
+tracing        = { workspace = true }
+tracing-subscriber = { workspace = true }
+
+[dev-dependencies]
+assert_cmd = { workspace = true }
+tempfile   = { workspace = true }
+predicates = "3"
