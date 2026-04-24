@@ -1,0 +1,20 @@
+/target
+**/*.rs.bk
+Cargo.lock.bak
+
+# Python / maturin
+/crates/aiproof-py/dist/
+/crates/aiproof-py/*.egg-info/
+__pycache__/
+*.pyc
+*.whl
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local
+/scratch/
+/tmp/
