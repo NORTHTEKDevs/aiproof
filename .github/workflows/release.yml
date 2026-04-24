@@ -1,9 +1,144 @@
+# Run by pushing a tag like v0.1.0.
+# Requires PYPI_TOKEN and CARGO_REGISTRY_TOKEN repo secrets.
 name: release
 on:
+  push:
+    tags:
+      - 'v*'
   workflow_dispatch:
+
 jobs:
-  placeholder:
-    if: false
+  build-wheels:
+    name: Build Python wheel (${{ matrix.os }} ${{ matrix.target }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            target: x86_64-unknown-linux-gnu
+            wheel_target: x86_64
+          - os: ubuntu-latest
+            target: aarch64-unknown-linux-gnu
+            wheel_target: aarch64
+          - os: macos-latest
+            target: universal2-apple-darwin
+            wheel_target: universal2-apple-darwin
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            wheel_target: x64
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build wheel
+        uses: PyO3/maturin-action@v1
+        with:
+          working-directory: crates/aiproof-py
+          target: ${{ matrix.wheel_target }}
+          args: --release --strip --manylinux auto
+          sccache: 'true'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wheel-${{ matrix.os }}-${{ matrix.wheel_target }}
+          path: crates/aiproof-py/target/wheels/*.whl
+
+  build-binaries:
+    name: Build CLI binary (${{ matrix.target }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            target: x86_64-unknown-linux-gnu
+            archive: tar.gz
+          - os: macos-latest
+            target: aarch64-apple-darwin
+            archive: tar.gz
+          - os: macos-latest
+            target: x86_64-apple-darwin
+            archive: tar.gz
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            archive: zip
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo build -p aiproof-cli --release --target ${{ matrix.target }}
+      - name: Archive binary
+        shell: bash
+        run: |
+          set -euxo pipefail
+          bin=aiproof
+          if [ "${{ matrix.os }}" = "windows-latest" ]; then bin=aiproof.exe; fi
+          cp target/${{ matrix.target }}/release/$bin aiproof-${{ matrix.target }}
+          if [ "${{ matrix.archive }}" = "tar.gz" ]; then
+            tar -czf aiproof-${{ matrix.target }}.tar.gz aiproof-${{ matrix.target }}
+          else
+            7z a aiproof-${{ matrix.target }}.zip aiproof-${{ matrix.target }}
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: binary-${{ matrix.target }}
+          path: aiproof-${{ matrix.target }}.*
+
+  publish:
+    name: Publish to GitHub Releases
+    needs: [build-wheels, build-binaries]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/**/*.whl
+            dist/**/*.tar.gz
+            dist/**/*.zip
+
+  publish-pypi:
+    name: Publish wheels to PyPI
+    needs: [build-wheels]
+    if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
     steps:
-      - run: echo "filled in phase 11"
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install twine
+      - name: Upload to PyPI
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+        run: twine upload --skip-existing dist/**/*.whl
+
+  publish-crates:
+    name: Publish to crates.io
+    needs: [build-binaries]
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Publish in dependency order
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+        run: |
+          set -e
+          for crate in aiproof-core aiproof-parse aiproof-rules aiproof-config aiproof-report aiproof-cli; do
+            cargo publish -p "$crate" --token "$CARGO_REGISTRY_TOKEN" || echo "[warn] $crate publish failed"
+            sleep 10
+          done
