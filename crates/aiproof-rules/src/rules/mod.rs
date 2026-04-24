@@ -8,6 +8,10 @@ pub mod aip005_unescaped_user_input;
 pub mod aip006_hardcoded_credential;
 pub mod aip007_missing_input_boundaries;
 pub mod aip008_known_jailbreak_pattern;
+pub mod aip009_cache_unfriendly_structure;
+pub mod aip010_redundant_instruction;
+pub mod aip011_excessive_tokens;
+pub mod aip012_unused_template_variable;
 
 /// Called by `crate::registry::all_rules` to populate the rule vector.
 pub fn register_all(out: &mut Vec<Box<dyn Rule>>) {
@@ -19,4 +23,8 @@ pub fn register_all(out: &mut Vec<Box<dyn Rule>>) {
     aip006_hardcoded_credential::register(out);
     aip007_missing_input_boundaries::register(out);
     aip008_known_jailbreak_pattern::register(out);
+    aip009_cache_unfriendly_structure::register(out);
+    aip010_redundant_instruction::register(out);
+    aip011_excessive_tokens::register(out);
+    aip012_unused_template_variable::register(out);
 }
