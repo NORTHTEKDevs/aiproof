@@ -2,5 +2,6 @@
 
 pub mod registry;
 pub mod rules;
+pub mod util;
 
 pub use registry::all_rules;
