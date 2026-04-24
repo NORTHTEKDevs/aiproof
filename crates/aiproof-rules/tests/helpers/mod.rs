@@ -4,7 +4,10 @@
 //! plus the file extension (so the right parser runs). Returns all diagnostics
 //! produced by the rule across all extracted documents.
 
-use aiproof_core::{diagnostic::Diagnostic, rule::{Ctx, Rule}};
+use aiproof_core::{
+    diagnostic::Diagnostic,
+    rule::{Ctx, Rule},
+};
 use std::path::PathBuf;
 
 pub fn run_rule<R: Rule>(rule: R, src: &str, ext: &str) -> Vec<Diagnostic> {
@@ -12,19 +15,16 @@ pub fn run_rule<R: Rule>(rule: R, src: &str, ext: &str) -> Vec<Diagnostic> {
         rule,
         src,
         ext,
-        Ctx { target_models: &[], max_tokens_budget: None },
+        Ctx {
+            target_models: &[],
+            max_tokens_budget: None,
+        },
     )
 }
 
-pub fn run_rule_with_ctx<R: Rule>(
-    rule: R,
-    src: &str,
-    ext: &str,
-    ctx: Ctx,
-) -> Vec<Diagnostic> {
+pub fn run_rule_with_ctx<R: Rule>(rule: R, src: &str, ext: &str, ctx: Ctx) -> Vec<Diagnostic> {
     let path = PathBuf::from(format!("test.{ext}"));
-    let docs = aiproof_parse::parse_file(&path, src)
-        .expect("parse_file should succeed in tests");
+    let docs = aiproof_parse::parse_file(&path, src).expect("parse_file should succeed in tests");
     docs.iter().flat_map(|d| rule.check(d, &ctx)).collect()
 }
 
@@ -39,6 +39,9 @@ pub fn run_rule_with_models<R: Rule>(
         rule,
         src,
         ext,
-        Ctx { target_models, max_tokens_budget: None },
+        Ctx {
+            target_models,
+            max_tokens_budget: None,
+        },
     )
 }
