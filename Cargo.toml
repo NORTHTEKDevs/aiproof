@@ -1,0 +1,49 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/aiproof-core",
+    "crates/aiproof-parse",
+    "crates/aiproof-rules",
+    "crates/aiproof-config",
+    "crates/aiproof-report",
+    "crates/aiproof-cli",
+]
+exclude = ["crates/aiproof-py"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+license = "Apache-2.0"
+repository = "https://github.com/northtek/aiproof"
+authors = ["Kristian Baer <kristianb43r@gmail.com>"]
+
+[workspace.dependencies]
+anyhow = "1"
+thiserror = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+toml = "0.8"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+clap = { version = "4", features = ["derive"] }
+logos = "0.14"
+tree-sitter = "0.22"
+tree-sitter-python = "0.21"
+tree-sitter-typescript = "0.21"
+tree-sitter-md = "0.2"
+codespan-reporting = "0.11"
+regex = "1"
+once_cell = "1"
+glob = "0.3"
+ignore = "0.4"
+insta = { version = "1", features = ["yaml"] }
+assert_cmd = "2"
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+opt-level = 3
+strip = "symbols"
