@@ -12,6 +12,9 @@ pub mod aip009_cache_unfriendly_structure;
 pub mod aip010_redundant_instruction;
 pub mod aip011_excessive_tokens;
 pub mod aip012_unused_template_variable;
+pub mod aip013_missing_format_example;
+pub mod aip014_undefined_tool_reference;
+pub mod aip015_unhandled_placeholder;
 
 /// Called by `crate::registry::all_rules` to populate the rule vector.
 pub fn register_all(out: &mut Vec<Box<dyn Rule>>) {
@@ -27,4 +30,7 @@ pub fn register_all(out: &mut Vec<Box<dyn Rule>>) {
     aip010_redundant_instruction::register(out);
     aip011_excessive_tokens::register(out);
     aip012_unused_template_variable::register(out);
+    aip013_missing_format_example::register(out);
+    aip014_undefined_tool_reference::register(out);
+    aip015_unhandled_placeholder::register(out);
 }
