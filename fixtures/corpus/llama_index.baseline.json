@@ -1,0 +1,3886 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/llama_index/CHANGELOG.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 144972,
+          "end": 144978
+        },
+        "start_line": 2467,
+        "start_col": 56,
+        "end_line": 2467,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/CHANGELOG.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (75561 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 543824
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 14320,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\api_reference\\api_reference\\readers\\json.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 24,
+          "end": 28
+        },
+        "start_line": 1,
+        "start_col": 25,
+        "end_line": 1,
+        "end_col": 29
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\api_reference\\mkdocs.yml",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 16790,
+          "end": 16794
+        },
+        "start_line": 221,
+        "start_col": 74,
+        "end_line": 221,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\examples\\prompts\\advanced_prompts.ipynb",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"sql expert\" then \"given a natural language query\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 12607,
+          "end": 12637
+        },
+        "start_line": 340,
+        "start_col": 36,
+        "end_line": 340,
+        "end_col": 66
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\examples\\prompts\\prompt_mixin.ipynb",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"designed to help with a variety of tasks\" then \"responsible for using the tools in any sequence you deem appropriate to complete the task at hand\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 16887,
+          "end": 16984
+        },
+        "start_line": 607,
+        "start_col": 60,
+        "end_line": 607,
+        "end_col": 157
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\examples\\prompts\\prompt_mixin.ipynb",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5076 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\CHANGELOG.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 103394,
+          "end": 103400
+        },
+        "start_line": 1835,
+        "start_col": 56,
+        "end_line": 1835,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\CHANGELOG.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (70542 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 502246
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 13688,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\community\\integrations\\uptrain.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2586,
+          "end": 2594
+        },
+        "start_line": 25,
+        "start_col": 267,
+        "end_line": 25,
+        "end_col": 275
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\community\\integrations\\uptrain.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 25621,
+          "end": 25630
+        },
+        "start_line": 560,
+        "start_col": 177,
+        "end_line": 560,
+        "end_col": 186
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\community\\integrations\\uptrain.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4833 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 30200
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 648,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\community\\integrations\\vector_stores.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4444 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 42572
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1259,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\deploying\\query_engine\\modules.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 624,
+          "end": 628
+        },
+        "start_line": 17,
+        "start_col": 4,
+        "end_line": 17,
+        "end_col": 8
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\evaluating\\contributing_llamadatasets.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 498,
+          "end": 502
+        },
+        "start_line": 11,
+        "start_col": 56,
+        "end_line": 11,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\indexing\\document_management.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"sharing nodes between indexes using the same docstore\" then \"reading from a directory that is constantly updating with new information\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3207,
+          "end": 3280
+        },
+        "start_line": 87,
+        "start_col": 34,
+        "end_line": 87,
+        "end_col": 107
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\loading\\index.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1201,
+          "end": 1205
+        },
+        "start_line": 20,
+        "start_col": 139,
+        "end_line": 20,
+        "end_col": 143
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\loading\\ingestion_pipeline\\index.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"connecting your pipeline to a vector store\" then \"not connecting to a vector store\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2805,
+          "end": 2837
+        },
+        "start_line": 74,
+        "start_col": 55,
+        "end_line": 74,
+        "end_col": 87
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\models\\prompts\\usage_pattern.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful assistant that can answer questions about the context provided\" then \"expert system\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3628,
+          "end": 3641
+        },
+        "start_line": 123,
+        "start_col": 37,
+        "end_line": 123,
+        "end_col": 50
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\observability\\index.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"new to weave tracing\" then \"helpful calculator assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 28417,
+          "end": 28445
+        },
+        "start_line": 690,
+        "start_col": 30,
+        "end_line": 690,
+        "end_col": 58
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\observability\\index.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5052 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 36850
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 944,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\observability\\instrumentation.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1701,
+          "end": 1709
+        },
+        "start_line": 27,
+        "start_col": 138,
+        "end_line": 27,
+        "end_col": 146
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581,
+          "end": 585
+        },
+        "start_line": 9,
+        "start_col": 110,
+        "end_line": 9,
+        "end_col": 114
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 62,
+          "end": 87
+        },
+        "start_line": 5,
+        "start_col": 24,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 210,
+          "end": 227
+        },
+        "start_line": 6,
+        "start_col": 34,
+        "end_line": 6,
+        "end_col": 51
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 705,
+          "end": 722
+        },
+        "start_line": 11,
+        "start_col": 80,
+        "end_line": 11,
+        "end_col": 97
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 736,
+          "end": 753
+        },
+        "start_line": 11,
+        "start_col": 111,
+        "end_line": 11,
+        "end_col": 128
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 910,
+          "end": 927
+        },
+        "start_line": 13,
+        "start_col": 82,
+        "end_line": 13,
+        "end_col": 99
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 1546,
+          "end": 1563
+        },
+        "start_line": 19,
+        "start_col": 19,
+        "end_line": 19,
+        "end_col": 36
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 1636,
+          "end": 1653
+        },
+        "start_line": 21,
+        "start_col": 61,
+        "end_line": 21,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 2256,
+          "end": 2273
+        },
+        "start_line": 28,
+        "start_col": 59,
+        "end_line": 28,
+        "end_col": 76
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\querying\\structured_outputs\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 2342,
+          "end": 2359
+        },
+        "start_line": 28,
+        "start_col": 145,
+        "end_line": 28,
+        "end_col": 162
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\module_guides\\supporting_modules\\service_context_migration.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"change the default for every module in llamaindex\" then \"using an ide\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2754,
+          "end": 2766
+        },
+        "start_line": 69,
+        "start_col": 12,
+        "end_line": 69,
+        "end_col": 24
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\optimizing\\evaluation\\e2e_evaluation.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1409,
+          "end": 1413
+        },
+        "start_line": 21,
+        "start_col": 309,
+        "end_line": 21,
+        "end_col": 313
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\understanding\\agent\\multi_agent.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"expert in the field of report writing\" then \"given a user request and a list of tools that can help with the request\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7058,
+          "end": 7129
+        },
+        "start_line": 161,
+        "start_col": 18,
+        "end_line": 161,
+        "end_col": 89
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\understanding\\agent\\structured_output.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"the main agent\" then \"agent that knows the ice cream flavors in various shops\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3775,
+          "end": 3830
+        },
+        "start_line": 128,
+        "start_col": 31,
+        "end_line": 128,
+        "end_col": 86
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\understanding\\putting_it_all_together\\apps\\fullstack_with_delphic.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5778 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 34783
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 803,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\understanding\\putting_it_all_together\\q_and_a\\terms_definitions_tutorial.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4160 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 26527
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 544,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\use_cases\\extraction.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 383,
+          "end": 400
+        },
+        "start_line": 7,
+        "start_col": 185,
+        "end_line": 7,
+        "end_col": 202
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\use_cases\\q_and_a.md",
+      "code": "AIP002",
+      "message": "prompt requests CSV output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1579,
+          "end": 1582
+        },
+        "start_line": 20,
+        "start_col": 48,
+        "end_line": 20,
+        "end_col": 51
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/docs\\src\\content\\docs\\framework\\use_cases\\q_and_a.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 1598,
+          "end": 1615
+        },
+        "start_line": 20,
+        "start_col": 67,
+        "end_line": 20,
+        "end_col": 84
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-core\\llama_index\\core\\agent\\react\\templates\\system_header_template.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"designed to help with a variety of tasks\" then \"responsible for using the tools in any sequence you deem appropriate to complete the task at hand\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 193,
+          "end": 290
+        },
+        "start_line": 5,
+        "start_col": 53,
+        "end_line": 5,
+        "end_col": 150
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\llms\\llama-index-llms-llamafile\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using google colab or want to interact with llamaindex\" then \"pirate with a colorful personality\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1640,
+          "end": 1674
+        },
+        "start_line": 72,
+        "start_col": 36,
+        "end_line": 72,
+        "end_col": 70
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\llms\\llama-index-llms-nvidia\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful assistant\" then \"helpful assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4036,
+          "end": 4053
+        },
+        "start_line": 96,
+        "start_col": 54,
+        "end_line": 96,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\llms\\llama-index-llms-vllm\\tests\\cassettes\\TestVllmIntegration.test_astream_completion.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (138129 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-agent-search\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-airbyte-cdk\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-airbyte-gong\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-airbyte-hubspot\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-airbyte-salesforce\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-airbyte-shopify\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-airbyte-stripe\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-airbyte-typeform\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-airbyte-zendesk-support\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-airtable\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-apify\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-arango-db\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-asana\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-assemblyai\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-astra-db\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-athena\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-azcognitive-search\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-azstorage-blob\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 212,
+          "end": 216
+        },
+        "start_line": 9,
+        "start_col": 45,
+        "end_line": 9,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-bagel\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-bilibili\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-bitbucket\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-boarddocs\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-chatgpt-plugin\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-chroma\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-confluence\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 563,
+          "end": 567
+        },
+        "start_line": 20,
+        "start_col": 45,
+        "end_line": 20,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-couchbase\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-couchdb\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-dad-jokes\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-database\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-deeplake\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-discord\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-docstring-walker\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-docugami\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-earnings-call-transcript\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-elasticsearch\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-faiss\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-feedly-rss\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-feishu-docs\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-firebase-realtimedb\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-firestore\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-gcs\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 836,
+          "end": 840
+        },
+        "start_line": 23,
+        "start_col": 45,
+        "end_line": 23,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-github\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1433,
+          "end": 1437
+        },
+        "start_line": 31,
+        "start_col": 45,
+        "end_line": 31,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-google\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1097,
+          "end": 1101
+        },
+        "start_line": 37,
+        "start_col": 45,
+        "end_line": 37,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-gpt-repo\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-graphdb-cypher\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-graphql\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-guru\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-hatena-blog\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-hubspot\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-huggingface-fs\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-imdb-review\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-intercom\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-jira\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 241,
+          "end": 245
+        },
+        "start_line": 11,
+        "start_col": 45,
+        "end_line": 11,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-joplin\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-json\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-kaltura\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-kibela\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-lilac\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-linear\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-macrometa-gdn\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-make-com\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-mangadex\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-mangoapps-guides\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-maps\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-mbox\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-memos\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-metal\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-microsoft-onedrive\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 263,
+          "end": 267
+        },
+        "start_line": 13,
+        "start_col": 45,
+        "end_line": 13,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-microsoft-outlook\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-microsoft-sharepoint\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2152,
+          "end": 2156
+        },
+        "start_line": 50,
+        "start_col": 45,
+        "end_line": 50,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-milvus\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-mondaydotcom\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-mongodb\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-notion\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1281,
+          "end": 1285
+        },
+        "start_line": 34,
+        "start_col": 45,
+        "end_line": 34,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-nougat-ocr\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-obsidian\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-openalex\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-opendal\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-opensearch\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-paddle-ocr\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-pandas-ai\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-papers\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 264,
+          "end": 268
+        },
+        "start_line": 15,
+        "start_col": 45,
+        "end_line": 15,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-patentsview\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-pdb\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-pdf-table\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-preprocess\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-qdrant\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-rayyan\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-readwise\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-reddit\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-remote\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-remote-depth\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-s3\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 602,
+          "end": 606
+        },
+        "start_line": 22,
+        "start_col": 45,
+        "end_line": 22,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-sec-filings\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-semanticscholar\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-singlestore\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-slack\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 809,
+          "end": 813
+        },
+        "start_line": 19,
+        "start_col": 45,
+        "end_line": 19,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-smart-pdf-loader\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-snowflake\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-spotify\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-stackoverflow\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-steamship\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-stripe-docs\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-telegram\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-trello\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-twitter\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-weather\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-weaviate\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-web\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-whatsapp\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-whisper\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-wikipedia\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-wordlift\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-wordpress\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-youtube-transcript\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-zendesk\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-zep\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\readers\\llama-index-readers-zulip\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-arxiv\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-aws-bedrock-agentcore\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 186,
+          "end": 190
+        },
+        "start_line": 6,
+        "start_col": 46,
+        "end_line": 6,
+        "end_col": 50
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-azure-cv\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-azure-speech\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-azure-translate\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-bing-search\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-chatgpt-plugin\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-code-interpreter\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-cogniswitch\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-database\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-elevenlabs\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-exa\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-google\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-graphql\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-ionic-shopping\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-linkup-research\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-mcp-discovery\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"verbose\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1842,
+          "end": 1849
+        },
+        "start_line": 64,
+        "start_col": 38,
+        "end_line": 64,
+        "end_col": 45
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-metaphor\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-multion\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-neo4j\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-notion\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-openai\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-openapi\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 408,
+          "end": 412
+        },
+        "start_line": 14,
+        "start_col": 45,
+        "end_line": 14,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-playgrounds\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-python-file\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-python-file\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 289,
+          "end": 298
+        },
+        "start_line": 7,
+        "start_col": 20,
+        "end_line": 7,
+        "end_col": 29
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-requests\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 546,
+          "end": 550
+        },
+        "start_line": 15,
+        "start_col": 45,
+        "end_line": 15,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-salesforce\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-shopify\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-slack\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-tavily-research\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-text-to-image\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-vector-db\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-waii\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-weather\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 148,
+          "end": 152
+        },
+        "start_line": 9,
+        "start_col": 45,
+        "end_line": 9,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-wikipedia\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-wolfram-alpha\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-yelp\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\tools\\llama-index-tools-zapier\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 86,
+          "end": 90
+        },
+        "start_line": 5,
+        "start_col": 45,
+        "end_line": 5,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\vector_stores\\llama-index-vector-stores-vespa\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"free to modify as you see fit by switching out embedding models\" then \"ready to graduate to a production setup\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5396,
+          "end": 5435
+        },
+        "start_line": 130,
+        "start_col": 12,
+        "end_line": 130,
+        "end_col": 51
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llama_index/llama-index-integrations\\voice_agents\\llama-index-voice-agents-openai\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"very helpful assistant\" then \"asked about the weather of a location\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3265,
+          "end": 3302
+        },
+        "start_line": 103,
+        "start_col": 231,
+        "end_line": 103,
+        "end_col": 268
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 179,
+    "info": 25
+  }
+}

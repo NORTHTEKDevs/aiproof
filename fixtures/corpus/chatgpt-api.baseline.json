@@ -1,0 +1,48 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/chatgpt-api/legacy\\pnpm-lock.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (27593 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/chatgpt-api/pnpm-lock.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (56984 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 2,
+    "info": 0
+  }
+}

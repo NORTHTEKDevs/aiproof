@@ -1,0 +1,466 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/autogen/CONTRIBUTING.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1323,
+          "end": 1331
+        },
+        "start_line": 17,
+        "start_col": 119,
+        "end_line": 17,
+        "end_col": 127
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/autogen/dotnet\\samples\\dev-team\\azure.yaml",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 111,
+          "end": 115
+        },
+        "start_line": 1,
+        "start_col": 112,
+        "end_line": 1,
+        "end_col": 116
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/dotnet\\samples\\dev-team\\azure.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2,
+          "end": 6
+        },
+        "start_line": 1,
+        "start_col": 3,
+        "end_line": 1,
+        "end_col": 7
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/dotnet\\samples\\dev-team\\docs\\github-flow-getting-started.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"ready to go\" then \"running the app locally\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6316,
+          "end": 6339
+        },
+        "start_line": 121,
+        "start_col": 12,
+        "end_line": 121,
+        "end_col": 35
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/autogen/dotnet\\website\\articles\\AutoGen.SemanticKernel\\SemanticKernelChatAgent-simple-chat.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 2274
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 22,
+        "end_col": 120
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/autogen/dotnet\\website\\articles\\toc.yml",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2303,
+          "end": 2307
+        },
+        "start_line": 69,
+        "start_col": 21,
+        "end_line": 69,
+        "end_col": 25
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\docs\\src\\index.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"new to autogen and want to prototype with agents without writing code\" then \"prototyping with agents using python\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2319,
+          "end": 2355
+        },
+        "start_line": 101,
+        "start_col": 24,
+        "end_line": 101,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\docs\\src\\user-guide\\agentchat-user-guide\\migration-guide.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful assistant\" then \"helpful assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9444,
+          "end": 9461
+        },
+        "start_line": 261,
+        "start_col": 31,
+        "end_line": 261,
+        "end_col": 48
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\docs\\src\\user-guide\\agentchat-user-guide\\migration-guide.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (8017 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 55621
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1372,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\docs\\src\\user-guide\\autogenstudio-user-guide\\index.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"modifying autogen studio\" then \"building a production application\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4156,
+          "end": 4189
+        },
+        "start_line": 75,
+        "start_col": 12,
+        "end_line": 75,
+        "end_col": 45
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\packages\\agbench\\benchmarks\\GAIA\\config.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9,
+          "end": 13
+        },
+        "start_line": 1,
+        "start_col": 10,
+        "end_line": 1,
+        "end_col": 14
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\packages\\agbench\\benchmarks\\HumanEval\\config.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9,
+          "end": 13
+        },
+        "start_line": 1,
+        "start_col": 10,
+        "end_line": 1,
+        "end_col": 14
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\packages\\agbench\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"already an autogenbench pro\" then \"working in wsl\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1191,
+          "end": 1205
+        },
+        "start_line": 15,
+        "start_col": 12,
+        "end_line": 15,
+        "end_col": 26
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\packages\\autogen-ext\\tests\\task_centric_memory\\configs\\demonstration.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 842,
+          "end": 846
+        },
+        "start_line": 28,
+        "start_col": 76,
+        "end_line": 28,
+        "end_col": 80
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\packages\\autogen-ext\\tests\\task_centric_memory\\configs\\self_teaching.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 833,
+          "end": 837
+        },
+        "start_line": 28,
+        "start_col": 68,
+        "end_line": 28,
+        "end_col": 72
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\packages\\autogen-ext\\tests\\task_centric_memory\\configs\\teachability.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 837,
+          "end": 841
+        },
+        "start_line": 28,
+        "start_col": 73,
+        "end_line": 28,
+        "end_col": 77
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\packages\\autogen-studio\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"building a production application\" then \"ready to explore its capabilities\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7420,
+          "end": 7453
+        },
+        "start_line": 136,
+        "start_col": 65,
+        "end_line": 136,
+        "end_col": 98
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"in the virtual environment\" then \"testing a model client that requires an openai api key\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 8756,
+          "end": 8810
+        },
+        "start_line": 211,
+        "start_col": 25,
+        "end_line": 211,
+        "end_col": 79
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\samples\\task_centric_memory\\configs\\demonstration.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 764,
+          "end": 768
+        },
+        "start_line": 28,
+        "start_col": 50,
+        "end_line": 28,
+        "end_col": 54
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\samples\\task_centric_memory\\configs\\retrieval.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 477,
+          "end": 481
+        },
+        "start_line": 24,
+        "start_col": 33,
+        "end_line": 24,
+        "end_col": 37
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\samples\\task_centric_memory\\configs\\self_teaching.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 756,
+          "end": 760
+        },
+        "start_line": 28,
+        "start_col": 42,
+        "end_line": 28,
+        "end_col": 46
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/python\\samples\\task_centric_memory\\configs\\teachability.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 759,
+          "end": 763
+        },
+        "start_line": 28,
+        "start_col": 47,
+        "end_line": 28,
+        "end_col": 51
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/autogen/README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"math expert\" then \"chemistry expert\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5536,
+          "end": 5552
+        },
+        "start_line": 132,
+        "start_col": 35,
+        "end_line": 132,
+        "end_col": 51
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/autogen/SECURITY.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 2654
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 41,
+        "end_col": 41
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 14,
+    "info": 10
+  }
+}

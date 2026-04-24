@@ -1,0 +1,637 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/semantic-kernel/docs\\decisions\\0017-openai-function-calling.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 495,
+          "end": 499
+        },
+        "start_line": 14,
+        "start_col": 230,
+        "end_line": 14,
+        "end_col": 234
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/docs\\decisions\\0041-function-call-content.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4408 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 214,
+          "end": 26540
+        },
+        "start_line": 11,
+        "start_col": 1,
+        "end_line": 447,
+        "end_col": 252
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/docs\\decisions\\0050-updated-vector-store-design.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6781 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 287,
+          "end": 49049
+        },
+        "start_line": 11,
+        "start_col": 1,
+        "end_line": 996,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/docs\\decisions\\0054-processes.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4504,
+          "end": 4513
+        },
+        "start_line": 58,
+        "start_col": 92,
+        "end_line": 58,
+        "end_col": 101
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/docs\\decisions\\0059-text-search.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (8798 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 258,
+          "end": 54280
+        },
+        "start_line": 11,
+        "start_col": 1,
+        "end_line": 980,
+        "end_col": 193
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/docs\\decisions\\0065-realtime-api-clients.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (8772 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 312,
+          "end": 73270
+        },
+        "start_line": 11,
+        "start_col": 1,
+        "end_line": 1770,
+        "end_col": 103
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/docs\\decisions\\0067-hybrid-search.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4316 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 388,
+          "end": 34289
+        },
+        "start_line": 11,
+        "start_col": 1,
+        "end_line": 544,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/docs\\decisions\\0071-multi-agent-orchestration.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5164 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 256,
+          "end": 31493
+        },
+        "start_line": 11,
+        "start_col": 1,
+        "end_line": 631,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/dotnet\\docs\\OPENAI-CONNECTOR-MIGRATION.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"working with azure and or openai public apis\" then \"using the metapackage\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4109,
+          "end": 4130
+        },
+        "start_line": 78,
+        "start_col": 306,
+        "end_line": 78,
+        "end_col": 327
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/dotnet\\notebooks\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"unable to get the nuget package\" then \"still stuck\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3885,
+          "end": 3896
+        },
+        "start_line": 113,
+        "start_col": 14,
+        "end_line": 113,
+        "end_col": 25
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/dotnet\\samples\\Concepts\\Resources\\Plugins\\CopilotAgentPlugins\\AstronomyPlugin\\messages-openapi.yml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"signed in to your mailbox via outlook on the web\" then \"prompted to sign in if you are not already signed in with the browser\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 11008,
+          "end": 11077
+        },
+        "start_line": 211,
+        "start_col": 463,
+        "end_line": 211,
+        "end_col": 532
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/dotnet\\samples\\Concepts\\Resources\\Plugins\\CopilotAgentPlugins\\CalendarPlugin\\calendar-openapi.yml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4702 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/dotnet\\samples\\Concepts\\Resources\\Plugins\\CopilotAgentPlugins\\MessagesPlugin\\messages-openapi.yml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"signed in to your mailbox via outlook on the web\" then \"prompted to sign in if you are not already signed in with the browser\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 11008,
+          "end": 11077
+        },
+        "start_line": 211,
+        "start_col": 463,
+        "end_line": 211,
+        "end_col": 532
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/dotnet\\samples\\Concepts\\Resources\\Plugins\\JiraPlugin\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 240,
+          "end": 244
+        },
+        "start_line": 4,
+        "start_col": 124,
+        "end_line": 4,
+        "end_col": 128
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/dotnet\\samples\\Demos\\CopilotAgentPlugins\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using openai as your llm provider ensure that the\" then \"using azureopenai as your llm provider ensure that the\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7848,
+          "end": 7902
+        },
+        "start_line": 132,
+        "start_col": 34,
+        "end_line": 132,
+        "end_col": 88
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/dotnet\\samples\\Demos\\CopilotAgentPlugins\\TROUBLESHOOTING.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 469,
+          "end": 473
+        },
+        "start_line": 11,
+        "start_col": 45,
+        "end_line": 11,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/dotnet\\src\\Functions\\Functions.UnitTests\\OpenApi\\TestPlugins\\messages-openapi.yml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"signed in to your mailbox via outlook on the web\" then \"prompted to sign in if you are not already signed in with the browser\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 11008,
+          "end": 11077
+        },
+        "start_line": 211,
+        "start_col": 463,
+        "end_line": 211,
+        "end_col": 532
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\DEV_SETUP.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using vscode and have the python extension setup\" then \"working on\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 12006,
+          "end": 12016
+        },
+        "start_line": 321,
+        "start_col": 167,
+        "end_line": 321,
+        "end_col": 177
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful assistant\" then \"helpful assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4670,
+          "end": 4687
+        },
+        "start_line": 158,
+        "start_col": 33,
+        "end_line": 158,
+        "end_col": 50
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\concepts\\agents\\azure_ai_agent\\README.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 1086
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 13,
+        "end_col": 166
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\concepts\\agents\\chat_completion_agent\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1409,
+          "end": 1417
+        },
+        "start_line": 25,
+        "start_col": 156,
+        "end_line": 25,
+        "end_col": 164
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\concepts\\model_as_a_service\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"developing a new dataset or augmenting an existing dataset for benchmarking large language models\" then \"interested in\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1254,
+          "end": 1267
+        },
+        "start_line": 15,
+        "start_col": 99,
+        "end_line": 15,
+        "end_col": 112
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\concepts\\plugins\\openapi\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 630,
+          "end": 634
+        },
+        "start_line": 11,
+        "start_col": 148,
+        "end_line": 11,
+        "end_col": 152
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\concepts\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 11591,
+          "end": 11595
+        },
+        "start_line": 124,
+        "start_col": 25,
+        "end_line": 124,
+        "end_col": 29
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\concepts\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests YAML output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 11831,
+          "end": 11835
+        },
+        "start_line": 126,
+        "start_col": 25,
+        "end_line": 126,
+        "end_col": 29
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\demos\\copilot_studio_skill\\azure.yaml",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 111,
+          "end": 115
+        },
+        "start_line": 1,
+        "start_col": 112,
+        "end_line": 1,
+        "end_col": 116
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\demos\\copilot_studio_skill\\azure.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2,
+          "end": 6
+        },
+        "start_line": 1,
+        "start_col": 3,
+        "end_line": 1,
+        "end_col": 7
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\getting_started_with_agents\\multi_agent_orchestration\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"just getting started with semantic kernel\" then \"using other model services\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 702,
+          "end": 728
+        },
+        "start_line": 22,
+        "start_col": 21,
+        "end_line": 22,
+        "end_col": 47
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\getting_started_with_agents\\multi_agent_orchestration\\README.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 374,
+          "end": 391
+        },
+        "start_line": 11,
+        "start_col": 4,
+        "end_line": 11,
+        "end_col": 21
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\getting_started_with_agents\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2454,
+          "end": 2458
+        },
+        "start_line": 32,
+        "start_col": 165,
+        "end_line": 32,
+        "end_col": 169
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\getting_started_with_agents\\README.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 2446,
+          "end": 2458
+        },
+        "start_line": 32,
+        "start_col": 157,
+        "end_line": 32,
+        "end_col": 169
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\samples\\getting_started_with_agents\\README.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 7547,
+          "end": 7571
+        },
+        "start_line": 82,
+        "start_col": 185,
+        "end_line": 82,
+        "end_col": 209
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/semantic-kernel/python\\semantic_kernel\\connectors\\ai\\bedrock\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using an application inference profile\" then \"using\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2153,
+          "end": 2158
+        },
+        "start_line": 45,
+        "start_col": 151,
+        "end_line": 45,
+        "end_col": 156
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 18,
+    "info": 15
+  }
+}

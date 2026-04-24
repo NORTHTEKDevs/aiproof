@@ -1,0 +1,675 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 7950,
+          "end": 7956
+        },
+        "start_line": 244,
+        "start_col": 63,
+        "end_line": 244,
+        "end_col": 69
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 7950,
+          "end": 7956
+        },
+        "start_line": 244,
+        "start_col": 63,
+        "end_line": 244,
+        "end_col": 69
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~12 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 7950,
+          "end": 7956
+        },
+        "start_line": 244,
+        "start_col": 63,
+        "end_line": 244,
+        "end_col": 69
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 9011,
+          "end": 9019
+        },
+        "start_line": 273,
+        "start_col": 63,
+        "end_line": 273,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 9012,
+          "end": 9018
+        },
+        "start_line": 273,
+        "start_col": 64,
+        "end_line": 273,
+        "end_col": 70
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~12 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 9011,
+          "end": 9019
+        },
+        "start_line": 273,
+        "start_col": 63,
+        "end_line": 273,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 9890,
+          "end": 9900
+        },
+        "start_line": 297,
+        "start_col": 63,
+        "end_line": 297,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~12 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 9890,
+          "end": 9900
+        },
+        "start_line": 297,
+        "start_col": 63,
+        "end_line": 297,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 27697,
+          "end": 27700
+        },
+        "start_line": 840,
+        "start_col": 66,
+        "end_line": 840,
+        "end_col": 69
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 27701,
+          "end": 27704
+        },
+        "start_line": 840,
+        "start_col": 70,
+        "end_line": 840,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 27697,
+          "end": 27700
+        },
+        "start_line": 840,
+        "start_col": 66,
+        "end_line": 840,
+        "end_col": 69
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 27701,
+          "end": 27704
+        },
+        "start_line": 840,
+        "start_col": 70,
+        "end_line": 840,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~1 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 27697,
+          "end": 27700
+        },
+        "start_line": 840,
+        "start_col": 66,
+        "end_line": 840,
+        "end_col": 69
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~2 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 27701,
+          "end": 27704
+        },
+        "start_line": 840,
+        "start_col": 70,
+        "end_line": 840,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 27809,
+          "end": 27812
+        },
+        "start_line": 844,
+        "start_col": 70,
+        "end_line": 844,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 27809,
+          "end": 27812
+        },
+        "start_line": 844,
+        "start_col": 70,
+        "end_line": 844,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~1 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 27809,
+          "end": 27812
+        },
+        "start_line": 844,
+        "start_col": 70,
+        "end_line": 844,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 28199,
+          "end": 28205
+        },
+        "start_line": 858,
+        "start_col": 54,
+        "end_line": 858,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 28199,
+          "end": 28205
+        },
+        "start_line": 858,
+        "start_col": 54,
+        "end_line": 858,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~8 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 28199,
+          "end": 28205
+        },
+        "start_line": 858,
+        "start_col": 54,
+        "end_line": 858,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 29097,
+          "end": 29103
+        },
+        "start_line": 887,
+        "start_col": 54,
+        "end_line": 887,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 29097,
+          "end": 29103
+        },
+        "start_line": 887,
+        "start_col": 54,
+        "end_line": 887,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~8 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 29097,
+          "end": 29103
+        },
+        "start_line": 887,
+        "start_col": 54,
+        "end_line": 887,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 30229,
+          "end": 30235
+        },
+        "start_line": 919,
+        "start_col": 54,
+        "end_line": 919,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 30229,
+          "end": 30235
+        },
+        "start_line": 919,
+        "start_col": 54,
+        "end_line": 919,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~8 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 30229,
+          "end": 30235
+        },
+        "start_line": 919,
+        "start_col": 54,
+        "end_line": 919,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 33214,
+          "end": 33220
+        },
+        "start_line": 1001,
+        "start_col": 54,
+        "end_line": 1001,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 33214,
+          "end": 33220
+        },
+        "start_line": 1001,
+        "start_col": 54,
+        "end_line": 1001,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\test_chat.py",
+      "code": "AIP009",
+      "message": "variable content at token ~8 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 33214,
+          "end": 33220
+        },
+        "start_line": 1001,
+        "start_col": 54,
+        "end_line": 1001,
+        "end_col": 60
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\core\\tests\\unit_tests\\prompts\\__snapshots__\\test_chat.ambr",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (8088 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\langchain\\langchain_classic\\chains\\llm_summarization_checker\\prompts\\check_facts.txt",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"expert fact checker\" then \"unable to determine whether the fact is true or false\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 263,
+          "end": 316
+        },
+        "start_line": 8,
+        "start_col": 84,
+        "end_line": 8,
+        "end_col": 137
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\langchain\\tests\\unit_tests\\examples\\test_specs\\robot\\apispec.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"not an assistant or an\" then \"fortune cookie dispenser\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3042,
+          "end": 3066
+        },
+        "start_line": 133,
+        "start_col": 30,
+        "end_line": 133,
+        "end_col": 54
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\langchain\\tests\\unit_tests\\examples\\test_specs\\robot\\apispec.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 2948,
+          "end": 2967
+        },
+        "start_line": 132,
+        "start_col": 9,
+        "end_line": 132,
+        "end_col": 28
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\langchain\\tests\\unit_tests\\examples\\test_specs\\robot_openapi.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"not an assistant or an\" then \"fortune cookie dispenser\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2972,
+          "end": 2996
+        },
+        "start_line": 132,
+        "start_col": 30,
+        "end_line": 132,
+        "end_col": 54
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/langchain/libs\\langchain\\tests\\unit_tests\\examples\\test_specs\\robot_openapi.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 2878,
+          "end": 2897
+        },
+        "start_line": 131,
+        "start_col": 20,
+        "end_line": 131,
+        "end_col": 39
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    }
+  ],
+  "summary": {
+    "error": 2,
+    "warning": 30,
+    "info": 3
+  }
+}

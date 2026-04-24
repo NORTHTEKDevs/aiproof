@@ -1,0 +1,1682 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/instructor/cross_link_mapping.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 3835,
+          "end": 3852
+        },
+        "start_line": 94,
+        "start_col": 18,
+        "end_line": 94,
+        "end_col": 35
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\caching.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5662 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 37724
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 975,
+        "end_col": 127
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\chain-of-density.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7911,
+          "end": 7919
+        },
+        "start_line": 167,
+        "start_col": 54,
+        "end_line": 167,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\chain-of-density.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"verbose\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3904,
+          "end": 3911
+        },
+        "start_line": 77,
+        "start_col": 44,
+        "end_line": 77,
+        "end_col": 51
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\chain-of-density.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1704,
+          "end": 1713
+        },
+        "start_line": 37,
+        "start_col": 13,
+        "end_line": 37,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\chain-of-density.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5121 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 28086
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 546,
+        "end_col": 258
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\consistent-stories.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4352,
+          "end": 4360
+        },
+        "start_line": 120,
+        "start_col": 43,
+        "end_line": 120,
+        "end_col": 51
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\extract-model-looks.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4358,
+          "end": 4366
+        },
+        "start_line": 120,
+        "start_col": 43,
+        "end_line": 120,
+        "end_col": 51
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\extracting-model-metadata.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful assistant\" then \"given a list of images and you need to map the person style of the person in the image to a given taxonomy\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6447,
+          "end": 6553
+        },
+        "start_line": 180,
+        "start_col": 38,
+        "end_line": 180,
+        "end_col": 144
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\llms-txt-adoption.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2966,
+          "end": 2974
+        },
+        "start_line": 65,
+        "start_col": 17,
+        "end_line": 65,
+        "end_col": 25
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\semantic-validation-structured-outputs.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7707,
+          "end": 7715
+        },
+        "start_line": 213,
+        "start_col": 134,
+        "end_line": 213,
+        "end_col": 142
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\semantic-validation-structured-outputs.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 10468,
+          "end": 10481
+        },
+        "start_line": 278,
+        "start_col": 17,
+        "end_line": 278,
+        "end_col": 30
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\youtube-transcripts.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5425,
+          "end": 5433
+        },
+        "start_line": 176,
+        "start_col": 23,
+        "end_line": 176,
+        "end_col": 31
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\blog\\posts\\youtube-transcripts.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5425,
+          "end": 5433
+        },
+        "start_line": 176,
+        "start_col": 23,
+        "end_line": 176,
+        "end_col": 31
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\concepts\\semantic_validation.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2791,
+          "end": 2799
+        },
+        "start_line": 65,
+        "start_col": 151,
+        "end_line": 65,
+        "end_col": 159
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\examples\\knowledge_graph.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"iterative knowledge graph builder\" then \"given the current state of the graph\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9213,
+          "end": 9249
+        },
+        "start_line": 290,
+        "start_col": 29,
+        "end_line": 290,
+        "end_col": 65
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\examples\\youtube_clips.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2104,
+          "end": 2112
+        },
+        "start_line": 59,
+        "start_col": 24,
+        "end_line": 59,
+        "end_col": 32
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\learning\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 435,
+          "end": 452
+        },
+        "start_line": 7,
+        "start_col": 83,
+        "end_line": 7,
+        "end_col": 100
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\learning\\index.md",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 955,
+          "end": 972
+        },
+        "start_line": 14,
+        "start_col": 91,
+        "end_line": 14,
+        "end_col": 108
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\decomposition\\program_of_thought.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"world class ai system that excels\" then \"about to be\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2980,
+          "end": 2991
+        },
+        "start_line": 98,
+        "start_col": 46,
+        "end_line": 98,
+        "end_col": 57
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\ensembling\\dense.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"intelligent ai system that excels\" then \"about to be given a user query and\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1815,
+          "end": 1849
+        },
+        "start_line": 42,
+        "start_col": 25,
+        "end_line": 42,
+        "end_col": 59
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\ensembling\\diverse.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"world class ai that excels at answering\" then \"world class ai that excels at grading\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2907,
+          "end": 2944
+        },
+        "start_line": 79,
+        "start_col": 27,
+        "end_line": 79,
+        "end_col": 64
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\ensembling\\max_mutual_information.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"world class ai system which excels at understanding complex user stories and generating responses\" then \"about to be passed a story\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5568,
+          "end": 5594
+        },
+        "start_line": 128,
+        "start_col": 17,
+        "end_line": 128,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\ensembling\\meta_cot.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful assistant that\" then \"unsure\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3324,
+          "end": 3330
+        },
+        "start_line": 106,
+        "start_col": 28,
+        "end_line": 106,
+        "end_col": 34
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\ensembling\\prompt_paraphrasing.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"expert translation assistant\" then \"going to be given a prompt and\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1371,
+          "end": 1401
+        },
+        "start_line": 30,
+        "start_col": 25,
+        "end_line": 30,
+        "end_col": 55
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\self_criticism\\chain_of_verification.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"expert ai system that excels at\" then \"expert ai system that\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2834,
+          "end": 2855
+        },
+        "start_line": 78,
+        "start_col": 50,
+        "end_line": 78,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\self_criticism\\reversecot.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful ai question answerer\" then \"expert ai system that excels at\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3982,
+          "end": 4013
+        },
+        "start_line": 111,
+        "start_col": 28,
+        "end_line": 111,
+        "end_col": 59
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\thought_generation\\chain_of_thought_few_shot\\contrastive.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"expert question answering ai system\" then \"about to be given some examples of incorrect\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2195,
+          "end": 2239
+        },
+        "start_line": 64,
+        "start_col": 25,
+        "end_line": 64,
+        "end_col": 69
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\thought_generation\\chain_of_thought_few_shot\\uncertainty_routed_cot.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"a world class ai who excels at answering\" then \"about to be\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1639,
+          "end": 1650
+        },
+        "start_line": 40,
+        "start_col": 56,
+        "end_line": 40,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\zero_shot\\role_prompting.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"talented writer\" then \"helpful ai assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 381,
+          "end": 401
+        },
+        "start_line": 11,
+        "start_col": 35,
+        "end_line": 11,
+        "end_col": 55
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/docs\\prompting\\zero_shot\\style_prompting.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1332,
+          "end": 1338
+        },
+        "start_line": 54,
+        "start_col": 15,
+        "end_line": 54,
+        "end_col": 21
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\chain-of-density\\chain_of_density.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 5460,
+          "end": 5463
+        },
+        "start_line": 124,
+        "start_col": 22,
+        "end_line": 124,
+        "end_col": 25
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\chain-of-density\\chain_of_density.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 5460,
+          "end": 5463
+        },
+        "start_line": 124,
+        "start_col": 22,
+        "end_line": 124,
+        "end_col": 25
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\chain-of-density\\chain_of_density.py",
+      "code": "AIP009",
+      "message": "variable content at token ~1 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 5460,
+          "end": 5463
+        },
+        "start_line": 124,
+        "start_col": 22,
+        "end_line": 124,
+        "end_col": 25
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\classification\\classifiy_with_validation.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 2100,
+          "end": 2103
+        },
+        "start_line": 59,
+        "start_col": 158,
+        "end_line": 59,
+        "end_col": 161
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\classification\\classifiy_with_validation.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 2100,
+          "end": 2103
+        },
+        "start_line": 59,
+        "start_col": 158,
+        "end_line": 59,
+        "end_col": 161
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\classification\\classifiy_with_validation.py",
+      "code": "AIP009",
+      "message": "variable content at token ~24 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 2100,
+          "end": 2103
+        },
+        "start_line": 59,
+        "start_col": 158,
+        "end_line": 59,
+        "end_col": 161
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\knowledge-graph\\run_stream.py",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"iterative knowledge graph builder\" then \"given the current state of the graph\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1929,
+          "end": 1965
+        },
+        "start_line": 67,
+        "start_col": 26,
+        "end_line": 67,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\open_source_examples\\openrouter.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1856,
+          "end": 1859
+        },
+        "start_line": 50,
+        "start_col": 121,
+        "end_line": 50,
+        "end_col": 124
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\open_source_examples\\openrouter.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1856,
+          "end": 1859
+        },
+        "start_line": 50,
+        "start_col": 121,
+        "end_line": 50,
+        "end_col": 124
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\open_source_examples\\openrouter.py",
+      "code": "AIP009",
+      "message": "variable content at token ~21 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 1856,
+          "end": 1859
+        },
+        "start_line": 50,
+        "start_col": 121,
+        "end_line": 50,
+        "end_col": 124
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\open_source_examples\\perplexity.py",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2085,
+          "end": 2089
+        },
+        "start_line": 62,
+        "start_col": 64,
+        "end_line": 62,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\open_source_examples\\runpod.py",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1764,
+          "end": 1768
+        },
+        "start_line": 51,
+        "start_col": 68,
+        "end_line": 51,
+        "end_col": 72
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\recursive_filepaths\\parse_recursive_paths.py",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"perfect file system parsing algorithm\" then \"given a string representing a directory tree\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2851,
+          "end": 2895
+        },
+        "start_line": 98,
+        "start_col": 85,
+        "end_line": 98,
+        "end_col": 129
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\reranker\\run.py",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 1597,
+          "end": 2114
+        },
+        "start_line": 48,
+        "start_col": 28,
+        "end_line": 57,
+        "end_col": 20
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\stream_action_items\\run.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 2868,
+          "end": 2871
+        },
+        "start_line": 76,
+        "start_col": 13,
+        "end_line": 76,
+        "end_col": 16
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\stream_action_items\\run.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 2868,
+          "end": 2871
+        },
+        "start_line": 76,
+        "start_col": 13,
+        "end_line": 76,
+        "end_col": 16
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\stream_action_items\\run.py",
+      "code": "AIP009",
+      "message": "variable content at token ~169 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 2868,
+          "end": 2871
+        },
+        "start_line": 76,
+        "start_col": 13,
+        "end_line": 76,
+        "end_col": 16
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\validators\\chain_of_thought_validator.py",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 1021,
+          "end": 1095
+        },
+        "start_line": 33,
+        "start_col": 28,
+        "end_line": 33,
+        "end_col": 102
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\vision\\run_raw.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1268,
+          "end": 1271
+        },
+        "start_line": 36,
+        "start_col": 13,
+        "end_line": 36,
+        "end_col": 16
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\vision\\run_raw.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1268,
+          "end": 1271
+        },
+        "start_line": 36,
+        "start_col": 13,
+        "end_line": 36,
+        "end_col": 16
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/instructor/examples\\vision\\run_raw.py",
+      "code": "AIP009",
+      "message": "variable content at token ~94 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 1268,
+          "end": 1271
+        },
+        "start_line": 36,
+        "start_col": 13,
+        "end_line": 36,
+        "end_col": 16
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/instructor/scripts\\make_sitemap.py",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 4195,
+          "end": 4212
+        },
+        "start_line": 130,
+        "start_col": 116,
+        "end_line": 130,
+        "end_col": 133
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/scripts\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6592,
+          "end": 6600
+        },
+        "start_line": 190,
+        "start_col": 3,
+        "end_line": 190,
+        "end_col": 11
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 11501,
+          "end": 11505
+        },
+        "start_line": 256,
+        "start_col": 17,
+        "end_line": 256,
+        "end_col": 21
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 21068,
+          "end": 21076
+        },
+        "start_line": 472,
+        "start_col": 33,
+        "end_line": 472,
+        "end_col": 41
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 135,
+          "end": 143
+        },
+        "start_line": 5,
+        "start_col": 48,
+        "end_line": 5,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 17926,
+          "end": 17939
+        },
+        "start_line": 404,
+        "start_col": 42,
+        "end_line": 404,
+        "end_col": 55
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 135,
+          "end": 143
+        },
+        "start_line": 5,
+        "start_col": 48,
+        "end_line": 5,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 21068,
+          "end": 21076
+        },
+        "start_line": 472,
+        "start_col": 33,
+        "end_line": 472,
+        "end_col": 41
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 246174,
+          "end": 246183
+        },
+        "start_line": 5317,
+        "start_col": 62,
+        "end_line": 5317,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (36673 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 150595,
+          "end": 150620
+        },
+        "start_line": 3263,
+        "start_col": 16,
+        "end_line": 3263,
+        "end_col": 41
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 1598,
+          "end": 1615
+        },
+        "start_line": 37,
+        "start_col": 5,
+        "end_line": 37,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 6079,
+          "end": 6096
+        },
+        "start_line": 136,
+        "start_col": 23,
+        "end_line": 136,
+        "end_col": 40
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 11256,
+          "end": 11273
+        },
+        "start_line": 253,
+        "start_col": 38,
+        "end_line": 253,
+        "end_col": 55
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 17595,
+          "end": 17612
+        },
+        "start_line": 395,
+        "start_col": 5,
+        "end_line": 395,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 18227,
+          "end": 18249
+        },
+        "start_line": 407,
+        "start_col": 78,
+        "end_line": 408,
+        "end_col": 11
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 44379,
+          "end": 44396
+        },
+        "start_line": 990,
+        "start_col": 18,
+        "end_line": 990,
+        "end_col": 35
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 44904,
+          "end": 44921
+        },
+        "start_line": 996,
+        "start_col": 25,
+        "end_line": 996,
+        "end_col": 42
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 52679,
+          "end": 52696
+        },
+        "start_line": 1175,
+        "start_col": 37,
+        "end_line": 1175,
+        "end_col": 54
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 54731,
+          "end": 54748
+        },
+        "start_line": 1218,
+        "start_col": 26,
+        "end_line": 1218,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 90571,
+          "end": 90588
+        },
+        "start_line": 2021,
+        "start_col": 36,
+        "end_line": 2021,
+        "end_col": 53
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 113448,
+          "end": 113465
+        },
+        "start_line": 2481,
+        "start_col": 18,
+        "end_line": 2481,
+        "end_col": 35
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 119986,
+          "end": 120008
+        },
+        "start_line": 2604,
+        "start_col": 82,
+        "end_line": 2605,
+        "end_col": 11
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 127040,
+          "end": 127057
+        },
+        "start_line": 2760,
+        "start_col": 5,
+        "end_line": 2760,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 142493,
+          "end": 142515
+        },
+        "start_line": 3043,
+        "start_col": 79,
+        "end_line": 3044,
+        "end_col": 11
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 144732,
+          "end": 144749
+        },
+        "start_line": 3096,
+        "start_col": 46,
+        "end_line": 3096,
+        "end_col": 63
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 144999,
+          "end": 145016
+        },
+        "start_line": 3102,
+        "start_col": 5,
+        "end_line": 3102,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 151708,
+          "end": 151725
+        },
+        "start_line": 3279,
+        "start_col": 5,
+        "end_line": 3279,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 163897,
+          "end": 163914
+        },
+        "start_line": 3544,
+        "start_col": 5,
+        "end_line": 3544,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 166151,
+          "end": 166168
+        },
+        "start_line": 3609,
+        "start_col": 5,
+        "end_line": 3609,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 173467,
+          "end": 173484
+        },
+        "start_line": 3778,
+        "start_col": 17,
+        "end_line": 3778,
+        "end_col": 34
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 186450,
+          "end": 186467
+        },
+        "start_line": 4119,
+        "start_col": 5,
+        "end_line": 4119,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 206148,
+          "end": 206170
+        },
+        "start_line": 4672,
+        "start_col": 76,
+        "end_line": 4673,
+        "end_col": 11
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 257144,
+          "end": 257166
+        },
+        "start_line": 5527,
+        "start_col": 76,
+        "end_line": 5528,
+        "end_col": 11
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 257612,
+          "end": 257629
+        },
+        "start_line": 5533,
+        "start_col": 27,
+        "end_line": 5533,
+        "end_col": 44
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    },
+    {
+      "file": "fixtures/corpus/instructor/sitemap.yaml",
+      "code": "AIP013",
+      "message": "structured output requested without an example or schema",
+      "severity": "info",
+      "category": "behavior",
+      "primary": {
+        "byte_range": {
+          "start": 260121,
+          "end": 260138
+        },
+        "start_line": 5624,
+        "start_col": 5,
+        "end_line": 5624,
+        "end_col": 22
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP013"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 41,
+    "info": 47
+  }
+}

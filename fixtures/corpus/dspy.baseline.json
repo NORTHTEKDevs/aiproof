@@ -1,0 +1,67 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/dspy/CONTRIBUTING.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"not familiar with the github fork process\" then \"all set\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4772,
+          "end": 4779
+        },
+        "start_line": 122,
+        "start_col": 14,
+        "end_line": 122,
+        "end_col": 21
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/dspy/docs\\docs\\tutorials\\email_extraction\\index.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5631,
+          "end": 5644
+        },
+        "start_line": 153,
+        "start_col": 10,
+        "end_line": 153,
+        "end_col": 23
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/dspy/docs\\docs\\tutorials\\mcp\\index.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"airline customer service agent\" then \"given a list of tools to handle user requests\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 11169,
+          "end": 11214
+        },
+        "start_line": 352,
+        "start_col": 59,
+        "end_line": 352,
+        "end_col": 104
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 1,
+    "info": 2
+  }
+}

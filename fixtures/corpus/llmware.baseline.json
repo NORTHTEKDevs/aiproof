@@ -1,0 +1,428 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/llmware/docs\\community\\community.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"new to the project\" then \"also welcome if you just want to post an idea\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5908,
+          "end": 5953
+        },
+        "start_line": 102,
+        "start_col": 9,
+        "end_line": 102,
+        "end_col": 54
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\community\\troubleshooting.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using a different os platform\" then \"successfully using other gguf models\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2794,
+          "end": 2830
+        },
+        "start_line": 55,
+        "start_col": 40,
+        "end_line": 55,
+        "end_col": 76
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\contributing\\contributing.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"new to the project\" then \"also welcome if you just want to post an idea\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5155,
+          "end": 5200
+        },
+        "start_line": 91,
+        "start_col": 9,
+        "end_line": 91,
+        "end_col": 54
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\examples\\agents.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 495,
+          "end": 499
+        },
+        "start_line": 18,
+        "start_col": 74,
+        "end_line": 18,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\examples\\examples.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 505,
+          "end": 509
+        },
+        "start_line": 13,
+        "start_col": 216,
+        "end_line": 13,
+        "end_col": 220
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\examples\\examples.md",
+      "code": "AIP002",
+      "message": "prompt requests CSV output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 537,
+          "end": 540
+        },
+        "start_line": 13,
+        "start_col": 248,
+        "end_line": 13,
+        "end_col": 251
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\examples\\models.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6121 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 36436
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 499,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\examples\\parsing.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2141,
+          "end": 2145
+        },
+        "start_line": 47,
+        "start_col": 12,
+        "end_line": 47,
+        "end_col": 16
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\examples\\parsing.md",
+      "code": "AIP002",
+      "message": "prompt requests CSV output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2319,
+          "end": 2322
+        },
+        "start_line": 52,
+        "start_col": 10,
+        "end_line": 52,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\getting_started\\getting_started.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1744,
+          "end": 1753
+        },
+        "start_line": 38,
+        "start_col": 227,
+        "end_line": 38,
+        "end_col": 236
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\getting_started\\overview.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5424 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 33767
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 654,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llmware/docs\\index.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1879,
+          "end": 1888
+        },
+        "start_line": 36,
+        "start_col": 227,
+        "end_line": 36,
+        "end_col": 236
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llmware/README.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10360 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 67499
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1124,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/llmware/scripts\\docker\\docker-compose-qdrant.yaml",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 683,
+          "end": 687
+        },
+        "start_line": 29,
+        "start_col": 43,
+        "end_line": 29,
+        "end_col": 47
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/solutions\\openvino\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1824,
+          "end": 1832
+        },
+        "start_line": 32,
+        "start_col": 5,
+        "end_line": 32,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llmware/solutions\\openvino\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"verbose\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 12400,
+          "end": 12407
+        },
+        "start_line": 201,
+        "start_col": 72,
+        "end_line": 201,
+        "end_col": 79
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/llmware/solutions\\slim_agents\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 309,
+          "end": 313
+        },
+        "start_line": 7,
+        "start_col": 74,
+        "end_line": 7,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/solutions\\sources\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1867,
+          "end": 1871
+        },
+        "start_line": 35,
+        "start_col": 12,
+        "end_line": 35,
+        "end_col": 16
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/solutions\\sources\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests CSV output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2063,
+          "end": 2066
+        },
+        "start_line": 40,
+        "start_col": 10,
+        "end_line": 40,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/solutions\\use_cases\\lecture_tool\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 968,
+          "end": 972
+        },
+        "start_line": 20,
+        "start_col": 224,
+        "end_line": 20,
+        "end_col": 228
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/solutions\\use_cases\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2586,
+          "end": 2590
+        },
+        "start_line": 42,
+        "start_col": 44,
+        "end_line": 42,
+        "end_col": 48
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/llmware/solutions\\use_cases\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests CSV output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2578,
+          "end": 2581
+        },
+        "start_line": 42,
+        "start_col": 36,
+        "end_line": 42,
+        "end_col": 39
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 19,
+    "info": 3
+  }
+}

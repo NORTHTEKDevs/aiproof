@@ -1,0 +1,143 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/prompty/README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"friendly assistant\" then \"helpful assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5066,
+          "end": 5083
+        },
+        "start_line": 187,
+        "start_col": 11,
+        "end_line": 187,
+        "end_col": 28
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/prompty/runtime\\IMPLEMENTATION_GUIDE.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful assistant\" then \"helpful\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 31783,
+          "end": 31790
+        },
+        "start_line": 1084,
+        "start_col": 39,
+        "end_line": 1084,
+        "end_col": 46
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/prompty/runtime\\IMPLEMENTATION_GUIDE.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6809 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 39617
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1358,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/prompty/runtime\\python\\prompty\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"friendly assistant\" then \"helpful assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5994,
+          "end": 6011
+        },
+        "start_line": 265,
+        "start_col": 11,
+        "end_line": 265,
+        "end_col": 28
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/prompty/SECURITY.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 2656
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 42,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/prompty/spec\\spec.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (24646 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 150887
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 3868,
+        "end_col": 40
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/prompty/vscode\\prompty\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 289,
+          "end": 293
+        },
+        "start_line": 7,
+        "start_col": 44,
+        "end_line": 7,
+        "end_col": 48
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 3,
+    "info": 4
+  }
+}

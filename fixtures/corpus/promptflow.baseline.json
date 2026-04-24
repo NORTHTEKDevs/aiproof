@@ -1,0 +1,5197 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/promptflow/docs\\concepts\\concept-flows.md",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 474,
+          "end": 478
+        },
+        "start_line": 7,
+        "start_col": 207,
+        "end_line": 7,
+        "end_col": 211
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\dev\\documentation_guidelines.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1460,
+          "end": 1468
+        },
+        "start_line": 31,
+        "start_col": 10,
+        "end_line": 31,
+        "end_col": 18
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\dev\\replay-e2e-test.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 943,
+          "end": 947
+        },
+        "start_line": 12,
+        "start_col": 102,
+        "end_line": 12,
+        "end_col": 106
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\dev\\replay-e2e-test.md",
+      "code": "AIP002",
+      "message": "prompt requests YAML output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3314,
+          "end": 3318
+        },
+        "start_line": 40,
+        "start_col": 92,
+        "end_line": 40,
+        "end_col": 96
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\how-to-guides\\develop-a-dag-flow\\quick-start.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using azure openai\" then \"using openai\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6357,
+          "end": 6369
+        },
+        "start_line": 144,
+        "start_col": 12,
+        "end_line": 144,
+        "end_col": 24
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\how-to-guides\\develop-a-prompty\\prompty-output-format.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"ai assistant who helps people find information\" then \"ai assistant who helps people find information\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3443,
+          "end": 3489
+        },
+        "start_line": 100,
+        "start_col": 12,
+        "end_line": 100,
+        "end_col": 58
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\how-to-guides\\faq.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using wsl\" then \"not even using wsl\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4322,
+          "end": 4340
+        },
+        "start_line": 69,
+        "start_col": 72,
+        "end_line": 69,
+        "end_col": 90
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\reference\\tools-reference\\llm-tool.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful assistant\" then \"helpful assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 8150,
+          "end": 8167
+        },
+        "start_line": 122,
+        "start_col": 31,
+        "end_line": 122,
+        "end_col": 48
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\reference\\tools-reference\\open_model_llm_tool.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using prompt flow in one of the web page based browsers workspaces\" then \"using prompt flow in vscode or one of the code first offerings\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2531,
+          "end": 2593
+        },
+        "start_line": 42,
+        "start_col": 47,
+        "end_line": 42,
+        "end_col": 109
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\reference\\tools-reference\\serp-api-tool.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1610,
+          "end": 1614
+        },
+        "start_line": 40,
+        "start_col": 5,
+        "end_line": 40,
+        "end_col": 9
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/docs\\tutorials\\index.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 7530
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 41,
+        "end_col": 108
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\CONTRIBUTING.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3122,
+          "end": 3130
+        },
+        "start_line": 37,
+        "start_col": 5,
+        "end_line": 37,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\CONTRIBUTING.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3122,
+          "end": 3130
+        },
+        "start_line": 37,
+        "start_col": 5,
+        "end_line": 37,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\chat\\chat-math-variant\\chat_variant_1.jinja2",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 95,
+          "end": 95
+        },
+        "start_line": 3,
+        "start_col": 8,
+        "end_line": 3,
+        "end_col": 8
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\chat\\chat-math-variant\\chat_variant_2.jinja2",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 95,
+          "end": 95
+        },
+        "start_line": 3,
+        "start_col": 8,
+        "end_line": 3,
+        "end_col": 8
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\evaluation\\eval-multi-turn-metrics\\answer_relevance.jinja2",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2783,
+          "end": 2791
+        },
+        "start_line": 23,
+        "start_col": 451,
+        "end_line": 23,
+        "end_col": 459
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\evaluation\\eval-multi-turn-metrics\\conversation_quality_prompt.jinja2",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1653,
+          "end": 1659
+        },
+        "start_line": 6,
+        "start_col": 490,
+        "end_line": 6,
+        "end_col": 496
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\evaluation\\eval-multi-turn-metrics\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1982,
+          "end": 1988
+        },
+        "start_line": 16,
+        "start_col": 389,
+        "end_line": 16,
+        "end_col": 395
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\evaluation\\eval-single-turn-metrics\\answer_quality.jinja2",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1514,
+          "end": 1520
+        },
+        "start_line": 6,
+        "start_col": 389,
+        "end_line": 6,
+        "end_col": 395
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\evaluation\\eval-single-turn-metrics\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2923,
+          "end": 2929
+        },
+        "start_line": 25,
+        "start_col": 389,
+        "end_line": 25,
+        "end_col": 395
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\integrations\\llmlingua-prompt-compression\\gsm8k_example\\prompt_node.jinja2",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 120,
+          "end": 120
+        },
+        "start_line": 5,
+        "start_col": 1,
+        "end_line": 5,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\integrations\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 931,
+          "end": 939
+        },
+        "start_line": 13,
+        "start_col": 11,
+        "end_line": 13,
+        "end_col": 19
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\integrations\\README.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 3632
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 47,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\flows\\standard\\autonomous-agent\\triggering_prompt.jinja2",
+      "code": "AIP002",
+      "message": "prompt requests JSON output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 68,
+          "end": 72
+        },
+        "start_line": 1,
+        "start_col": 69,
+        "end_line": 1,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests YAML output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 30598,
+          "end": 30602
+        },
+        "start_line": 132,
+        "start_col": 288,
+        "end_line": 132,
+        "end_col": 292
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\tutorials\\develop-copilot-with-promptflow\\develop-copilot-with-promptflow.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2927,
+          "end": 2936
+        },
+        "start_line": 47,
+        "start_col": 77,
+        "end_line": 47,
+        "end_col": 86
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\tutorials\\flow-fine-tuning-evaluation\\promptflow-quality-improvement.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4424 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 25618
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 502,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/examples\\tutorials\\generate-test-data\\example_flow\\score_text_chunk_prompt.jinja2",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1477,
+          "end": 1485
+        },
+        "start_line": 40,
+        "start_col": 32,
+        "end_line": 40,
+        "end_col": 40
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/migration-guide\\PromptFlow-to-MAF\\phase-1-audit\\node-mapping.md",
+      "code": "AIP002",
+      "message": "prompt requests YAML output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 112,
+          "end": 116
+        },
+        "start_line": 5,
+        "start_col": 9,
+        "end_line": 5,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/migration-guide\\PromptFlow-to-MAF\\phase-5-cutover\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests YAML output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 753,
+          "end": 757
+        },
+        "start_line": 21,
+        "start_col": 26,
+        "end_line": 21,
+        "end_col": 30
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/migration-guide\\PromptFlow-to-MAF\\phase-5-cutover\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests csv output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 224,
+          "end": 227
+        },
+        "start_line": 7,
+        "start_col": 75,
+        "end_line": 7,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/scripts\\readme\\ghactions_driver\\readme_templates\\tutorial_index.md.jinja2",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 70,
+          "end": 70
+        },
+        "start_line": 3,
+        "start_col": 56,
+        "end_line": 3,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/SECURITY.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 2797
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 42,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow\\tests\\test_configs\\eager_flows\\basic_callable_class\\run_init_file.yaml",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 75,
+          "end": 79
+        },
+        "start_line": 4,
+        "start_col": 14,
+        "end_line": 4,
+        "end_col": 18
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow\\tests\\test_configs\\flows\\export\\linux\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 442,
+          "end": 446
+        },
+        "start_line": 10,
+        "start_col": 12,
+        "end_line": 10,
+        "end_col": 16
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow\\tests\\test_configs\\flows\\export\\linux\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 191,
+          "end": 195
+        },
+        "start_line": 4,
+        "start_col": 36,
+        "end_line": 4,
+        "end_col": 40
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow\\tests\\test_configs\\flows\\food-calorie-assistant\\assistant_definition.yaml",
+      "code": "AIP002",
+      "message": "prompt requests csv output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 404,
+          "end": 407
+        },
+        "start_line": 6,
+        "start_col": 81,
+        "end_line": 6,
+        "end_col": 84
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-devkit\\promptflow\\_sdk\\data\\docker_csharp\\runit\\promptflow-serve\\run.jinja2",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 117,
+          "end": 121
+        },
+        "start_line": 5,
+        "start_col": 59,
+        "end_line": 5,
+        "end_col": 63
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\promptflow\\evals\\synthetic\\README.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6798 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 38477
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 303,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2520203,
+          "end": 2520215
+        },
+        "start_line": 26734,
+        "start_col": 69,
+        "end_line": 26734,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 644809,
+          "end": 644842
+        },
+        "start_line": 7234,
+        "start_col": 52,
+        "end_line": 7234,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 166262,
+          "end": 166270
+        },
+        "start_line": 1950,
+        "start_col": 9,
+        "end_line": 1950,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581579,
+          "end": 581587
+        },
+        "start_line": 6589,
+        "start_col": 65,
+        "end_line": 6589,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 582678,
+          "end": 582691
+        },
+        "start_line": 6602,
+        "start_col": 55,
+        "end_line": 6602,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581579,
+          "end": 581587
+        },
+        "start_line": 6589,
+        "start_col": 65,
+        "end_line": 6589,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 166262,
+          "end": 166270
+        },
+        "start_line": 1950,
+        "start_col": 9,
+        "end_line": 1950,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1017810,
+          "end": 1017819
+        },
+        "start_line": 11023,
+        "start_col": 53,
+        "end_line": 11023,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 982669,
+          "end": 982675
+        },
+        "start_line": 10671,
+        "start_col": 21,
+        "end_line": 10671,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 982669,
+          "end": 982675
+        },
+        "start_line": 10671,
+        "start_col": 21,
+        "end_line": 10671,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1398,
+          "end": 1404
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 374845,
+          "end": 374852
+        },
+        "start_line": 4308,
+        "start_col": 49,
+        "end_line": 4308,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 374845,
+          "end": 374852
+        },
+        "start_line": 4308,
+        "start_col": 49,
+        "end_line": 4308,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1960347,
+          "end": 1960375
+        },
+        "start_line": 20342,
+        "start_col": 66,
+        "end_line": 20342,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1973508,
+          "end": 1973527
+        },
+        "start_line": 20492,
+        "start_col": 24,
+        "end_line": 20492,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1965988,
+          "end": 1966003
+        },
+        "start_line": 20405,
+        "start_col": 52,
+        "end_line": 20405,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_conversation_sim_responds_with_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1837774 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2519728,
+          "end": 2519740
+        },
+        "start_line": 26726,
+        "start_col": 69,
+        "end_line": 26726,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 644334,
+          "end": 644367
+        },
+        "start_line": 7226,
+        "start_col": 52,
+        "end_line": 7226,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 165787,
+          "end": 165795
+        },
+        "start_line": 1942,
+        "start_col": 9,
+        "end_line": 1942,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581104,
+          "end": 581112
+        },
+        "start_line": 6581,
+        "start_col": 65,
+        "end_line": 6581,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 582203,
+          "end": 582216
+        },
+        "start_line": 6594,
+        "start_col": 55,
+        "end_line": 6594,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581104,
+          "end": 581112
+        },
+        "start_line": 6581,
+        "start_col": 65,
+        "end_line": 6581,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 165787,
+          "end": 165795
+        },
+        "start_line": 1942,
+        "start_col": 9,
+        "end_line": 1942,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1017335,
+          "end": 1017344
+        },
+        "start_line": 11015,
+        "start_col": 53,
+        "end_line": 11015,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 982194,
+          "end": 982200
+        },
+        "start_line": 10663,
+        "start_col": 21,
+        "end_line": 10663,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 982194,
+          "end": 982200
+        },
+        "start_line": 10663,
+        "start_col": 21,
+        "end_line": 10663,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1406,
+          "end": 1412
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 374370,
+          "end": 374377
+        },
+        "start_line": 4300,
+        "start_col": 49,
+        "end_line": 4300,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 374370,
+          "end": 374377
+        },
+        "start_line": 4300,
+        "start_col": 49,
+        "end_line": 4300,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1959872,
+          "end": 1959900
+        },
+        "start_line": 20334,
+        "start_col": 66,
+        "end_line": 20334,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1973033,
+          "end": 1973052
+        },
+        "start_line": 20484,
+        "start_col": 24,
+        "end_line": 20484,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1965513,
+          "end": 1965528
+        },
+        "start_line": 20397,
+        "start_col": 52,
+        "end_line": 20397,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_eci_sim_responds_with_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1888904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2521375,
+          "end": 2521387
+        },
+        "start_line": 26770,
+        "start_col": 69,
+        "end_line": 26770,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 645981,
+          "end": 646014
+        },
+        "start_line": 7270,
+        "start_col": 52,
+        "end_line": 7270,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 167434,
+          "end": 167442
+        },
+        "start_line": 1986,
+        "start_col": 9,
+        "end_line": 1986,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 582751,
+          "end": 582759
+        },
+        "start_line": 6625,
+        "start_col": 65,
+        "end_line": 6625,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 583850,
+          "end": 583863
+        },
+        "start_line": 6638,
+        "start_col": 55,
+        "end_line": 6638,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 582751,
+          "end": 582759
+        },
+        "start_line": 6625,
+        "start_col": 65,
+        "end_line": 6625,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 167434,
+          "end": 167442
+        },
+        "start_line": 1986,
+        "start_col": 9,
+        "end_line": 1986,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1018982,
+          "end": 1018991
+        },
+        "start_line": 11059,
+        "start_col": 53,
+        "end_line": 11059,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 983841,
+          "end": 983847
+        },
+        "start_line": 10707,
+        "start_col": 21,
+        "end_line": 10707,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 983841,
+          "end": 983847
+        },
+        "start_line": 10707,
+        "start_col": 21,
+        "end_line": 10707,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1406,
+          "end": 1412
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 376017,
+          "end": 376024
+        },
+        "start_line": 4344,
+        "start_col": 49,
+        "end_line": 4344,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 376017,
+          "end": 376024
+        },
+        "start_line": 4344,
+        "start_col": 49,
+        "end_line": 4344,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1961519,
+          "end": 1961547
+        },
+        "start_line": 20378,
+        "start_col": 66,
+        "end_line": 20378,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1974680,
+          "end": 1974699
+        },
+        "start_line": 20528,
+        "start_col": 24,
+        "end_line": 20528,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1967160,
+          "end": 1967175
+        },
+        "start_line": 20441,
+        "start_col": 52,
+        "end_line": 20441,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_protected_matierial_sim_responds_with_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1889054 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2518592,
+          "end": 2518604
+        },
+        "start_line": 26690,
+        "start_col": 69,
+        "end_line": 26690,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 643198,
+          "end": 643231
+        },
+        "start_line": 7190,
+        "start_col": 52,
+        "end_line": 7190,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164651,
+          "end": 164659
+        },
+        "start_line": 1906,
+        "start_col": 9,
+        "end_line": 1906,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 579968,
+          "end": 579976
+        },
+        "start_line": 6545,
+        "start_col": 65,
+        "end_line": 6545,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581067,
+          "end": 581080
+        },
+        "start_line": 6558,
+        "start_col": 55,
+        "end_line": 6558,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 579968,
+          "end": 579976
+        },
+        "start_line": 6545,
+        "start_col": 65,
+        "end_line": 6545,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164651,
+          "end": 164659
+        },
+        "start_line": 1906,
+        "start_col": 9,
+        "end_line": 1906,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1016199,
+          "end": 1016208
+        },
+        "start_line": 10979,
+        "start_col": 53,
+        "end_line": 10979,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981058,
+          "end": 981064
+        },
+        "start_line": 10627,
+        "start_col": 21,
+        "end_line": 10627,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981058,
+          "end": 981064
+        },
+        "start_line": 10627,
+        "start_col": 21,
+        "end_line": 10627,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1398,
+          "end": 1404
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373234,
+          "end": 373241
+        },
+        "start_line": 4264,
+        "start_col": 49,
+        "end_line": 4264,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373234,
+          "end": 373241
+        },
+        "start_line": 4264,
+        "start_col": 49,
+        "end_line": 4264,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1958736,
+          "end": 1958764
+        },
+        "start_line": 20298,
+        "start_col": 66,
+        "end_line": 20298,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1971897,
+          "end": 1971916
+        },
+        "start_line": 20448,
+        "start_col": 24,
+        "end_line": 20448,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1964377,
+          "end": 1964392
+        },
+        "start_line": 20361,
+        "start_col": 52,
+        "end_line": 20361,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_qa_sim_responds_with_one_response.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1837624 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2518592,
+          "end": 2518604
+        },
+        "start_line": 26690,
+        "start_col": 69,
+        "end_line": 26690,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 643198,
+          "end": 643231
+        },
+        "start_line": 7190,
+        "start_col": 52,
+        "end_line": 7190,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164651,
+          "end": 164659
+        },
+        "start_line": 1906,
+        "start_col": 9,
+        "end_line": 1906,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 579968,
+          "end": 579976
+        },
+        "start_line": 6545,
+        "start_col": 65,
+        "end_line": 6545,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581067,
+          "end": 581080
+        },
+        "start_line": 6558,
+        "start_col": 55,
+        "end_line": 6558,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 579968,
+          "end": 579976
+        },
+        "start_line": 6545,
+        "start_col": 65,
+        "end_line": 6545,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164651,
+          "end": 164659
+        },
+        "start_line": 1906,
+        "start_col": 9,
+        "end_line": 1906,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1016199,
+          "end": 1016208
+        },
+        "start_line": 10979,
+        "start_col": 53,
+        "end_line": 10979,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981058,
+          "end": 981064
+        },
+        "start_line": 10627,
+        "start_col": 21,
+        "end_line": 10627,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981058,
+          "end": 981064
+        },
+        "start_line": 10627,
+        "start_col": 21,
+        "end_line": 10627,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1398,
+          "end": 1404
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373234,
+          "end": 373241
+        },
+        "start_line": 4264,
+        "start_col": 49,
+        "end_line": 4264,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373234,
+          "end": 373241
+        },
+        "start_line": 4264,
+        "start_col": 49,
+        "end_line": 4264,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1958736,
+          "end": 1958764
+        },
+        "start_line": 20298,
+        "start_col": 66,
+        "end_line": 20298,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1971897,
+          "end": 1971916
+        },
+        "start_line": 20448,
+        "start_col": 24,
+        "end_line": 20448,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1964377,
+          "end": 1964392
+        },
+        "start_line": 20361,
+        "start_col": 52,
+        "end_line": 20361,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_rewrite_sim_responds_with_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1917634 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2518722,
+          "end": 2518734
+        },
+        "start_line": 26696,
+        "start_col": 69,
+        "end_line": 26696,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 643328,
+          "end": 643361
+        },
+        "start_line": 7196,
+        "start_col": 52,
+        "end_line": 7196,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164781,
+          "end": 164789
+        },
+        "start_line": 1912,
+        "start_col": 9,
+        "end_line": 1912,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 580098,
+          "end": 580106
+        },
+        "start_line": 6551,
+        "start_col": 65,
+        "end_line": 6551,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581197,
+          "end": 581210
+        },
+        "start_line": 6564,
+        "start_col": 55,
+        "end_line": 6564,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 580098,
+          "end": 580106
+        },
+        "start_line": 6551,
+        "start_col": 65,
+        "end_line": 6551,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164781,
+          "end": 164789
+        },
+        "start_line": 1912,
+        "start_col": 9,
+        "end_line": 1912,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1016329,
+          "end": 1016338
+        },
+        "start_line": 10985,
+        "start_col": 53,
+        "end_line": 10985,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981188,
+          "end": 981194
+        },
+        "start_line": 10633,
+        "start_col": 21,
+        "end_line": 10633,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981188,
+          "end": 981194
+        },
+        "start_line": 10633,
+        "start_col": 21,
+        "end_line": 10633,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1411,
+          "end": 1417
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373364,
+          "end": 373371
+        },
+        "start_line": 4270,
+        "start_col": 49,
+        "end_line": 4270,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373364,
+          "end": 373371
+        },
+        "start_line": 4270,
+        "start_col": 49,
+        "end_line": 4270,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1958866,
+          "end": 1958894
+        },
+        "start_line": 20304,
+        "start_col": 66,
+        "end_line": 20304,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1972027,
+          "end": 1972046
+        },
+        "start_line": 20454,
+        "start_col": 24,
+        "end_line": 20454,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1964507,
+          "end": 1964522
+        },
+        "start_line": 20367,
+        "start_col": 52,
+        "end_line": 20367,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1903580 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2518722,
+          "end": 2518734
+        },
+        "start_line": 26696,
+        "start_col": 69,
+        "end_line": 26696,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 643328,
+          "end": 643361
+        },
+        "start_line": 7196,
+        "start_col": 52,
+        "end_line": 7196,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164781,
+          "end": 164789
+        },
+        "start_line": 1912,
+        "start_col": 9,
+        "end_line": 1912,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 580098,
+          "end": 580106
+        },
+        "start_line": 6551,
+        "start_col": 65,
+        "end_line": 6551,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581197,
+          "end": 581210
+        },
+        "start_line": 6564,
+        "start_col": 55,
+        "end_line": 6564,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 580098,
+          "end": 580106
+        },
+        "start_line": 6551,
+        "start_col": 65,
+        "end_line": 6551,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164781,
+          "end": 164789
+        },
+        "start_line": 1912,
+        "start_col": 9,
+        "end_line": 1912,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1016329,
+          "end": 1016338
+        },
+        "start_line": 10985,
+        "start_col": 53,
+        "end_line": 10985,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981188,
+          "end": 981194
+        },
+        "start_line": 10633,
+        "start_col": 21,
+        "end_line": 10633,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981188,
+          "end": 981194
+        },
+        "start_line": 10633,
+        "start_col": 21,
+        "end_line": 10633,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1411,
+          "end": 1417
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373364,
+          "end": 373371
+        },
+        "start_line": 4270,
+        "start_col": 49,
+        "end_line": 4270,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373364,
+          "end": 373371
+        },
+        "start_line": 4270,
+        "start_col": 49,
+        "end_line": 4270,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1958866,
+          "end": 1958894
+        },
+        "start_line": 20304,
+        "start_col": 66,
+        "end_line": 20304,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1972027,
+          "end": 1972046
+        },
+        "start_line": 20454,
+        "start_col": 24,
+        "end_line": 20454,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1964507,
+          "end": 1964522
+        },
+        "start_line": 20367,
+        "start_col": 52,
+        "end_line": 20367,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_sim_order_randomness_with_jailbreak.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1983854 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2518592,
+          "end": 2518604
+        },
+        "start_line": 26690,
+        "start_col": 69,
+        "end_line": 26690,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 643198,
+          "end": 643231
+        },
+        "start_line": 7190,
+        "start_col": 52,
+        "end_line": 7190,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164651,
+          "end": 164659
+        },
+        "start_line": 1906,
+        "start_col": 9,
+        "end_line": 1906,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 579968,
+          "end": 579976
+        },
+        "start_line": 6545,
+        "start_col": 65,
+        "end_line": 6545,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581067,
+          "end": 581080
+        },
+        "start_line": 6558,
+        "start_col": 55,
+        "end_line": 6558,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 579968,
+          "end": 579976
+        },
+        "start_line": 6545,
+        "start_col": 65,
+        "end_line": 6545,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164651,
+          "end": 164659
+        },
+        "start_line": 1906,
+        "start_col": 9,
+        "end_line": 1906,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1016199,
+          "end": 1016208
+        },
+        "start_line": 10979,
+        "start_col": 53,
+        "end_line": 10979,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981058,
+          "end": 981064
+        },
+        "start_line": 10627,
+        "start_col": 21,
+        "end_line": 10627,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981058,
+          "end": 981064
+        },
+        "start_line": 10627,
+        "start_col": 21,
+        "end_line": 10627,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1398,
+          "end": 1404
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373234,
+          "end": 373241
+        },
+        "start_line": 4264,
+        "start_col": 49,
+        "end_line": 4264,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373234,
+          "end": 373241
+        },
+        "start_line": 4264,
+        "start_col": 49,
+        "end_line": 4264,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1958736,
+          "end": 1958764
+        },
+        "start_line": 20298,
+        "start_col": 66,
+        "end_line": 20298,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1971897,
+          "end": 1971916
+        },
+        "start_line": 20448,
+        "start_col": 24,
+        "end_line": 20448,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1964377,
+          "end": 1964392
+        },
+        "start_line": 20361,
+        "start_col": 52,
+        "end_line": 20361,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_jailbreak_sim_responds_with_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1917634 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2518592,
+          "end": 2518604
+        },
+        "start_line": 26690,
+        "start_col": 69,
+        "end_line": 26690,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 643198,
+          "end": 643231
+        },
+        "start_line": 7190,
+        "start_col": 52,
+        "end_line": 7190,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164651,
+          "end": 164659
+        },
+        "start_line": 1906,
+        "start_col": 9,
+        "end_line": 1906,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 579968,
+          "end": 579976
+        },
+        "start_line": 6545,
+        "start_col": 65,
+        "end_line": 6545,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581067,
+          "end": 581080
+        },
+        "start_line": 6558,
+        "start_col": 55,
+        "end_line": 6558,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 579968,
+          "end": 579976
+        },
+        "start_line": 6545,
+        "start_col": 65,
+        "end_line": 6545,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 164651,
+          "end": 164659
+        },
+        "start_line": 1906,
+        "start_col": 9,
+        "end_line": 1906,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1016199,
+          "end": 1016208
+        },
+        "start_line": 10979,
+        "start_col": 53,
+        "end_line": 10979,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981058,
+          "end": 981064
+        },
+        "start_line": 10627,
+        "start_col": 21,
+        "end_line": 10627,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 981058,
+          "end": 981064
+        },
+        "start_line": 10627,
+        "start_col": 21,
+        "end_line": 10627,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1398,
+          "end": 1404
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373234,
+          "end": 373241
+        },
+        "start_line": 4264,
+        "start_col": 49,
+        "end_line": 4264,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 373234,
+          "end": 373241
+        },
+        "start_line": 4264,
+        "start_col": 49,
+        "end_line": 4264,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1958736,
+          "end": 1958764
+        },
+        "start_line": 20298,
+        "start_col": 66,
+        "end_line": 20298,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1971897,
+          "end": 1971916
+        },
+        "start_line": 20448,
+        "start_col": 24,
+        "end_line": 20448,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1964377,
+          "end": 1964392
+        },
+        "start_line": 20361,
+        "start_col": 52,
+        "end_line": 20361,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_summarization_sim_responds_with_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1837624 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2520406,
+          "end": 2520418
+        },
+        "start_line": 26742,
+        "start_col": 69,
+        "end_line": 26742,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 645012,
+          "end": 645045
+        },
+        "start_line": 7242,
+        "start_col": 52,
+        "end_line": 7242,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 166465,
+          "end": 166473
+        },
+        "start_line": 1958,
+        "start_col": 9,
+        "end_line": 1958,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581782,
+          "end": 581790
+        },
+        "start_line": 6597,
+        "start_col": 65,
+        "end_line": 6597,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 582881,
+          "end": 582894
+        },
+        "start_line": 6610,
+        "start_col": 55,
+        "end_line": 6610,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581782,
+          "end": 581790
+        },
+        "start_line": 6597,
+        "start_col": 65,
+        "end_line": 6597,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 166465,
+          "end": 166473
+        },
+        "start_line": 1958,
+        "start_col": 9,
+        "end_line": 1958,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1018013,
+          "end": 1018022
+        },
+        "start_line": 11031,
+        "start_col": 53,
+        "end_line": 11031,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 982872,
+          "end": 982878
+        },
+        "start_line": 10679,
+        "start_col": 21,
+        "end_line": 10679,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 982872,
+          "end": 982878
+        },
+        "start_line": 10679,
+        "start_col": 21,
+        "end_line": 10679,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1411,
+          "end": 1417
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 375048,
+          "end": 375055
+        },
+        "start_line": 4316,
+        "start_col": 49,
+        "end_line": 4316,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 375048,
+          "end": 375055
+        },
+        "start_line": 4316,
+        "start_col": 49,
+        "end_line": 4316,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1960550,
+          "end": 1960578
+        },
+        "start_line": 20350,
+        "start_col": 66,
+        "end_line": 20350,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1973711,
+          "end": 1973730
+        },
+        "start_line": 20500,
+        "start_col": 24,
+        "end_line": 20500,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1966191,
+          "end": 1966206
+        },
+        "start_line": 20413,
+        "start_col": 52,
+        "end_line": 20413,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_adv_xpia_sim_responds_with_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (1918948 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP001",
+      "message": "conflicting instruction: \"apologize if\" contradicts \"do not apologize\" above",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2520406,
+          "end": 2520418
+        },
+        "start_line": 26742,
+        "start_col": 69,
+        "end_line": 26742,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP001"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"trying to convert a concentration from one unit to another\" then \"trying to find the routing number\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 645012,
+          "end": 645045
+        },
+        "start_line": 7242,
+        "start_col": 52,
+        "end_line": 7242,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 166465,
+          "end": 166473
+        },
+        "start_line": 1958,
+        "start_col": 9,
+        "end_line": 1958,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581782,
+          "end": 581790
+        },
+        "start_line": 6597,
+        "start_col": 65,
+        "end_line": 6597,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 582881,
+          "end": 582894
+        },
+        "start_line": 6610,
+        "start_col": 55,
+        "end_line": 6610,
+        "end_col": 68
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 581782,
+          "end": 581790
+        },
+        "start_line": 6597,
+        "start_col": 65,
+        "end_line": 6597,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 166465,
+          "end": 166473
+        },
+        "start_line": 1958,
+        "start_col": 9,
+        "end_line": 1958,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1018013,
+          "end": 1018022
+        },
+        "start_line": 11031,
+        "start_col": 53,
+        "end_line": 11031,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 982872,
+          "end": 982878
+        },
+        "start_line": 10679,
+        "start_col": 21,
+        "end_line": 10679,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"informal\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 982872,
+          "end": 982878
+        },
+        "start_line": 10679,
+        "start_col": 21,
+        "end_line": 10679,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1411,
+          "end": 1417
+        },
+        "start_line": 35,
+        "start_col": 7,
+        "end_line": 35,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"playful\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 375048,
+          "end": 375055
+        },
+        "start_line": 4316,
+        "start_col": 49,
+        "end_line": 4316,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"funny\" vs \"serious\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 375048,
+          "end": 375055
+        },
+        "start_line": 4316,
+        "start_col": 49,
+        "end_line": 4316,
+        "end_col": 56
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore previous instructions\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1960550,
+          "end": 1960578
+        },
+        "start_line": 20350,
+        "start_col": 66,
+        "end_line": 20350,
+        "end_col": 94
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1973711,
+          "end": 1973730
+        },
+        "start_line": 20500,
+        "start_col": 24,
+        "end_line": 20500,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"do anything now\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 1966191,
+          "end": 1966206
+        },
+        "start_line": 20413,
+        "start_col": 52,
+        "end_line": 20413,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_adv_simulator_TestAdvSimulator_test_jailbreak_sim_order_randomness.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11661052 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-evals\\tests\\recordings\\azure\\test_builtin_evaluators_TestBuiltInEvaluators_test_composite_evaluator_content_safety_chat\\False-False.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4106 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_cli_with_azure_TestCliWithAzure_test_basic_flow_run_bulk_without_env.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10982 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_cli_with_azure_TestCliWithAzure_test_cli_telemetry.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5884 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_cli_with_azure_TestCliWithAzure_test_run_file_with_set.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10393 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_cli_with_azure_TestCliWithAzure_test_run_with_remote_data.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (16580 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_automatic_runtime_with_user_identity.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6366 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_auto_resolve_requirements.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (35138 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_basic_evaluation.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (49952 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_basic_evaluation_without_data.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (44896 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_cancel_run.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11032 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_default_run_display_name.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6002 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_download_run.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (40356 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_eager_flow_crud.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5134 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_eager_flow_download.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5516 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_eager_flow_meta_generation.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5972 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_eager_flow_run_without_yaml.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5314 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_failed_run_to_dict_exclude.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (24232 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_flex_flow_run.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5236 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_get_details_against_partial_completed_run.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (37160 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_get_detail_against_partial_fail_run.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (25914 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_input_mapping_with_dict.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (24245 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_requirements_in_additional_includes.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (35254 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_bulk.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6364 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_bulk_from_yaml.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6365 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_bulk_with_registry_flow_automatic_runtime.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4697 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_bulk_with_remote_flow.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7708 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_display_name_with_macro.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6002 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_resume.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (13514 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_resume_token.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (108085 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_resume_with_image_aggregation.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (58136 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_without_dump.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6364 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_with_compute_instance_session.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (19542 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_with_compute_instance_session_yml.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (19761 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_with_connection_overwrite.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6372 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_with_environment_variables.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (25349 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_with_environment_variables_run_yaml.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (24288 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_with_env_overwrite.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6002 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_run_with_remote_data.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11504 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_session_id_with_different_env.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6821 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_show_metrics.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (44228 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_show_run.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (44205 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_show_run_details.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (39014 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_stream_failed_run_logs.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (36916 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_stream_run_logs.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (28124 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_run_operations_TestFlowRun_test_update_run.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (28826 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-recording\\recordings\\azure\\test_telemetry_TestTelemetry_test_inner_function_call.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6002 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/promptflow/src\\promptflow-tools\\CHANGELOG.md",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1571,
+          "end": 1575
+        },
+        "start_line": 52,
+        "start_col": 14,
+        "end_line": 52,
+        "end_col": 18
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    }
+  ],
+  "summary": {
+    "error": 33,
+    "warning": 217,
+    "info": 23
+  }
+}

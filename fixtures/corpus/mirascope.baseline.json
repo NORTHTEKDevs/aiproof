@@ -1,0 +1,960 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/mirascope/python\\scripts\\model_features\\data\\openai.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (13078 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_multi_turn_conversation\\anthropic_beta_claude_sonnet_4_0.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strong and wise\" then \"strong and wise\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 28301,
+          "end": 28316
+        },
+        "start_line": 401,
+        "start_col": 27,
+        "end_line": 401,
+        "end_col": 42
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_multi_turn_conversation\\anthropic_beta_claude_sonnet_4_0.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11686 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_multi_turn_conversation\\anthropic_claude_sonnet_4_0.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strong and wise\" then \"strong and wise\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 27291,
+          "end": 27306
+        },
+        "start_line": 386,
+        "start_col": 27,
+        "end_line": 386,
+        "end_col": 42
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_multi_turn_conversation\\anthropic_claude_sonnet_4_0.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11430 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_multi_turn_conversation\\google_gemini_2_5_flash.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11348 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_multi_turn_conversation\\openai_gpt_4o_completions.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10630 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_multi_turn_conversation\\openai_gpt_4o_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10462 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_system_message\\anthropic_beta_claude_sonnet_4_0.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6872 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_system_message\\anthropic_claude_sonnet_4_0.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6857 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_system_message\\google_gemini_2_5_flash.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6653 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_system_message\\openai_gpt_4o_completions.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6848 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_system_message\\openai_gpt_4o_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6838 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_tool\\anthropic_beta_claude_sonnet_4_0.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6846 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_tool\\anthropic_claude_sonnet_4_0.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6830 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_tool\\google_gemini_2_5_flash.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6702 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_tool\\openai_gpt_4o_completions.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (13682 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_tool\\openai_gpt_4o_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (14301 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_user_message\\anthropic_beta_claude_sonnet_4_0.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6889 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_user_message\\anthropic_claude_sonnet_4_0.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6865 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_user_message\\google_gemini_2_5_flash.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6709 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_user_message\\openai_gpt_4o_completions.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6833 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_caching_user_message\\openai_gpt_4o_responses.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6814 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_call_with_audio\\mlx_community_Qwen3_0_6B_4bit_DWQ_053125.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4077 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\cassettes\\test_web_search_tool_stream\\anthropic_beta_claude_sonnet_4_0.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4633 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\mlx_lm_cassettes\\test_caching_multi_turn_conversation_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (15522 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\mlx_lm_cassettes\\test_caching_system_message_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11729 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\mlx_lm_cassettes\\test_caching_user_message_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6026 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\mlx_lm_cassettes\\test_call_with_empty_string_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5496 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\mlx_lm_cassettes\\test_call_with_params_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7700 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\mlx_lm_cassettes\\test_conversation_caching_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (30560 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\mlx_lm_cassettes\\test_system_message_caching_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (15686 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\input\\mlx_lm_cassettes\\test_user_message_caching_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (22626 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\cassettes\\test_call_with_thinking\\openai_gpt_5_responses\\async_stream.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5481 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_call_async_context_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_call_async_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_call_async_stream_context_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_call_async_stream_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_call_stream_context_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_call_stream_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_call_sync_context_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_call_sync_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_prompt_async_context_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_prompt_async_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_prompt_async_stream_context_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_prompt_async_stream_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_prompt_stream_context_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_prompt_stream_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_prompt_sync_context_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/mirascope/python\\tests\\e2e\\output\\mlx_lm_cassettes\\test_prompt_sync_mlx-community_Qwen3-0.6B-4bit-DWQ-053125_.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10904 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 48,
+    "info": 2
+  }
+}

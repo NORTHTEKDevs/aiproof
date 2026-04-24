@@ -1,0 +1,618 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/AutoGPT/autogpt_platform\\Contributor License Agreement (CLA).md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"legally entitled to grant the above license\" then \"authorized to make the contributions on behalf of that employer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3152,
+          "end": 3215
+        },
+        "start_line": 15,
+        "start_col": 220,
+        "end_line": 15,
+        "end_col": 283
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/autogpt_platform\\frontend\\CONTRIBUTING.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4478 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 27786
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 863,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/autogpt_platform\\frontend\\pnpm-lock.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 360981,
+          "end": 360987
+        },
+        "start_line": 8079,
+        "start_col": 3,
+        "end_line": 8079,
+        "end_col": 9
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/autogpt_platform\\frontend\\pnpm-lock.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (39946 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/autogpt_platform\\LICENSE.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using the software to provide a product that does\" then \"notified in writing that you have\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4298,
+          "end": 4331
+        },
+        "start_line": 120,
+        "start_col": 24,
+        "end_line": 120,
+        "end_col": 57
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/classic\\original_autogpt\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"solely responsible for any decisions and actions taken based on the information provided by autogpt\" then \"responsible for monitoring and managing your own token usage and the associated costs\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9447,
+          "end": 9532
+        },
+        "start_line": 259,
+        "start_col": 155,
+        "end_line": 259,
+        "end_col": 240
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\content\\classic\\configuration\\options.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 675,
+          "end": 679
+        },
+        "start_line": 11,
+        "start_col": 70,
+        "end_line": 11,
+        "end_col": 74
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\content\\classic\\configuration\\options.md",
+      "code": "AIP002",
+      "message": "prompt requests yaml output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 600,
+          "end": 604
+        },
+        "start_line": 10,
+        "start_col": 113,
+        "end_line": 10,
+        "end_col": 117
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\content\\classic\\setup\\index.md",
+      "code": "AIP006",
+      "message": "hardcoded anthropic credential in prompt text",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 7120,
+          "end": 7228
+        },
+        "start_line": 160,
+        "start_col": 23,
+        "end_line": 160,
+        "end_col": 131
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP006"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\ayrshare\\post_to_pinterest.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 3223
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 59,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\ayrshare\\post_to_tiktok.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"in a paid partnership with a brand\" then \"promoting yourself or your own business\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2909,
+          "end": 2948
+        },
+        "start_line": 38,
+        "start_col": 175,
+        "end_line": 38,
+        "end_col": 214
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\basic.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 15751,
+          "end": 15759
+        },
+        "start_line": 354,
+        "start_col": 33,
+        "end_line": 354,
+        "end_col": 41
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\basic.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"verbose\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 25477,
+          "end": 25484
+        },
+        "start_line": 596,
+        "start_col": 99,
+        "end_line": 596,
+        "end_col": 106
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\basic.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 15751,
+          "end": 15759
+        },
+        "start_line": 354,
+        "start_col": 33,
+        "end_line": 354,
+        "end_col": 41
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\basic.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 19644,
+          "end": 19653
+        },
+        "start_line": 449,
+        "start_col": 178,
+        "end_line": 449,
+        "end_col": 187
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\basic.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (15230 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 69096
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1650,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\csv.md",
+      "code": "AIP002",
+      "message": "prompt requests CSV output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7,
+          "end": 10
+        },
+        "start_line": 1,
+        "start_col": 8,
+        "end_line": 1,
+        "end_col": 11
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\exa\\websets.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4605 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 21659
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 485,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\google\\docs.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6173 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 28958
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 759,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\google\\sheets.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (12269 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 56466
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1471,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\llm.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 42686,
+          "end": 42694
+        },
+        "start_line": 506,
+        "start_col": 65,
+        "end_line": 506,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\llm.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 48053,
+          "end": 48066
+        },
+        "start_line": 575,
+        "start_col": 307,
+        "end_line": 575,
+        "end_col": 320
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\llm.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11318 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 63032
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 829,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\misc.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10368 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 47548
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1161,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\text.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4833 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 22501
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 531,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\todoist.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4044 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 17549
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 723,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\twitter\\twitter.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 14293,
+          "end": 14301
+        },
+        "start_line": 377,
+        "start_col": 24,
+        "end_line": 377,
+        "end_col": 32
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\block-integrations\\twitter\\twitter.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (14996 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 70837
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1967,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\README.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11622 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 80317
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 653,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\integrations\\README.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 80317
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 653,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\platform\\download-agent-from-marketplace-local.md",
+      "code": "AIP019",
+      "message": "chain-of-thought prompt without concrete examples — consider adding a worked example",
+      "severity": "info",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 1730
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 41,
+        "end_col": 70
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP019"
+    },
+    {
+      "file": "fixtures/corpus/AutoGPT/docs\\platform\\new_blocks.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4902 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 33986
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 765,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    }
+  ],
+  "summary": {
+    "error": 1,
+    "warning": 24,
+    "info": 7
+  }
+}

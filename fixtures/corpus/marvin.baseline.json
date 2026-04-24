@@ -1,0 +1,29 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/marvin/docs\\README.md",
+      "code": "AIP002",
+      "message": "prompt requests json output without a schema or example",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3160,
+          "end": 3164
+        },
+        "start_line": 59,
+        "start_col": 107,
+        "end_line": 59,
+        "end_col": 111
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP002"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 1,
+    "info": 0
+  }
+}

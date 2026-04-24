@@ -1,0 +1,4684 @@
+{
+  "version": "0.1",
+  "diagnostics": [
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 11625,
+          "end": 11633
+        },
+        "start_line": 267,
+        "start_col": 12,
+        "end_line": 267,
+        "end_col": 20
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 12065,
+          "end": 12073
+        },
+        "start_line": 280,
+        "start_col": 15,
+        "end_line": 280,
+        "end_col": 23
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2920,
+          "end": 2933
+        },
+        "start_line": 67,
+        "start_col": 23,
+        "end_line": 67,
+        "end_col": 36
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"verbose\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 13268,
+          "end": 13275
+        },
+        "start_line": 318,
+        "start_col": 4,
+        "end_line": 318,
+        "end_col": 11
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 34073,
+          "end": 34082
+        },
+        "start_line": 776,
+        "start_col": 25,
+        "end_line": 776,
+        "end_col": 34
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\README.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5268 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 34428
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 781,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\src\\crewai\\cli\\templates\\AGENTS.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5006 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 32927
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1018,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\src\\crewai\\cli\\templates\\crew\\config\\agents.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 438,
+          "end": 446
+        },
+        "start_line": 15,
+        "start_col": 12,
+        "end_line": 15,
+        "end_col": 20
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestAgentExecutorPlanning.test_agent_kickoff_with_planning_stores_plan_in_state.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"math assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6589,
+          "end": 6603
+        },
+        "start_line": 136,
+        "start_col": 61,
+        "end_line": 136,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestAgentExecutorPlanning.test_executor_state_contains_plan_after_planning.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"math assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6613,
+          "end": 6627
+        },
+        "start_line": 136,
+        "start_col": 61,
+        "end_line": 136,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestAgentExecutorPlanning.test_planning_creates_minimal_steps_for_multi_step_task.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"math tutor\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7045,
+          "end": 7055
+        },
+        "start_line": 140,
+        "start_col": 61,
+        "end_line": 140,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestAgentExecutorPlanning.test_planning_creates_minimal_steps_for_multi_step_task.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7425 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestAgentExecutorPlanning.test_planning_handles_sequential_dependency_task.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"unit converter\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6928,
+          "end": 6942
+        },
+        "start_line": 138,
+        "start_col": 61,
+        "end_line": 138,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestAgentExecutorPlanning.test_planning_handles_sequential_dependency_task.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6122 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestBedrockNativeToolCalling.test_bedrock_agent_kickoff_with_tools_mocked.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 19901,
+          "end": 19920
+        },
+        "start_line": 349,
+        "start_col": 43,
+        "end_line": 349,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestGeminiNativeToolCalling.test_gemini_agent_with_native_tool_calling.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"math assistant\" then \"helpful math assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 407,
+          "end": 429
+        },
+        "start_line": 7,
+        "start_col": 42,
+        "end_line": 7,
+        "end_col": 64
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestReasoningEffort.test_reasoning_effort_high_runs_full_observation_pipeline.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning\" then \"math tutor\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6580,
+          "end": 6590
+        },
+        "start_line": 134,
+        "start_col": 70,
+        "end_line": 134,
+        "end_col": 80
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestReasoningEffort.test_reasoning_effort_high_runs_full_observation_pipeline.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5072 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestReasoningEffort.test_reasoning_effort_low_skips_decide_and_replan.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"math tutor\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9195,
+          "end": 9205
+        },
+        "start_line": 211,
+        "start_col": 61,
+        "end_line": 211,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestReasoningEffort.test_reasoning_effort_low_skips_decide_and_replan.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4116 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestResponseFormatWithKickoff.test_kickoff_response_format_with_planning_and_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"research analyst\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9267,
+          "end": 9283
+        },
+        "start_line": 210,
+        "start_col": 61,
+        "end_line": 210,
+        "end_col": 77
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestResponseFormatWithKickoff.test_kickoff_response_format_with_planning_and_tools.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 58428,
+          "end": 58436
+        },
+        "start_line": 821,
+        "start_col": 36,
+        "end_line": 821,
+        "end_col": 44
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestResponseFormatWithKickoff.test_kickoff_response_format_with_planning_and_tools.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 78008,
+          "end": 78017
+        },
+        "start_line": 1033,
+        "start_col": 18,
+        "end_line": 1033,
+        "end_col": 27
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\TestResponseFormatWithKickoff.test_kickoff_response_format_with_planning_and_tools.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (125993 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_error_on_parsing_tool.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 8314,
+          "end": 8333
+        },
+        "start_line": 104,
+        "start_col": 308,
+        "end_line": 104,
+        "end_col": 327
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_execute_task_with_planning.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"math assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5140,
+          "end": 5154
+        },
+        "start_line": 123,
+        "start_col": 61,
+        "end_line": 123,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_execute_task_with_planning_refine.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"math tutor\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5328,
+          "end": 5338
+        },
+        "start_line": 126,
+        "start_col": 61,
+        "end_line": 126,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_kickoff_multi_step_task_with_planning.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"math tutor\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6997,
+          "end": 7007
+        },
+        "start_line": 140,
+        "start_col": 61,
+        "end_line": 140,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_kickoff_multi_step_task_with_planning.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7454 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_kickoff_with_planning.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"math assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6600,
+          "end": 6614
+        },
+        "start_line": 136,
+        "start_col": 61,
+        "end_line": 136,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_max_iterations_stops_loop.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 15618,
+          "end": 15637
+        },
+        "start_line": 204,
+        "start_col": 250,
+        "end_line": 204,
+        "end_col": 269
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_respect_the_max_rpm_set_over_crew_rpm.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 26514,
+          "end": 26533
+        },
+        "start_line": 400,
+        "start_col": 798,
+        "end_line": 400,
+        "end_col": 817
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_step_callback.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2725,
+          "end": 2738
+        },
+        "start_line": 44,
+        "start_col": 399,
+        "end_line": 44,
+        "end_col": 412
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_step_callback.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4880 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_without_max_rpm_respects_crew_rpm.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test role\" then \"told otherwise\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4533,
+          "end": 4547
+        },
+        "start_line": 121,
+        "start_col": 43,
+        "end_line": 121,
+        "end_col": 57
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_without_max_rpm_respet_crew_rpm.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test role\" then \"told otherwise\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4953,
+          "end": 4967
+        },
+        "start_line": 118,
+        "start_col": 66,
+        "end_line": 118,
+        "end_col": 80
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_agent_without_max_rpm_respet_crew_rpm.yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 10581,
+          "end": 10600
+        },
+        "start_line": 242,
+        "start_col": 53,
+        "end_line": 242,
+        "end_col": 72
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_disabling_cache_for_agent.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5181 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_do_not_allow_crewai_trigger_context_for_first_task_hierarchical.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"seasoned manager with a knack for getting the best out of your team\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 111,
+          "end": 178
+        },
+        "start_line": 3,
+        "start_col": 85,
+        "end_line": 3,
+        "end_col": 152
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_do_not_allow_crewai_trigger_context_for_first_task_hierarchical.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5061,
+          "end": 5069
+        },
+        "start_line": 46,
+        "start_col": 133,
+        "end_line": 46,
+        "end_col": 141
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_ensure_first_task_allow_crewai_trigger_context_is_false_does_not_inject.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"first agent\" then \"second agent\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4824,
+          "end": 4836
+        },
+        "start_line": 100,
+        "start_col": 61,
+        "end_line": 100,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_first_task_auto_inject_trigger.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"first agent\" then \"second agent\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 5946,
+          "end": 5958
+        },
+        "start_line": 101,
+        "start_col": 61,
+        "end_line": 101,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_guardrail_reached_attempt_limit.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5053 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_lite_agent_created_with_correct_parameters[True].yaml",
+      "code": "AIP008",
+      "message": "known jailbreak/injection pattern: \"ignore all previous\"",
+      "severity": "error",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 82683,
+          "end": 82702
+        },
+        "start_line": 1646,
+        "start_col": 7,
+        "end_line": 1646,
+        "end_col": 26
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP008"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_lite_agent_created_with_correct_parameters[True].yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (13652 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_lite_agent_output_includes_messages.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"research assistant\" then \"helpful research assistant who can search for information about the population of tokyo\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 117,
+          "end": 204
+        },
+        "start_line": 3,
+        "start_col": 91,
+        "end_line": 3,
+        "end_col": 178
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_lite_agent_returns_usage_metrics.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"research assistant\" then \"helpful research assistant who can search for information about the\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 128,
+          "end": 195
+        },
+        "start_line": 4,
+        "start_col": 17,
+        "end_line": 4,
+        "end_col": 84
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_multiple_agents_in_same_flow.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"first agent\" then \"first agent\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3711,
+          "end": 3722
+        },
+        "start_line": 110,
+        "start_col": 61,
+        "end_line": 110,
+        "end_col": 72
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\agents\\test_multiple_agents_in_same_flow.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2513,
+          "end": 2519
+        },
+        "start_line": 68,
+        "start_col": 7,
+        "end_line": 68,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\events\\TestFlowWithMultipleCrewsEventOrdering.test_second_crew_after_first.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"first\" then \"second\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4384,
+          "end": 4390
+        },
+        "start_line": 119,
+        "start_col": 61,
+        "end_line": 119,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\events\\TestFlowWithMultipleCrewsEventOrdering.test_tasks_have_correct_crew_parents.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"alpha\" then \"alpha\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 102,
+          "end": 107
+        },
+        "start_line": 3,
+        "start_col": 76,
+        "end_line": 3,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\events\\TestFlowWithMultipleCrewsEventOrdering.test_two_crews_have_different_ids.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"first\" then \"second\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4384,
+          "end": 4390
+        },
+        "start_line": 119,
+        "start_col": 61,
+        "end_line": 119,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\experimental\\evaluation\\TestAgentEvaluator.test_evaluate_current_iteration.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test agent\" then \"expert evaluator\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 158058,
+          "end": 158074
+        },
+        "start_line": 242,
+        "start_col": 68,
+        "end_line": 242,
+        "end_col": 84
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\experimental\\evaluation\\TestAgentEvaluator.test_evaluate_current_iteration.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5736 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\experimental\\evaluation\\TestAgentEvaluator.test_eval_specific_agents_from_crew.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test agent\" then \"test agent eval\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 162567,
+          "end": 162582
+        },
+        "start_line": 283,
+        "start_col": 65,
+        "end_line": 283,
+        "end_col": 80
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\hooks\\TestNativeToolCallingHooksIntegration.test_agent_native_tool_hooks_before_and_after.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"calculator\" then \"a\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2627,
+          "end": 2628
+        },
+        "start_line": 77,
+        "start_col": 81,
+        "end_line": 77,
+        "end_col": 82
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\hooks\\TestNativeToolCallingHooksIntegration.test_before_hook_blocks_tool_execution_in_crew.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test agent\" then \"a\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 107,
+          "end": 108
+        },
+        "start_line": 3,
+        "start_col": 81,
+        "end_line": 3,
+        "end_col": 82
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\knowledge\\test_docling_source.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 103072,
+          "end": 103080
+        },
+        "start_line": 1153,
+        "start_col": 76,
+        "end_line": 1153,
+        "end_col": 84
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\knowledge\\test_docling_source.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (23833 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\knowledge\\test_multiple_docling_sources.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"not allowed to marry your first cousin in california\" then \"not allowed\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 236665,
+          "end": 236676
+        },
+        "start_line": 2637,
+        "start_col": 74,
+        "end_line": 2637,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\knowledge\\test_multiple_docling_sources.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 103072,
+          "end": 103080
+        },
+        "start_line": 1153,
+        "start_col": 76,
+        "end_line": 1153,
+        "end_col": 84
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\knowledge\\test_multiple_docling_sources.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (40198 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\anthropic\\test_anthropic_tool_execution_with_available_functions.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4156,
+          "end": 4162
+        },
+        "start_line": 101,
+        "start_col": 7,
+        "end_line": 101,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\azure\\test_azure_agent_kickoff_structured_output_without_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"analyst\" then \"an\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 108,
+          "end": 110
+        },
+        "start_line": 3,
+        "start_col": 82,
+        "end_line": 3,
+        "end_col": 84
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\azure\\test_azure_async_streaming_returns_usage_metrics.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"research assistant\" then \"helpful research assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 128,
+          "end": 154
+        },
+        "start_line": 4,
+        "start_col": 17,
+        "end_line": 4,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\azure\\test_azure_streaming_returns_usage_metrics.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"research assistant\" then \"helpful research assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 128,
+          "end": 154
+        },
+        "start_line": 4,
+        "start_col": 17,
+        "end_line": 4,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\bedrock\\test_bedrock_agent_kickoff_structured_output_without_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"analyst\" then \"expert analyst who provides clear\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 338,
+          "end": 371
+        },
+        "start_line": 6,
+        "start_col": 46,
+        "end_line": 6,
+        "end_col": 79
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\bedrock\\test_bedrock_agent_kickoff_structured_output_with_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"calculator\" then \"calculator assistant that uses tools to compute results\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 309,
+          "end": 364
+        },
+        "start_line": 6,
+        "start_col": 17,
+        "end_line": 6,
+        "end_col": 72
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\google\\test_gemini_agent_kickoff_structured_output_without_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"analyst\" then \"expert analyst who provides clear\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 299,
+          "end": 332
+        },
+        "start_line": 6,
+        "start_col": 18,
+        "end_line": 6,
+        "end_col": 51
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\google\\test_gemini_agent_kickoff_structured_output_with_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"calculator\" then \"calculator assistant that\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 263,
+          "end": 288
+        },
+        "start_line": 5,
+        "start_col": 58,
+        "end_line": 5,
+        "end_col": 83
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\google\\test_gemini_crew_structured_output_with_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"calculator\" then \"calculator assistant that uses tools to compute\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1600,
+          "end": 1647
+        },
+        "start_line": 20,
+        "start_col": 38,
+        "end_line": 20,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\google\\test_gemini_tool_returning_float.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"calculator\" then \"calculator that adds numbers\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 507,
+          "end": 535
+        },
+        "start_line": 8,
+        "start_col": 48,
+        "end_line": 8,
+        "end_col": 76
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\google\\test_google_async_streaming_returns_usage_metrics.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"research assistant\" then \"helpful research assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 557,
+          "end": 583
+        },
+        "start_line": 9,
+        "start_col": 17,
+        "end_line": 9,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\google\\test_google_express_mode_works.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"research assistant\" then \"helpful research assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 555,
+          "end": 581
+        },
+        "start_line": 9,
+        "start_col": 17,
+        "end_line": 9,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\google\\test_google_streaming_returns_usage_metrics.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"research assistant\" then \"helpful research assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 555,
+          "end": 581
+        },
+        "start_line": 9,
+        "start_col": 17,
+        "end_line": 9,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\openai\\test_openai_agent_kickoff_structured_output_without_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"analyst\" then \"expert\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 107,
+          "end": 113
+        },
+        "start_line": 3,
+        "start_col": 81,
+        "end_line": 3,
+        "end_col": 87
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\openai\\test_openai_agent_kickoff_structured_output_with_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"calculator\" then \"a\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 107,
+          "end": 108
+        },
+        "start_line": 3,
+        "start_col": 81,
+        "end_line": 3,
+        "end_col": 82
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\openai\\test_openai_completion_call_returns_usage_metrics.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"research assistant\" then \"helpful research assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 121,
+          "end": 147
+        },
+        "start_line": 3,
+        "start_col": 95,
+        "end_line": 3,
+        "end_col": 121
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\openai\\test_openai_is_default_provider_without_explicit_llm_set_on_agent.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"research assistant\" then \"research assistant\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2496,
+          "end": 2514
+        },
+        "start_line": 71,
+        "start_col": 61,
+        "end_line": 71,
+        "end_col": 79
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\openai\\test_openai_responses_api_cached_prompt_tokens.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6325 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\llms\\openai\\test_openai_responses_api_cached_prompt_tokens_with_tools.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6457 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\rag\\embeddings\\test_crew_memory_with_google_vertex_embedder.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (53564 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\rag\\embeddings\\test_crew_memory_with_google_vertex_project_id.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (35224 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\telemetry\\test_crew_execution_span_assigned_on_kickoff.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2983,
+          "end": 2989
+        },
+        "start_line": 57,
+        "start_col": 7,
+        "end_line": 57,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\telemetry\\test_crew_execution_span_assigned_on_kickoff_async.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2983,
+          "end": 2989
+        },
+        "start_line": 57,
+        "start_col": 7,
+        "end_line": 57,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\telemetry\\test_crew_execution_span_assigned_on_kickoff_for_each.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 22946,
+          "end": 22952
+        },
+        "start_line": 318,
+        "start_col": 7,
+        "end_line": 318,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\telemetry\\test_crew_execution_span_assigned_on_kickoff_for_each.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7357 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\telemetry\\test_crew_execution_span_not_set_when_share_crew_false.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2983,
+          "end": 2989
+        },
+        "start_line": 57,
+        "start_col": 7,
+        "end_line": 57,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\telemetry\\test_end_crew_receives_valid_execution_span.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2983,
+          "end": 2989
+        },
+        "start_line": 57,
+        "start_col": 7,
+        "end_line": 57,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\TestCrewMultimodalFileUpload.test_pdf_upload_anthropic.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1297820,
+          "end": 1297833
+        },
+        "start_line": 139,
+        "start_col": 82,
+        "end_line": 139,
+        "end_col": 95
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\TestCrewMultimodalGemini.test_image_file[gemini-gemini-1.5-flash].yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"file analyst\" then \"file analyst\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 115130,
+          "end": 115142
+        },
+        "start_line": 87,
+        "start_col": 26,
+        "end_line": 87,
+        "end_col": 38
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\TestFlowMultimodalMultiStep.test_flow_with_multiple_crews.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"file analyst\" then \"summarizer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 42083,
+          "end": 42093
+        },
+        "start_line": 130,
+        "start_col": 61,
+        "end_line": 130,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\TestStreamingCrewIntegration.test_kickoff_for_each_streaming_from_docs.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5033 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\TestStreamingCrewIntegration.test_streaming_with_chunk_context_from_docs.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 115789,
+          "end": 115797
+        },
+        "start_line": 554,
+        "start_col": 9,
+        "end_line": 554,
+        "end_col": 17
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\TestStreamingCrewIntegration.test_streaming_with_chunk_context_from_docs.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 238020,
+          "end": 238026
+        },
+        "start_line": 1128,
+        "start_col": 7,
+        "end_line": 1128,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_after_crew_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 12629,
+          "end": 12637
+        },
+        "start_line": 196,
+        "start_col": 343,
+        "end_line": 196,
+        "end_col": 351
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_after_crew_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4179,
+          "end": 4187
+        },
+        "start_line": 67,
+        "start_col": 714,
+        "end_line": 67,
+        "end_col": 722
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_after_kickoff_modification.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"guardrail agent\" then \"expert at validating the output of a task\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 12799,
+          "end": 12840
+        },
+        "start_line": 168,
+        "start_col": 88,
+        "end_line": 168,
+        "end_col": 129
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_after_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 54016,
+          "end": 54024
+        },
+        "start_line": 666,
+        "start_col": 345,
+        "end_line": 666,
+        "end_col": 353
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_after_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6006,
+          "end": 6014
+        },
+        "start_line": 69,
+        "start_col": 728,
+        "end_line": 69,
+        "end_col": 736
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_after_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 60853,
+          "end": 60866
+        },
+        "start_line": 709,
+        "start_col": 370,
+        "end_line": 709,
+        "end_col": 383
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_after_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4771,
+          "end": 4777
+        },
+        "start_line": 48,
+        "start_col": 9,
+        "end_line": 48,
+        "end_col": 15
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_after_kickoff_modification.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10516 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_agent_usage_metrics_are_captured_for_hierarchical_process.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"researcher\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6611,
+          "end": 6621
+        },
+        "start_line": 140,
+        "start_col": 61,
+        "end_line": 140,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_crew_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 12379,
+          "end": 12387
+        },
+        "start_line": 196,
+        "start_col": 349,
+        "end_line": 196,
+        "end_col": 357
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_crew_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 752,
+          "end": 760
+        },
+        "start_line": 3,
+        "start_col": 726,
+        "end_line": 3,
+        "end_col": 734
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_crew_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 17719,
+          "end": 17732
+        },
+        "start_line": 240,
+        "start_col": 365,
+        "end_line": 240,
+        "end_col": 378
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_crew_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6938,
+          "end": 6944
+        },
+        "start_line": 76,
+        "start_col": 7,
+        "end_line": 76,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_crew_with_none_input.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6277,
+          "end": 6285
+        },
+        "start_line": 108,
+        "start_col": 460,
+        "end_line": 108,
+        "end_col": 468
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_crew_with_none_input.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4188,
+          "end": 4196
+        },
+        "start_line": 67,
+        "start_col": 723,
+        "end_line": 67,
+        "end_col": 731
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_crew_with_none_input.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6337,
+          "end": 6350
+        },
+        "start_line": 108,
+        "start_col": 520,
+        "end_line": 108,
+        "end_col": 533
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_modification.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"guardrail agent\" then \"expert at validating the output of a task\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7954,
+          "end": 7995
+        },
+        "start_line": 103,
+        "start_col": 88,
+        "end_line": 103,
+        "end_col": 129
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 32558,
+          "end": 32566
+        },
+        "start_line": 349,
+        "start_col": 618,
+        "end_line": 349,
+        "end_col": 626
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 754,
+          "end": 762
+        },
+        "start_line": 3,
+        "start_col": 728,
+        "end_line": 3,
+        "end_col": 736
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 29059,
+          "end": 29072
+        },
+        "start_line": 346,
+        "start_col": 147,
+        "end_line": 346,
+        "end_col": 160
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 754,
+          "end": 762
+        },
+        "start_line": 3,
+        "start_col": 728,
+        "end_line": 3,
+        "end_col": 736
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 32558,
+          "end": 32566
+        },
+        "start_line": 349,
+        "start_col": 618,
+        "end_line": 349,
+        "end_col": 626
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_modification.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6822,
+          "end": 6828
+        },
+        "start_line": 61,
+        "start_col": 7,
+        "end_line": 61,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_modification.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (9873 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_with_none_input.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"guardrail agent\" then \"expert at validating the output of a task\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7718,
+          "end": 7759
+        },
+        "start_line": 102,
+        "start_col": 88,
+        "end_line": 102,
+        "end_col": 129
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_with_none_input.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 51234,
+          "end": 51242
+        },
+        "start_line": 602,
+        "start_col": 344,
+        "end_line": 602,
+        "end_col": 352
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_with_none_input.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 751,
+          "end": 759
+        },
+        "start_line": 3,
+        "start_col": 725,
+        "end_line": 3,
+        "end_col": 733
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_with_none_input.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 58921,
+          "end": 58934
+        },
+        "start_line": 646,
+        "start_col": 417,
+        "end_line": 646,
+        "end_col": 430
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_before_kickoff_with_none_input.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10020 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_cache_hitting_between_agents.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"ceo\" then \"ceo\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6571,
+          "end": 6574
+        },
+        "start_line": 137,
+        "start_col": 61,
+        "end_line": 137,
+        "end_col": 64
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_conditional_task_last_task_when_conditional_is_true.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"researcher\" then \"senior writer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 12403,
+          "end": 12416
+        },
+        "start_line": 230,
+        "start_col": 65,
+        "end_line": 230,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_creation.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"researcher\" then \"senior writer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 14426,
+          "end": 14439
+        },
+        "start_line": 275,
+        "start_col": 65,
+        "end_line": 275,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_function_calling_llm.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"greeter\" then \"friendly\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 106,
+          "end": 114
+        },
+        "start_line": 3,
+        "start_col": 80,
+        "end_line": 3,
+        "end_col": 88
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_function_calling_llm.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3240,
+          "end": 3246
+        },
+        "start_line": 77,
+        "start_col": 7,
+        "end_line": 77,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_kickoff_streaming_usage_metrics.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"dog researcher\" then \"cat researcher\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 399871,
+          "end": 399885
+        },
+        "start_line": 1686,
+        "start_col": 65,
+        "end_line": 1686,
+        "end_col": 79
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_kickoff_streaming_usage_metrics.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (11724 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_kickoff_usage_metrics.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"dog researcher\" then \"cat researcher\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4001,
+          "end": 4015
+        },
+        "start_line": 113,
+        "start_col": 61,
+        "end_line": 113,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_testing_function.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"researcher\" then \"task execution\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9306,
+          "end": 9320
+        },
+        "start_line": 173,
+        "start_col": 70,
+        "end_line": 173,
+        "end_col": 84
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_testing_function.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6418 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_train_success.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (26174 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_verbose_output.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"researcher\" then \"senior writer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 15370,
+          "end": 15383
+        },
+        "start_line": 285,
+        "start_col": 65,
+        "end_line": 285,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_verbose_output.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7560 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_with_delegating_agents.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"ceo\" then \"senior writer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6907,
+          "end": 6920
+        },
+        "start_line": 140,
+        "start_col": 61,
+        "end_line": 140,
+        "end_col": 74
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_with_delegating_agents_should_not_override_task_tools.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"ceo\" then \"senior writer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 10614,
+          "end": 10627
+        },
+        "start_line": 210,
+        "start_col": 65,
+        "end_line": 210,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_with_delegating_agents_should_not_override_task_tools.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4649 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_crew_with_failing_task_guardrails.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6685 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_custom_llm_within_crew.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"helpful assistant\" then \"say hi\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 190,
+          "end": 196
+        },
+        "start_line": 4,
+        "start_col": 75,
+        "end_line": 4,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_guardrail_emits_events.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test agent\" then \"guardrail agent\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4929,
+          "end": 4944
+        },
+        "start_line": 123,
+        "start_col": 70,
+        "end_line": 123,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_crew_creation_tasks_with_agents.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"senior writer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 10611,
+          "end": 10624
+        },
+        "start_line": 207,
+        "start_col": 65,
+        "end_line": 207,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_crew_creation_tasks_with_async_execution.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"senior writer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 11298,
+          "end": 11311
+        },
+        "start_line": 215,
+        "start_col": 65,
+        "end_line": 215,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_crew_creation_tasks_with_async_execution.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 8989,
+          "end": 8997
+        },
+        "start_line": 156,
+        "start_col": 21,
+        "end_line": 156,
+        "end_col": 29
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_crew_creation_tasks_with_sync_last.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"senior writer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6961,
+          "end": 6974
+        },
+        "start_line": 141,
+        "start_col": 65,
+        "end_line": 141,
+        "end_col": 78
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_crew_creation_tasks_with_sync_last.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (9784 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_process.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"senior writer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 8182,
+          "end": 8195
+        },
+        "start_line": 156,
+        "start_col": 61,
+        "end_line": 156,
+        "end_col": 74
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_process.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (8572 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_verbose_false_manager_agent.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"researcher\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7985,
+          "end": 7995
+        },
+        "start_line": 153,
+        "start_col": 61,
+        "end_line": 153,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_verbose_false_manager_agent.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5530 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_verbose_manager_agent.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"researcher\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7987,
+          "end": 7997
+        },
+        "start_line": 153,
+        "start_col": 61,
+        "end_line": 153,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_hierarchical_verbose_manager_agent.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5350 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_increment_delegations_for_hierarchical_process.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"scorer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7142,
+          "end": 7148
+        },
+        "start_line": 146,
+        "start_col": 61,
+        "end_line": 146,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_increment_delegations_for_sequential_process.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"manager\" then \"scorer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6650,
+          "end": 6656
+        },
+        "start_line": 140,
+        "start_col": 61,
+        "end_line": 140,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_increment_tool_errors.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"scorer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7801,
+          "end": 7807
+        },
+        "start_line": 153,
+        "start_col": 61,
+        "end_line": 153,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_kickoff_for_each_multiple_inputs.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"dog researcher\" then \"dog researcher\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 8199,
+          "end": 8213
+        },
+        "start_line": 167,
+        "start_col": 363,
+        "end_line": 167,
+        "end_col": 377
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_kickoff_for_each_multiple_inputs.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2047,
+          "end": 2053
+        },
+        "start_line": 49,
+        "start_col": 7,
+        "end_line": 49,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_litellm_auth_error_handling.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2005,
+          "end": 2013
+        },
+        "start_line": 39,
+        "start_col": 380,
+        "end_line": 39,
+        "end_col": 388
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_manager_agent_delegating_to_all_agents.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"researcher\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 10734,
+          "end": 10744
+        },
+        "start_line": 209,
+        "start_col": 65,
+        "end_line": 209,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_manager_agent_delegating_to_all_agents.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (8782 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_manager_agent_delegating_to_assigned_task_agent.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"researcher\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 10844,
+          "end": 10854
+        },
+        "start_line": 210,
+        "start_col": 65,
+        "end_line": 210,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_manager_agent_delegating_to_assigned_task_agent.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 10259,
+          "end": 10265
+        },
+        "start_line": 190,
+        "start_col": 7,
+        "end_line": 190,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_manager_agent_delegating_to_assigned_task_agent.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (18992 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_memory_enabled_creates_unified_memory.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (8030 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_memory_events_are_emitted.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7937 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_memory_remember_called_after_task.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9908,
+          "end": 9914
+        },
+        "start_line": 62,
+        "start_col": 7,
+        "end_line": 62,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_memory_remember_called_after_task.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5614 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_memory_remember_receives_task_content.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (13748 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_multiple_before_after_crew.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 21688,
+          "end": 21696
+        },
+        "start_line": 307,
+        "start_col": 347,
+        "end_line": 307,
+        "end_col": 355
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_multiple_before_after_crew.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 13465,
+          "end": 13473
+        },
+        "start_line": 177,
+        "start_col": 720,
+        "end_line": 177,
+        "end_col": 728
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_multiple_before_after_crew.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 19684,
+          "end": 19690
+        },
+        "start_line": 251,
+        "start_col": 7,
+        "end_line": 251,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_multiple_before_after_kickoff.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"guardrail agent\" then \"expert at validating the output of a task\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 8242,
+          "end": 8283
+        },
+        "start_line": 162,
+        "start_col": 17,
+        "end_line": 162,
+        "end_col": 58
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_multiple_before_after_kickoff.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 62138,
+          "end": 62146
+        },
+        "start_line": 1097,
+        "start_col": 23,
+        "end_line": 1097,
+        "end_col": 31
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_multiple_before_after_kickoff.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 479,
+          "end": 487
+        },
+        "start_line": 8,
+        "start_col": 17,
+        "end_line": 8,
+        "end_col": 25
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_multiple_before_after_kickoff.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 68079,
+          "end": 68092
+        },
+        "start_line": 1193,
+        "start_col": 50,
+        "end_line": 1193,
+        "end_col": 63
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_multiple_before_after_kickoff.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7000,
+          "end": 7006
+        },
+        "start_line": 119,
+        "start_col": 7,
+        "end_line": 119,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_multiple_before_after_kickoff.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10960 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_output_json_dict_hierarchical.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"scorer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7424,
+          "end": 7430
+        },
+        "start_line": 149,
+        "start_col": 61,
+        "end_line": 149,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_output_json_hierarchical.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"scorer\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7687,
+          "end": 7693
+        },
+        "start_line": 152,
+        "start_col": 61,
+        "end_line": 152,
+        "end_col": 67
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_output_pydantic_hierarchical.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"crew manager\" then \"crew manager\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 8081,
+          "end": 8093
+        },
+        "start_line": 152,
+        "start_col": 61,
+        "end_line": 152,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_sequential_async_task_execution_completion.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"researcher\" then \"researcher\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7607,
+          "end": 7617
+        },
+        "start_line": 149,
+        "start_col": 65,
+        "end_line": 149,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_sequential_async_task_execution_completion.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4533 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_task_guardrail_process_output.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"guardrail agent\" then \"expert at validating the output of a task\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 130,
+          "end": 171
+        },
+        "start_line": 4,
+        "start_col": 17,
+        "end_line": 4,
+        "end_col": 58
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_task_output_includes_messages.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4090 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_tools_with_custom_caching.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4068 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_using_memory.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"researcher\" then \"holding\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 25997,
+          "end": 26004
+        },
+        "start_line": 359,
+        "start_col": 77,
+        "end_line": 359,
+        "end_col": 84
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_using_memory.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 96487,
+          "end": 96495
+        },
+        "start_line": 1135,
+        "start_col": 63,
+        "end_line": 1135,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_using_memory.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 96551,
+          "end": 96559
+        },
+        "start_line": 1136,
+        "start_col": 41,
+        "end_line": 1136,
+        "end_col": 49
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_using_memory.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9847,
+          "end": 9853
+        },
+        "start_line": 186,
+        "start_col": 7,
+        "end_line": 186,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_using_memory.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7533 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_using_memory_recall_and_save.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7777 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\test_using_memory_with_remember.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"friendly\" vs \"strict\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 9561,
+          "end": 9567
+        },
+        "start_line": 187,
+        "start_col": 7,
+        "end_line": 187,
+        "end_col": 13
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\tracing\\TestTraceEnableDisable.test_trace_calls_when_enabled_via_tracing_true.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test agent\" then \"test agent\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 10959,
+          "end": 10969
+        },
+        "start_line": 173,
+        "start_col": 183,
+        "end_line": 173,
+        "end_col": 193
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\tracing\\TestTraceListenerSetup.test_batch_manager_finalizes_batch_clears_buffer.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test agent\" then \"test agent\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4512,
+          "end": 4522
+        },
+        "start_line": 103,
+        "start_col": 65,
+        "end_line": 103,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\tracing\\TestTraceListenerSetup.test_events_collection_batch_manager.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test agent\" then \"test agent\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4512,
+          "end": 4522
+        },
+        "start_line": 103,
+        "start_col": 65,
+        "end_line": 103,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\tracing\\TestTraceListenerSetup.test_trace_listener_disabled_when_env_false.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"test agent\" then \"test agent\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 4693,
+          "end": 4703
+        },
+        "start_line": 104,
+        "start_col": 65,
+        "end_line": 104,
+        "end_col": 75
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestAgentExecuteTaskCompaction.test_agent_execute_task_compaction.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"writer\" then \"skilled\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 105,
+          "end": 112
+        },
+        "start_line": 3,
+        "start_col": 79,
+        "end_line": 3,
+        "end_col": 86
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestAnthropicStructuredPlanning.test_anthropic_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 16121,
+          "end": 16129
+        },
+        "start_line": 286,
+        "start_col": 15,
+        "end_line": 286,
+        "end_col": 23
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestAnthropicStructuredPlanning.test_anthropic_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 318,
+          "end": 326
+        },
+        "start_line": 6,
+        "start_col": 36,
+        "end_line": 6,
+        "end_col": 44
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestAnthropicStructuredPlanning.test_anthropic_research_workflow_generates_steps.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (8476 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestAzureStructuredPlanning.test_azure_research_workflow_generates_steps.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning\" then \"research analyst\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6530,
+          "end": 6546
+        },
+        "start_line": 108,
+        "start_col": 65,
+        "end_line": 108,
+        "end_col": 81
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestAzureStructuredPlanning.test_azure_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 6702,
+          "end": 6710
+        },
+        "start_line": 110,
+        "start_col": 65,
+        "end_line": 110,
+        "end_col": 73
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestAzureStructuredPlanning.test_azure_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 465,
+          "end": 473
+        },
+        "start_line": 8,
+        "start_col": 7,
+        "end_line": 8,
+        "end_col": 15
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestCrewKickoffCompaction.test_crew_kickoff_compaction_openai.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"researcher\" then \"an\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 107,
+          "end": 109
+        },
+        "start_line": 3,
+        "start_col": 81,
+        "end_line": 3,
+        "end_col": 83
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestCrewKickoffCompaction.test_crew_kickoff_compaction_openai.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2490,
+          "end": 2499
+        },
+        "start_line": 59,
+        "start_col": 34,
+        "end_line": 59,
+        "end_col": 43
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestGeminiStructuredPlanning.test_gemini_research_workflow_generates_steps.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"research analyst\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 8415,
+          "end": 8431
+        },
+        "start_line": 118,
+        "start_col": 16,
+        "end_line": 118,
+        "end_col": 32
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestGeminiStructuredPlanning.test_gemini_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 8587,
+          "end": 8595
+        },
+        "start_line": 120,
+        "start_col": 15,
+        "end_line": 120,
+        "end_col": 23
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestGeminiStructuredPlanning.test_gemini_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 296,
+          "end": 304
+        },
+        "start_line": 6,
+        "start_col": 7,
+        "end_line": 6,
+        "end_col": 15
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestGeminiStructuredPlanning.test_gemini_research_workflow_generates_steps.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (4096 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestOpenAIStructuredPlanning.test_openai_research_workflow_generates_steps.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"strategic planning assistant\" then \"research analyst\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7404,
+          "end": 7420
+        },
+        "start_line": 142,
+        "start_col": 61,
+        "end_line": 142,
+        "end_col": 77
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestOpenAIStructuredPlanning.test_openai_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 450,
+          "end": 458
+        },
+        "start_line": 7,
+        "start_col": 40,
+        "end_line": 7,
+        "end_col": 48
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestOpenAIStructuredPlanning.test_openai_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7576,
+          "end": 7584
+        },
+        "start_line": 144,
+        "start_col": 49,
+        "end_line": 144,
+        "end_col": 57
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestOpenAIStructuredPlanning.test_openai_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 7576,
+          "end": 7584
+        },
+        "start_line": 144,
+        "start_col": 49,
+        "end_line": 144,
+        "end_col": 57
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\TestOpenAIStructuredPlanning.test_openai_research_workflow_generates_steps.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"brief\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 450,
+          "end": 458
+        },
+        "start_line": 7,
+        "start_col": 40,
+        "end_line": 7,
+        "end_col": 48
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\test_converter_with_llama3_1_model.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"located in or\" then \"entity\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2015,
+          "end": 2021
+        },
+        "start_line": 40,
+        "start_col": 20,
+        "end_line": 40,
+        "end_col": 26
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\test_converter_with_llama3_1_model.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (37293 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\test_crew_emits_end_kickoff_event.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"casual\" vs \"formal\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 12574,
+          "end": 12580
+        },
+        "start_line": 261,
+        "start_col": 71,
+        "end_line": 261,
+        "end_col": 77
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\test_crew_emits_end_task_event.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (10164 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\test_crew_emits_test_kickoff_type_event.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"a\" then \"task execution evaluator\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3832,
+          "end": 3856
+        },
+        "start_line": 111,
+        "start_col": 61,
+        "end_line": 111,
+        "end_col": 85
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\test_llm_emits_event_with_lite_agent.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"speaker\" then \"helpful\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 106,
+          "end": 113
+        },
+        "start_line": 3,
+        "start_col": 80,
+        "end_line": 3,
+        "end_col": 87
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\test_task_emits_failed_event_on_execution_error.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6774 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\cassettes\\utilities\\test_tools_emits_error_events.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (22008 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\config\\agents.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 492,
+          "end": 500
+        },
+        "start_line": 17,
+        "start_col": 12,
+        "end_line": 17,
+        "end_col": 20
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai\\tests\\config\\agents.yaml",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"verbose\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 354,
+          "end": 361
+        },
+        "start_line": 10,
+        "start_col": 3,
+        "end_line": 10,
+        "end_col": 10
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai-tools\\src\\crewai_tools\\aws\\bedrock\\agents\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 966,
+          "end": 974
+        },
+        "start_line": 35,
+        "start_col": 63,
+        "end_line": 35,
+        "end_col": 71
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai-tools\\src\\crewai_tools\\aws\\bedrock\\agents\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"verbose\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1031,
+          "end": 1038
+        },
+        "start_line": 37,
+        "start_col": 5,
+        "end_line": 37,
+        "end_col": 12
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai-tools\\src\\crewai_tools\\tools\\contextualai_parse_tool\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 2296,
+          "end": 2304
+        },
+        "start_line": 68,
+        "start_col": 10,
+        "end_line": 68,
+        "end_col": 18
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai-tools\\src\\crewai_tools\\tools\\parallel_tools\\README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"verbose\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3801,
+          "end": 3808
+        },
+        "start_line": 110,
+        "start_col": 3,
+        "end_line": 110,
+        "end_col": 10
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai-tools\\src\\crewai_tools\\tools\\zapier_action_tool\\README.md",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"connected to\" then \"helpful assistant that can automate tasks using zapier integrations\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 1152,
+          "end": 1219
+        },
+        "start_line": 37,
+        "start_col": 21,
+        "end_line": 37,
+        "end_col": 88
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai-tools\\tests\\tools\\cassettes\\firecrawl_crawl_website_tool_test\\test_firecrawl_crawl_tool_integration.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (6474 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai-tools\\tests\\tools\\cassettes\\firecrawl_search_tool_test\\test_firecrawl_search_tool_integration.yaml",
+      "code": "AIP003",
+      "message": "conflicting role declarations: \"using the\" then \"working with\"",
+      "severity": "info",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 75812,
+          "end": 75824
+        },
+        "start_line": 700,
+        "start_col": 50,
+        "end_line": 700,
+        "end_col": 62
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP003"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\crewai-tools\\tests\\tools\\cassettes\\firecrawl_search_tool_test\\test_firecrawl_search_tool_integration.yaml",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (7254 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 0
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 1,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\devtools\\src\\crewai_devtools\\cli.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 15852,
+          "end": 15855
+        },
+        "start_line": 515,
+        "start_col": 106,
+        "end_line": 515,
+        "end_col": 109
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\devtools\\src\\crewai_devtools\\cli.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 15852,
+          "end": 15855
+        },
+        "start_line": 515,
+        "start_col": 106,
+        "end_line": 515,
+        "end_col": 109
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\devtools\\src\\crewai_devtools\\cli.py",
+      "code": "AIP009",
+      "message": "variable content at token ~12 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 15852,
+          "end": 15855
+        },
+        "start_line": 515,
+        "start_col": 106,
+        "end_line": 515,
+        "end_col": 109
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\devtools\\src\\crewai_devtools\\docs_check.py",
+      "code": "AIP005",
+      "message": "user interpolation not wrapped in delimiter tags — vulnerable to prompt injection",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 9229,
+          "end": 9232
+        },
+        "start_line": 311,
+        "start_col": 102,
+        "end_line": 311,
+        "end_col": 105
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP005"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\devtools\\src\\crewai_devtools\\docs_check.py",
+      "code": "AIP007",
+      "message": "single-brace interpolation not wrapped in XML tags — add <user_input>…</user_input>",
+      "severity": "warning",
+      "category": "security",
+      "primary": {
+        "byte_range": {
+          "start": 9229,
+          "end": 9232
+        },
+        "start_line": 311,
+        "start_col": 102,
+        "end_line": 311,
+        "end_col": 105
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP007"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/lib\\devtools\\src\\crewai_devtools\\docs_check.py",
+      "code": "AIP009",
+      "message": "variable content at token ~12 defeats prompt caching (threshold: ~1024)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 9229,
+          "end": 9232
+        },
+        "start_line": 311,
+        "start_col": 102,
+        "end_line": 311,
+        "end_col": 105
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP009"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"detailed\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 13000,
+          "end": 13008
+        },
+        "start_line": 294,
+        "start_col": 12,
+        "end_line": 294,
+        "end_col": 20
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"thorough\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 13440,
+          "end": 13448
+        },
+        "start_line": 307,
+        "start_col": 15,
+        "end_line": 307,
+        "end_col": 23
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"comprehensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 3015,
+          "end": 3028
+        },
+        "start_line": 67,
+        "start_col": 23,
+        "end_line": 67,
+        "end_col": 36
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"concise\" vs \"verbose\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 14643,
+          "end": 14650
+        },
+        "start_line": 345,
+        "start_col": 4,
+        "end_line": 345,
+        "end_col": 11
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/README.md",
+      "code": "AIP004",
+      "message": "contradictory tone: \"short\" vs \"extensive\"",
+      "severity": "warning",
+      "category": "clarity",
+      "primary": {
+        "byte_range": {
+          "start": 35436,
+          "end": 35445
+        },
+        "start_line": 803,
+        "start_col": 25,
+        "end_line": 803,
+        "end_col": 34
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP004"
+    },
+    {
+      "file": "fixtures/corpus/crewAI/README.md",
+      "code": "AIP011",
+      "message": "prompt exceeds token budget (5500 > 4000)",
+      "severity": "warning",
+      "category": "efficiency",
+      "primary": {
+        "byte_range": {
+          "start": 0,
+          "end": 35791
+        },
+        "start_line": 1,
+        "start_col": 1,
+        "end_line": 808,
+        "end_col": 1
+      },
+      "labels": [],
+      "explain_url": "https://aiproof.dev/rules/AIP011"
+    }
+  ],
+  "summary": {
+    "error": 6,
+    "warning": 145,
+    "info": 95
+  }
+}
