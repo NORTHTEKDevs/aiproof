@@ -1,4 +1,15 @@
 [package]
 name = "aiproof-report"
-version = "0.1.0"
-edition = "2024"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+aiproof-core = { path = "../aiproof-core" }
+codespan-reporting = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+
+[dev-dependencies]
+insta = { workspace = true }
