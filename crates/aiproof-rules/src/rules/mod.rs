@@ -18,6 +18,8 @@ pub mod aip015_unhandled_placeholder;
 pub mod aip016_claude_specific_tags_on_gpt;
 pub mod aip017_system_message_mismatch;
 pub mod aip018_temperature_determinism_mismatch;
+pub mod aip019_missing_few_shot_for_reasoning;
+pub mod aip020_system_message_overloaded;
 
 /// Called by `crate::registry::all_rules` to populate the rule vector.
 pub fn register_all(out: &mut Vec<Box<dyn Rule>>) {
@@ -39,4 +41,6 @@ pub fn register_all(out: &mut Vec<Box<dyn Rule>>) {
     aip016_claude_specific_tags_on_gpt::register(out);
     aip017_system_message_mismatch::register(out);
     aip018_temperature_determinism_mismatch::register(out);
+    aip019_missing_few_shot_for_reasoning::register(out);
+    aip020_system_message_overloaded::register(out);
 }
