@@ -11,7 +11,7 @@ LLMs — finds real bugs before a single token is spent.
 [![Python](https://img.shields.io/pypi/pyversions/aiproof)](https://pypi.org/project/aiproof/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
 
-[Install](#install) · [Quick start](#quick-start) · [Rules](#rules) · [Configuration](#configuration) · [Python API](#python-api) · [FAQ](#faq) · [Comparison](#how-is-this-different-from-)
+[Who this is for](#who-this-is-for) · [What aiproof is *not*](#what-aiproof-is-not) · [Install](#install) · [Quick start](#quick-start) · [Rules](#rules) · [Configuration](#configuration) · [Python API](#python-api) · [FAQ](#faq) · [Comparison](#how-is-this-different-from-)
 
 </div>
 
@@ -37,6 +37,71 @@ evals set up. `aiproof` runs before a single token is spent:
 - **Zero inference cost.** Runs in milliseconds, not seconds.
 - **Twenty rules** covering clarity, security, efficiency, behavior,
   portability, and best-practice categories.
+
+## Who this is for
+
+`aiproof` is for developers whose **prompts live in `git`** — committed
+files, version-controlled templates, or string arguments passed to LLM
+SDK calls. Concretely:
+
+- **Engineers shipping LLM-backed products.** You have
+  `client.messages.create(system=...)`, `openai.chat.completions.create`,
+  `PromptTemplate(...)`, or `ChatPromptTemplate.from_messages([...])` in
+  your repo. Run `aiproof` as a pre-commit hook so an accidentally
+  hardcoded API key, a missing input boundary, or a contradictory
+  instruction never reaches `main`.
+
+- **Prompt-engineering teams maintaining a library.** You've got
+  `prompts/triage.prompt.md`, `prompts/summarize.prompt.md`,
+  `prompts/escalate.prompt.md` — dozens of versioned templates. CI
+  catches when a teammate's edit introduces a regression (a contradiction,
+  a removed schema example, a tone clash).
+
+- **Open-source AI library maintainers.** You've got hundreds of example
+  prompts in cookbooks, READMEs, and docs. `aiproof` finds credentials
+  pasted in by accident (we found two real ones in the wild — see below)
+  and catches model-portability issues (Claude-specific tags in a
+  GPT-targeted example, etc.).
+
+- **Cost-conscious teams using Anthropic prompt caching.** You're
+  spending real money on Claude Opus and just enabled caching. `AIP009`
+  catches every system prompt that places variable content in the first
+  ~1024 tokens, defeating the cache and silently doubling your bill.
+
+- **Security / platform engineers reviewing prompt PRs.** `aiproof
+  --format sarif` plugs into GitHub Code Scanning so credential leaks
+  and prompt-injection vectors show up as PR comments — same workflow as
+  any other security linter.
+
+## What aiproof is *not*
+
+This is the most common misconception, so worth being direct about it:
+
+- **Not a prompt rewriter.** It does not make your prompt "better" or
+  "more effective." It points at specific, well-defined classes of bugs
+  (a hardcoded credential, a contradictory instruction, a missing
+  delimiter). For a few rules it does mechanical fixes (redact the
+  credential, wrap the user input in tags, dedupe a sentence). It will
+  never restructure your prompt for clarity. For prompt optimization,
+  use Anthropic's "Generate prompt" tool or iterate manually.
+
+- **Not a runtime evaluator.** It does not run your prompt against a
+  model, score the output, or check accuracy. For that, use
+  [Promptfoo](https://promptfoo.dev), [Braintrust](https://braintrust.dev),
+  or your own eval harness.
+
+- **Not a runtime firewall.** It does not detect attacks at request
+  time. For that, use [Lakera Guard](https://lakera.ai) or
+  [Rebuff](https://github.com/protectai/rebuff).
+
+- **Not for chat-window prompting.** When you're typing into Claude
+  Code, ChatGPT, or Cursor, your prompts are ephemeral — they don't
+  live in a file. There's nothing for a static analyzer to check. By
+  the time `aiproof` could flag a contradiction, you've already gotten
+  an answer.
+
+> **Rule of thumb:** if your prompts live in a `git commit`, `aiproof`
+> helps. If they live in a chat window, it doesn't.
 
 ## Proof it works
 
