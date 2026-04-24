@@ -30,8 +30,12 @@ pub struct PromptText {
 pub enum Kind {
     PlainText,
     Markdown,
-    Jinja { variables: Vec<String> },
-    Mustache { variables: Vec<String> },
+    Jinja {
+        variables: Vec<String>,
+    },
+    Mustache {
+        variables: Vec<String>,
+    },
     YamlConfig,
     JsonSchema,
     ExtractedPython {
