@@ -10,6 +10,7 @@ use aiproof_core::{
 };
 use std::path::PathBuf;
 
+#[allow(dead_code)]
 pub fn run_rule<R: Rule>(rule: R, src: &str, ext: &str) -> Vec<Diagnostic> {
     run_rule_with_ctx(
         rule,
