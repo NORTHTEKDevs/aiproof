@@ -1,6 +1,6 @@
 // Criterion benchmark over representative sample prompts.
 // Run: cargo bench -p aiproof-cli
-use criterion::{criterion_group, criterion_main, Criterion, BatchSize};
+use criterion::{BatchSize, Criterion, criterion_group, criterion_main};
 use std::path::PathBuf;
 
 fn bench_parse_and_check(c: &mut Criterion) {
@@ -48,7 +48,10 @@ fn sample_prompts() -> Vec<(PathBuf, String)> {
             "mustache.mustache",
             "Hello {{name}}, your order #{{order_id}}.",
         ),
-        ("jinja.j2", "{% for item in items %}- {{ item.title }}{% endfor %}"),
+        (
+            "jinja.j2",
+            "{% for item in items %}- {{ item.title }}{% endfor %}",
+        ),
     ];
     ten.iter()
         .map(|(n, s)| (PathBuf::from(n), s.to_string()))
