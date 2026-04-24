@@ -21,10 +21,9 @@ pub(crate) enum Tok {
 static IDENT: Lazy<Regex> = Lazy::new(|| Regex::new(r"[A-Za-z_][A-Za-z0-9_]*").unwrap());
 
 const KEYWORDS: &[&str] = &[
-    "for", "in", "if", "not", "and", "or", "true", "false", "none", "null",
-    "endfor", "endif", "else", "elif", "set", "with", "endwith",
-    "block", "endblock", "extends", "include", "macro", "endmacro",
-    "is", "as", "do", "from", "import",
+    "for", "in", "if", "not", "and", "or", "true", "false", "none", "null", "endfor", "endif",
+    "else", "elif", "set", "with", "endwith", "block", "endblock", "extends", "include", "macro",
+    "endmacro", "is", "as", "do", "from", "import",
 ];
 
 pub fn parse(path: &Path, source: &str) -> anyhow::Result<Vec<Document>> {
@@ -117,7 +116,10 @@ mod tests {
         let docs = parse(std::path::Path::new("t.j2"), src).unwrap();
         match &docs[0].kind {
             Kind::Jinja { variables } => {
-                assert_eq!(variables, &vec!["a".to_string(), "b".to_string(), "c".to_string()]);
+                assert_eq!(
+                    variables,
+                    &vec!["a".to_string(), "b".to_string(), "c".to_string()]
+                );
             }
             _ => panic!("wrong kind"),
         }
