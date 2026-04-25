@@ -10,7 +10,7 @@ keywords = ["llm", "linter", "prompts", "static-analysis", "ai"]
 categories = ["development-tools", "command-line-utilities"]
 
 [dependencies]
-aiproof-core = { path = "../aiproof-core", version = "0.1.2" }
+aiproof-core = { path = "../aiproof-core", version = "0.1.3" }
 codespan-reporting = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }

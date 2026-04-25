@@ -6,6 +6,27 @@ versions follow [SemVer](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.3] — 2026-04-25
+
+Patch release. PyPI discoverability.
+
+### Changed
+
+- PyPI metadata: added 15 keywords (llm, prompt-engineering, prompt-linter,
+  prompt-injection, ai-safety, etc.) and expanded classifiers from 5 to 23
+  (Operating System, Programming Language :: Python :: 3.9-3.13, Programming
+  Language :: Rust, Topic :: Security, Topic :: Scientific/Engineering ::
+  Artificial Intelligence, Typing :: Typed).
+- PyPI development status bumped to Beta (was Alpha — accurate for a shipping
+  v0.1.x with multi-platform wheels and 174-test suite).
+- pyproject.toml description sharpened to match README tagline.
+- Added Changelog and Issues URLs to PyPI project metadata.
+
+### Note
+
+No code changes vs v0.1.2 — purely metadata. crates.io tags unchanged
+(already at the 5-keyword cap). GitHub topics unchanged (17 set).
+
 ## [0.1.2] — 2026-04-25
 
 Patch release. Fixes broken explain URLs.
@@ -70,7 +91,8 @@ See [`fixtures/corpus/CORPUS_REPORT.md`](fixtures/corpus/CORPUS_REPORT.md) for t
 - **False-positive noise** on AIP011 / AIP003 / AIP004 in general documentation. Mitigate with `exclude = ["docs/plans/**", "releasenotes/**"]` in `.aiproofrc` (included in `--init` defaults).
 - **Per-line rule suppression** (`# aiproof: ignore AIPxxx`) is not yet supported; v0.2.
 
-[Unreleased]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.3...HEAD
+[0.1.3]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/Frostbyte-Devs/aiproof/releases/tag/v0.1.0

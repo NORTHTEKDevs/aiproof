@@ -4,23 +4,60 @@ build-backend = "maturin"
 
 [project]
 name = "aiproof"
-version = "0.1.2"
-description = "Static analyzer for AI prompts"
+version = "0.1.3"
+description = "ESLint for AI prompts. A static analyzer for LLM system prompts, templates, and SDK call sites. Zero LLM calls."
 authors = [{ name = "Kristian Baer", email = "kristianb43r@gmail.com" }]
 license = { text = "Apache-2.0" }
 requires-python = ">=3.9"
 readme = "README.md"
+keywords = [
+    "llm",
+    "prompt-engineering",
+    "prompt-linter",
+    "linter",
+    "static-analysis",
+    "ai",
+    "anthropic",
+    "openai",
+    "claude",
+    "chatgpt",
+    "prompt-injection",
+    "ai-safety",
+    "llm-security",
+    "developer-tools",
+    "prompts",
+]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
     "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Environment :: Console",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Rust",
+    "Topic :: Software Development",
     "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Security",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Typing :: Typed",
 ]
 
 [project.urls]
 Homepage = "https://github.com/Frostbyte-Devs/aiproof"
 Repository = "https://github.com/Frostbyte-Devs/aiproof"
+Changelog = "https://github.com/Frostbyte-Devs/aiproof/blob/main/CHANGELOG.md"
+Issues = "https://github.com/Frostbyte-Devs/aiproof/issues"
 
 [tool.maturin]
 features = ["pyo3/extension-module"]

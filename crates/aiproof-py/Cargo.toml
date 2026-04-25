@@ -1,6 +1,6 @@
 [package]
 name = "aiproof-py"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 license = "Apache-2.0"
 
@@ -10,6 +10,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = { version = "0.22", features = ["extension-module", "abi3-py39"] }
-aiproof-core = { path = "../aiproof-core", version = "0.1.2" }
-aiproof-parse = { path = "../aiproof-parse", version = "0.1.2" }
-aiproof-rules = { path = "../aiproof-rules", version = "0.1.2" }
+aiproof-core = { path = "../aiproof-core", version = "0.1.3" }
+aiproof-parse = { path = "../aiproof-parse", version = "0.1.3" }
+aiproof-rules = { path = "../aiproof-rules", version = "0.1.3" }
