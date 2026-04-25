@@ -6,6 +6,38 @@ versions follow [SemVer](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.4] — 2026-04-25
+
+Patch release. **Important correction** — adds placeholder suppression to AIP006
+and retracts a misleading claim from earlier release notes.
+
+### Fixed
+
+- **AIP006 false positives on docstring placeholders.** v0.1.0–v0.1.3 flagged
+  any `sk-ant-api03-[A-Za-z0-9_-]{20,}` / `sk-[A-Za-z0-9]{20,}` shape as
+  a credential. That matched literal placeholders like
+  `sk-ant-api03-xxxxxxxxxxxxxxxx` (AutoGPT setup docs) and
+  `"sk-randomAPIkeyasdsa32ekasd32e"` (haystack release notes Python example).
+  v0.1.4 suppresses any match containing a 5+ identical-char run OR a
+  case-insensitive label substring (`your`, `example`, `placeholder`, `random`,
+  `fake`, `demo`, `redact`, `replace`, `insert`, `changeme`, `xxxxx`, etc.).
+  Four new regression tests cover both real-world FP cases.
+
+### Retracted
+
+- The "real credential leaks in AutoGPT and haystack" claim from v0.1.0
+  release materials and prior commits was **not accurate**. Both lines
+  flagged were tutorial placeholders and code examples, not live keys.
+  Apologies to the AutoGPT and haystack maintainers if anyone routed that
+  claim back to your repos. The CHANGELOG and README have been corrected.
+- Post-fix corpus scan (v0.1.4) finds **0 real credential leaks** across
+  the 20-repo corpus. That's expected: well-maintained popular AI repos
+  don't ship live keys.
+
+### Note
+
+No other code changes. crates.io tags and PyPI metadata unchanged from v0.1.3.
+
 ## [0.1.3] — 2026-04-25
 
 Patch release. PyPI discoverability.
@@ -76,14 +108,15 @@ First public release.
 - **Release pipeline** (GitHub Actions): wheel matrix (Linux x86/aarch64, macOS universal2, Windows), binary matrix (same), PyPI + crates.io + GitHub Releases publish on tag.
 - 173 tests across 7 crates. `cargo clippy -D warnings` clean.
 
-### Corpus findings on release
+### Corpus baseline on release
 
-Running against 20 real AI projects surfaced, among other findings:
+The release ran against 20 popular AI repos as a regression baseline.
+**Note (corrected in v0.1.4):** earlier release notes claimed to find
+real credential leaks in AutoGPT and haystack; those were docstring
+placeholders, not live keys. AIP006 in v0.1.4 suppresses such patterns.
 
-- `AIP006` — hardcoded Anthropic credential in [`Significant-Gravitas/AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) `docs/content/classic/setup/index.md:160`
-- `AIP006` — hardcoded OpenAI credential in [`deepset-ai/haystack`](https://github.com/deepset-ai/haystack) `releasenotes/notes/secret-handling-for-components-*.yaml:35`
-
-See [`fixtures/corpus/CORPUS_REPORT.md`](fixtures/corpus/CORPUS_REPORT.md) for the full breakdown.
+See [`fixtures/corpus/CORPUS_REPORT.md`](fixtures/corpus/CORPUS_REPORT.md)
+for per-repo diagnostic counts and FP analysis.
 
 ### Known limitations (v0.1.0)
 
@@ -91,7 +124,8 @@ See [`fixtures/corpus/CORPUS_REPORT.md`](fixtures/corpus/CORPUS_REPORT.md) for t
 - **False-positive noise** on AIP011 / AIP003 / AIP004 in general documentation. Mitigate with `exclude = ["docs/plans/**", "releasenotes/**"]` in `.aiproofrc` (included in `--init` defaults).
 - **Per-line rule suppression** (`# aiproof: ignore AIPxxx`) is not yet supported; v0.2.
 
-[Unreleased]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.3...HEAD
+[Unreleased]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.4...HEAD
+[0.1.4]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.3...v0.1.4
 [0.1.3]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.0...v0.1.1

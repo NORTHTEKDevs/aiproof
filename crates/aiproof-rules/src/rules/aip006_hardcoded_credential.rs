@@ -61,6 +61,9 @@ impl Rule for HardcodedCredential {
 
         for (provider, regex) in PATTERNS.iter() {
             for m in regex.find_iter(text) {
+                if is_placeholder(m.as_str()) {
+                    continue;
+                }
                 let span = project_span(doc, m.start()..m.end());
                 diags.push(Diagnostic {
                     code: "AIP006".to_string(),
@@ -91,6 +94,51 @@ impl Rule for HardcodedCredential {
             safe: true,
         })
     }
+}
+
+/// Filter out doc/tutorial placeholders that match a credential regex by shape
+/// but are not real keys. The two big classes are:
+/// 1. Long runs of identical characters (xxxxxxx, AAAAAAA, 0000000) — typical
+///    "replace with your key" placeholders.
+/// 2. Self-labeling words inside the match (your, example, placeholder, random,
+///    fake, demo, redact, replace, insert, change_me, xxx, abc123) — code
+///    examples and tutorial snippets.
+fn is_placeholder(matched: &str) -> bool {
+    // Run of 5+ identical chars anywhere in the match.
+    let bytes = matched.as_bytes();
+    let mut run = 1;
+    for i in 1..bytes.len() {
+        if bytes[i] == bytes[i - 1] {
+            run += 1;
+            if run >= 5 {
+                return true;
+            }
+        } else {
+            run = 1;
+        }
+    }
+
+    // Self-labeling substrings — case-insensitive.
+    const LABELS: &[&str] = &[
+        "your",
+        "example",
+        "placeholder",
+        "random",
+        "fake",
+        "demo",
+        "redact",
+        "replace",
+        "insert",
+        "changeme",
+        "change_me",
+        "abc123",
+        "xxxxx",
+        "yyyyy",
+        "zzzzz",
+        "aaaaa",
+    ];
+    let lower = matched.to_lowercase();
+    LABELS.iter().any(|label| lower.contains(label))
 }
 
 pub fn register(out: &mut Vec<Box<dyn Rule>>) {

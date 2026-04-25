@@ -103,21 +103,33 @@ This is the most common misconception, so worth being direct about it:
 > **Rule of thumb:** if your prompts live in a `git commit`, `aiproof`
 > helps. If they live in a chat window, it doesn't.
 
-## Proof it works
+## Tested against real-world projects
 
-We ran `aiproof` against 20 popular open-source AI projects (langchain,
-anthropic-cookbook, openai-cookbook, llama-index, autogen, crewAI, dspy,
-...) and found real credential leaks shipping in public documentation:
+`aiproof` runs cleanly against a corpus of 20 popular open-source AI
+projects pinned at exact SHAs (langchain, anthropic-cookbook,
+openai-cookbook, llama-index, autogen, crewAI, dspy, haystack, marvin,
+guidance, promptflow, instructor, mirascope, agno, llmware, semantic-kernel,
+prompty, AutoGPT, babyagi, chatgpt-api). The corpus runs in CI as a
+regression gate — see [`fixtures/corpus/CORPUS_REPORT.md`](fixtures/corpus/CORPUS_REPORT.md)
+for the per-repo diagnostic counts and FP analysis.
 
-| Repo | Finding |
-|---|---|
-| [`Significant-Gravitas/AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) | `AIP006` — hardcoded Anthropic API key in `docs/content/classic/setup/index.md:160` |
-| [`deepset-ai/haystack`](https://github.com/deepset-ai/haystack) | `AIP006` — hardcoded OpenAI API key in `releasenotes/notes/secret-handling-for-components-*.yaml:35` (ironic) |
+**Honest scorecard for v0.1.4 against that corpus:**
 
-Plus dozens of other findings across contradictory instructions, missing
-schemas, overloaded system messages, and cache-unfriendly structure. See
-[`fixtures/corpus/CORPUS_REPORT.md`](fixtures/corpus/CORPUS_REPORT.md)
-for the full breakdown.
+- AIP006 (hardcoded credentials): **0 real findings.** An earlier release
+  produced 2 hits that turned out to be docstring placeholders
+  (`sk-ant-api03-xxxxxx...` and `"sk-randomAPIkey..."`). v0.1.4 added
+  placeholder-suppression to AIP006 and those are now correctly skipped.
+  The fact that 20 popular AI repos ship zero live keys is a credit to
+  those maintainers, not a marketing claim for aiproof.
+- AIP008 (jailbreak patterns): hits in test fixtures (intentionally
+  embedded for adversarial-simulator testing) — auto-suppressed via
+  fixture-path detection.
+- AIP010, AIP015 (markdown noise): suppressed by the `is_prompt_shaped()`
+  gate so README/CHANGELOG markdown isn't linted as prompts.
+
+The 20-repo corpus matters more as a **false-positive regression gate**
+than as a "look at all the bugs" demo: every change to a rule re-runs
+against these baselines, and any FP-rate increase fails CI.
 
 ## What the output looks like
 

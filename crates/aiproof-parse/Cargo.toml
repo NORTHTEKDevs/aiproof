@@ -10,7 +10,7 @@ keywords = ["llm", "linter", "prompts", "static-analysis", "ai"]
 categories = ["development-tools", "command-line-utilities"]
 
 [dependencies]
-aiproof-core = { path = "../aiproof-core", version = "0.1.3" }
+aiproof-core = { path = "../aiproof-core", version = "0.1.4" }
 logos = { workspace = true }
 tree-sitter = { workspace = true }
 tree-sitter-python = { workspace = true }

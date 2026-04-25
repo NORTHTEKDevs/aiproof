@@ -102,3 +102,40 @@ fn multiple_credentials() {
     let diags = run_rule(HardcodedCredential, src, "md");
     assert_eq!(diags.len(), 2);
 }
+
+#[test]
+fn skips_placeholder_xxxxx_runs() {
+    // Real-world false positive: AutoGPT setup docs use this exact pattern.
+    let src = "---\nrole: system\n---\nANTHROPIC_API_KEY=sk-ant-api03-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    let diags = run_rule(HardcodedCredential, src, "md");
+    assert!(
+        diags.is_empty(),
+        "5+ identical-char run should be treated as placeholder"
+    );
+}
+
+#[test]
+fn skips_self_labeled_random_example() {
+    // Real-world false positive: haystack release notes show this in a Python example.
+    let src = "---\nrole: system\n---\nSecret.from_token(\"sk-randomAPIkeyasdsa32ekasd32e\")";
+    let diags = run_rule(HardcodedCredential, src, "md");
+    assert!(
+        diags.is_empty(),
+        "matched string containing 'random' should be treated as placeholder"
+    );
+}
+
+#[test]
+fn skips_self_labeled_your_key_example() {
+    let src = "---\nrole: system\n---\nset OPENAI_API_KEY=sk-yourActualKeyGoesHereExampleValue";
+    let diags = run_rule(HardcodedCredential, src, "md");
+    assert!(diags.is_empty(), "'your' label should suppress");
+}
+
+#[test]
+fn still_flags_realistic_random_alphanumeric() {
+    // No placeholder labels, no identical-char runs — should still flag.
+    let src = "---\nrole: system\n---\nkey: sk-ant-api03-Q8mWv3kLp2xRn7tBfHj4Zd9YcGsAuP1bN5EiOoTr";
+    let diags = run_rule(HardcodedCredential, src, "md");
+    assert_eq!(diags.len(), 1, "non-placeholder string must still flag");
+}

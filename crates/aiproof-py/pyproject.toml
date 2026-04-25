@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "aiproof"
-version = "0.1.3"
+version = "0.1.4"
 description = "ESLint for AI prompts. A static analyzer for LLM system prompts, templates, and SDK call sites. Zero LLM calls."
 authors = [{ name = "Kristian Baer", email = "kristianb43r@gmail.com" }]
 license = { text = "Apache-2.0" }
