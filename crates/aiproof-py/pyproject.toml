@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "aiproof"
-version = "0.1.0"
+version = "0.1.1"
 description = "Static analyzer for AI prompts"
 authors = [{ name = "Kristian Baer", email = "kristianb43r@gmail.com" }]
 license = { text = "Apache-2.0" }

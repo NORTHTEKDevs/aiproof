@@ -6,6 +6,19 @@ versions follow [SemVer](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-04-24
+
+Patch release.
+
+### Fixed
+
+- Release workflow: removed `--manylinux auto` from `args` (it's a Linux-only
+  flag and crashed macOS/Windows wheel jobs). Switched to the dedicated
+  `manylinux: auto` input. v0.1.0 shipped a Windows wheel only — v0.1.1 ships
+  Linux x86_64 + aarch64, macOS universal2, and Windows x86_64 wheels.
+- PyPI metadata: corrected stale `northtek/aiproof` repo URL (the v0.1.0
+  wheel was built before the org slug fix).
+
 ## [0.1.0] — 2026-04-24
 
 First public release.

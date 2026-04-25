@@ -38,7 +38,8 @@ jobs:
         with:
           working-directory: crates/aiproof-py
           target: ${{ matrix.wheel_target }}
-          args: --release --strip --manylinux auto
+          args: --release --strip
+          manylinux: auto
           sccache: 'true'
       - uses: actions/upload-artifact@v4
         with:
