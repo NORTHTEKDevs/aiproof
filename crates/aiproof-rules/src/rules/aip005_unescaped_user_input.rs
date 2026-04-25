@@ -68,7 +68,7 @@ impl Rule for UnescapedUserInput {
                     category: Category::Security,
                     primary: span,
                     labels: vec![],
-                    explain_url: Some("https://aiproof.dev/rules/AIP005".to_string()),
+                    explain_url: Some("https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP005.md".to_string()),
                     fix: None,
                 });
             }

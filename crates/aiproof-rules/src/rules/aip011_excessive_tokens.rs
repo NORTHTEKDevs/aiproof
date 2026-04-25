@@ -63,7 +63,10 @@ impl Rule for ExcessiveTokens {
                 category: Category::Efficiency,
                 primary: span,
                 labels: vec![],
-                explain_url: Some("https://aiproof.dev/rules/AIP011".to_string()),
+                explain_url: Some(
+                    "https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP011.md"
+                        .to_string(),
+                ),
                 fix: None,
             });
         }

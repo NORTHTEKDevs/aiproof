@@ -69,7 +69,10 @@ impl Rule for HardcodedCredential {
                     category: Category::Security,
                     primary: span,
                     labels: vec![],
-                    explain_url: Some("https://aiproof.dev/rules/AIP006".to_string()),
+                    explain_url: Some(
+                        "https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP006.md"
+                            .to_string(),
+                    ),
                     fix: None,
                 });
             }

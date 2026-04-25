@@ -128,7 +128,7 @@ error[AIP006]: hardcoded anthropic credential in prompt text
 160 │ ANTHROPIC_API_KEY=sk-ant-api03-abcdefghijklmnopqrstuvwxyz1234
   │                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   │
-  = See: https://aiproof.dev/rules/AIP006
+  = See: https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP006.md
 
 warning[AIP001]: conflicting instruction: "explain your reasoning" contradicts "only output json" above
   ┌─ prompts/agent.prompt.md:2:19
@@ -136,7 +136,7 @@ warning[AIP001]: conflicting instruction: "explain your reasoning" contradicts "
 2 │ Only output JSON. Explain your reasoning before answering.
   │                   ^^^^^^^^^^^^^^^^^^^^^^
   │
-  = See: https://aiproof.dev/rules/AIP001
+  = See: https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP001.md
 
 warning[AIP009]: variable content within first ~1024 tokens defeats prompt caching
   ┌─ prompts/agent.prompt.md:4:1
@@ -144,7 +144,7 @@ warning[AIP009]: variable content within first ~1024 tokens defeats prompt cachi
 4 │ Answer this question: {query}
   │ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   │
-  = See: https://aiproof.dev/rules/AIP009
+  = See: https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP009.md
 ```
 
 ## Install

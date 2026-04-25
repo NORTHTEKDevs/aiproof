@@ -13,7 +13,7 @@ dependencies = [
 
 [[package]]
 name = "aiproof-cli"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "aiproof-config",
  "aiproof-core",
@@ -34,7 +34,7 @@ dependencies = [
 
 [[package]]
 name = "aiproof-config"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "anyhow",
  "serde",
@@ -45,7 +45,7 @@ dependencies = [
 
 [[package]]
 name = "aiproof-core"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "serde",
  "serde_json",
@@ -54,7 +54,7 @@ dependencies = [
 
 [[package]]
 name = "aiproof-parse"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "aiproof-core",
  "anyhow",
@@ -73,7 +73,7 @@ dependencies = [
 
 [[package]]
 name = "aiproof-report"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "aiproof-core",
  "anyhow",
@@ -85,7 +85,7 @@ dependencies = [
 
 [[package]]
 name = "aiproof-rules"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "aiproof-core",
  "aiproof-parse",

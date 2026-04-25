@@ -6,6 +6,18 @@ versions follow [SemVer](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.2] — 2026-04-25
+
+Patch release. Fixes broken explain URLs.
+
+### Fixed
+
+- All `--explain` URLs in rule diagnostics + the README output example
+  pointed at `aiproof.dev`, which doesn't exist. Repointed to GitHub
+  blob URLs (`https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIPxxx.md`).
+- `--init` now references GitHub README anchors for config + CI guidance
+  instead of the unclaimed aiproof.dev domain.
+
 ## [0.1.1] — 2026-04-24
 
 Patch release.
@@ -58,5 +70,7 @@ See [`fixtures/corpus/CORPUS_REPORT.md`](fixtures/corpus/CORPUS_REPORT.md) for t
 - **False-positive noise** on AIP011 / AIP003 / AIP004 in general documentation. Mitigate with `exclude = ["docs/plans/**", "releasenotes/**"]` in `.aiproofrc` (included in `--init` defaults).
 - **Per-line rule suppression** (`# aiproof: ignore AIPxxx`) is not yet supported; v0.2.
 
-[Unreleased]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.1...v0.1.2
+[0.1.1]: https://github.com/Frostbyte-Devs/aiproof/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/Frostbyte-Devs/aiproof/releases/tag/v0.1.0

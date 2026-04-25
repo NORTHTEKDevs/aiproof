@@ -1,5 +1,5 @@
 /// Print starter config and pre-commit snippet.
-pub const STARTER_AIPROOFRC: &str = r#"# aiproof config — see https://aiproof.dev/config
+pub const STARTER_AIPROOFRC: &str = r#"# aiproof config — see https://github.com/Frostbyte-Devs/aiproof#configuration
 
 # Files to lint. Defaults cover common locations; override for custom layouts.
 # include = ["prompts/**/*.md", "src/**/*.py"]
@@ -46,6 +46,8 @@ pub fn run_init() -> i32 {
     println!("{STARTER_AIPROOFRC}");
     println!("# --- Pre-commit hook snippet (append to .pre-commit-config.yaml) ---");
     println!("{PRE_COMMIT_SNIPPET}");
-    println!("# For GitHub Actions integration, see https://aiproof.dev/ci");
+    println!(
+        "# For GitHub Actions integration, see https://github.com/Frostbyte-Devs/aiproof#exit-codes"
+    );
     0
 }

@@ -114,7 +114,7 @@ impl Rule for MissingFewShotForReasoning {
             category: Category::Efficiency,
             primary: span,
             labels: vec![],
-            explain_url: Some("https://aiproof.dev/rules/AIP019".to_string()),
+            explain_url: Some("https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP019.md".to_string()),
             fix: None,
         }]
     }

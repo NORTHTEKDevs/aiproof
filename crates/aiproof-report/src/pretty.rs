@@ -74,7 +74,10 @@ mod tests {
                     category: Category::Security,
                     primary: sp,
                     labels: vec![],
-                    explain_url: Some("https://aiproof.dev/rules/AIP006".into()),
+                    explain_url: Some(
+                        "https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP006.md"
+                            .into(),
+                    ),
                     fix: None,
                 }],
             )],

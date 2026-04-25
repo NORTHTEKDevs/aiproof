@@ -58,7 +58,9 @@ mod tests {
             category: Category::Security,
             primary: Span::from_byte_range("hello", 0..5),
             labels: vec![],
-            explain_url: Some("https://aiproof.dev/rules/AIP007".into()),
+            explain_url: Some(
+                "https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP007.md".into(),
+            ),
             fix: None,
         };
         let v = serde_json::to_value(&d).unwrap();

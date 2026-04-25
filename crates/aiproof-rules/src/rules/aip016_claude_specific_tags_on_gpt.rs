@@ -66,7 +66,7 @@ impl Rule for ClaudeSpecificTagsOnGpt {
                     category: Category::Portability,
                     primary: span,
                     labels: vec![],
-                    explain_url: Some("https://aiproof.dev/rules/AIP016".to_string()),
+                    explain_url: Some("https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP016.md".to_string()),
                     fix: None,
                 });
             }

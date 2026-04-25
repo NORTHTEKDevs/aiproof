@@ -62,7 +62,7 @@ impl Rule for UnusedTemplateVariable {
                         category: Category::Efficiency,
                         primary: span,
                         labels: vec![],
-                        explain_url: Some("https://aiproof.dev/rules/AIP012".to_string()),
+                        explain_url: Some("https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP012.md".to_string()),
                         fix: None,
                     });
                 }

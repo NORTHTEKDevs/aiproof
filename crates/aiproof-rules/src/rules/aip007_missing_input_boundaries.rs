@@ -62,7 +62,7 @@ impl Rule for MissingInputBoundaries {
                     category: Category::Security,
                     primary: span.clone(),
                     labels: vec![],
-                    explain_url: Some("https://aiproof.dev/rules/AIP007".to_string()),
+                    explain_url: Some("https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP007.md".to_string()),
                     fix: None,
                 });
             }

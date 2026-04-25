@@ -67,7 +67,7 @@ impl Rule for AmbiguousOutputFormat {
                         category: Category::Clarity,
                         primary: span,
                         labels: vec![],
-                        explain_url: Some("https://aiproof.dev/rules/AIP002".to_string()),
+                        explain_url: Some("https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP002.md".to_string()),
                         fix: None,
                     });
                 }

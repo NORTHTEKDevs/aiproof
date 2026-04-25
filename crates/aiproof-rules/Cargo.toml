@@ -10,8 +10,8 @@ keywords = ["llm", "linter", "prompts", "static-analysis", "ai"]
 categories = ["development-tools", "command-line-utilities"]
 
 [dependencies]
-aiproof-core = { path = "../aiproof-core", version = "0.1.1" }
-aiproof-parse = { path = "../aiproof-parse", version = "0.1.1" }
+aiproof-core = { path = "../aiproof-core", version = "0.1.2" }
+aiproof-parse = { path = "../aiproof-parse", version = "0.1.2" }
 regex         = { workspace = true }
 once_cell     = { workspace = true }
 

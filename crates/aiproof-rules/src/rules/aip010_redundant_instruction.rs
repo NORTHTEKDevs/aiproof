@@ -58,7 +58,7 @@ impl Rule for RedundantInstruction {
                         category: Category::Efficiency,
                         primary: span,
                         labels: vec![],
-                        explain_url: Some("https://aiproof.dev/rules/AIP010".to_string()),
+                        explain_url: Some("https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP010.md".to_string()),
                         fix: None,
                     });
                     // Only flag the first duplicate per sentence.

@@ -17,7 +17,7 @@ It's intentionally terse. Run each step only when the one above is green.
 
 - [ ] Create the public repo:
   ```sh
-  gh repo create Frostbyte-Devs/aiproof --public --description "ESLint for AI prompts" --homepage "https://aiproof.dev"
+  gh repo create Frostbyte-Devs/aiproof --public --description "ESLint for AI prompts" --homepage "https://github.com/Frostbyte-Devs/aiproof"
   ```
   (Pick the org is `Frostbyte-Devs`. The `repository` field in
   `Cargo.toml` is currently `https://github.com/Frostbyte-Devs/aiproof` — adjust
@@ -106,7 +106,7 @@ cargo publish -p aiproof-cli
 
 - [ ] HN Show post with the "aiproof found N issues in langchain/anthropic-cookbook/..." screenshot (pull numbers from `fixtures/corpus/*.baseline.json`)
 - [ ] X thread — same angle, screenshot of the pretty terminal output
-- [ ] Blog post at https://aiproof.dev (if the domain is yours)
+- [ ] Blog post on dev.to or similar (aiproof.dev domain not yet claimed; either claim it or use Frostbyte-Devs/aiproof README as canonical)
 - [ ] File issues in receptive repos with the specific findings for
   validation of impact
 

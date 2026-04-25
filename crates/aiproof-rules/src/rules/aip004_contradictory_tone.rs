@@ -76,7 +76,10 @@ impl Rule for ContradictoryTone {
                     category: Category::Clarity,
                     primary: span,
                     labels: vec![],
-                    explain_url: Some("https://aiproof.dev/rules/AIP004".to_string()),
+                    explain_url: Some(
+                        "https://github.com/Frostbyte-Devs/aiproof/blob/main/docs/rules/AIP004.md"
+                            .to_string(),
+                    ),
                     fix: None,
                 });
             }
