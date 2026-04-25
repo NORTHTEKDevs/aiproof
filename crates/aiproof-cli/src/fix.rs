@@ -53,13 +53,25 @@ pub fn run_fix(
             }
 
             // Apply edits in reverse-byte-position order to avoid shifting offsets.
+            // Skip any edit that overlaps with a previously-applied (later-positioned) one
+            // OR that lands on a non-char boundary in the (possibly UTF-8) source.
             edits_for_pass.sort_by_key(|e| std::cmp::Reverse(e.span.byte_range.start));
+            let mut next_safe_end = source.len();
             for e in &edits_for_pass {
                 let range = e.span.byte_range.clone();
-                if range.end > source.len() {
+                if range.end > source.len() || range.start > range.end {
                     continue;
                 }
-                source.replace_range(range, &e.replacement);
+                // Reject overlap: the previous (higher-start) edit covered this region.
+                if range.end > next_safe_end {
+                    continue;
+                }
+                // Reject if either endpoint is not on a UTF-8 char boundary.
+                if !source.is_char_boundary(range.start) || !source.is_char_boundary(range.end) {
+                    continue;
+                }
+                source.replace_range(range.clone(), &e.replacement);
+                next_safe_end = range.start;
                 fixes_applied += 1;
             }
         }
