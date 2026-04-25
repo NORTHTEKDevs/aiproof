@@ -24,6 +24,9 @@ pub fn run_fix(
     let mut files_changed = 0;
 
     for f in files {
+        if std::fs::metadata(&f.path).is_ok_and(|m| m.len() > 10 * 1024 * 1024) {
+            continue;
+        }
         let Ok(mut source) = std::fs::read_to_string(&f.path) else {
             continue;
         };

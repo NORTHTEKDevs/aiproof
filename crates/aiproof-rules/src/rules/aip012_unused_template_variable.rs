@@ -9,7 +9,10 @@ use aiproof_core::{
     rule::{Ctx, Rule},
     severity::Severity,
 };
+use once_cell::sync::Lazy;
 use regex::Regex;
+
+static SET_DECL: Lazy<Regex> = Lazy::new(|| Regex::new(r"\{%\s*set\s+([A-Za-z_]\w*)\s*=").unwrap());
 
 pub struct UnusedTemplateVariable;
 
@@ -40,14 +43,10 @@ impl Rule for UnusedTemplateVariable {
 
         let text = &doc.prompt.text;
 
-        // Find all {% set <ident> = ... %} declarations.
-        let set_regex =
-            Regex::new(r"\{%\s*set\s+([A-Za-z_]\w*)\s*=").expect("regex should compile");
-
-        for m in set_regex.captures_iter(text) {
-            if let Some(ident_match) = m.get(1) {
+        for m in SET_DECL.captures_iter(text) {
+            if let (Some(full), Some(ident_match)) = (m.get(0), m.get(1)) {
                 let var_name = ident_match.as_str();
-                let decl_span = m.get(0).unwrap().range();
+                let decl_span = full.range();
 
                 // Count references to this variable outside the declaration.
                 // References are: {{ var_name }} or {% ... var_name ... %}

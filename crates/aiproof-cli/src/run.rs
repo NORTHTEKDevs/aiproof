@@ -22,6 +22,12 @@ pub fn run(args: RunArgs) -> anyhow::Result<i32> {
     let mut max_severity: Option<Severity> = None;
 
     for f in files {
+        // Defense in depth: skip files larger than 10 MB. Real prompt files are
+        // measured in KB; anything bigger is almost certainly not a prompt and
+        // could OOM the process if we tried to load it.
+        if std::fs::metadata(&f.path).is_ok_and(|m| m.len() > 10 * 1024 * 1024) {
+            continue;
+        }
         let Ok(source) = std::fs::read_to_string(&f.path) else {
             continue;
         };

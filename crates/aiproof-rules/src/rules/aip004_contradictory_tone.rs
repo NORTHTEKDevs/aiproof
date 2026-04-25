@@ -9,6 +9,7 @@ use aiproof_core::{
     rule::{Ctx, Rule},
     severity::Severity,
 };
+use once_cell::sync::Lazy;
 use regex::Regex;
 
 const TONE_PAIRS: &[(&str, &str)] = &[
@@ -27,6 +28,19 @@ const TONE_PAIRS: &[(&str, &str)] = &[
     ("funny", "serious"),
     ("terse", "verbose"),
 ];
+
+// Compile tone-pair regexes once. Inputs are lowercase ASCII words, so simple
+// word-boundary patterns are sufficient and cheaper than per-call Regex::new.
+static TONE_REGEXES: Lazy<Vec<(&'static str, &'static str, Regex, Regex)>> = Lazy::new(|| {
+    TONE_PAIRS
+        .iter()
+        .map(|&(a, b)| {
+            let ra = Regex::new(&format!(r"\b{}\b", regex::escape(a))).unwrap();
+            let rb = Regex::new(&format!(r"\b{}\b", regex::escape(b))).unwrap();
+            (a, b, ra, rb)
+        })
+        .collect()
+});
 
 pub struct ContradictoryTone;
 
@@ -52,10 +66,7 @@ impl Rule for ContradictoryTone {
         let text_lower = text.to_lowercase();
         let mut diags = Vec::new();
 
-        for &(a, b) in TONE_PAIRS {
-            let regex_a = Regex::new(&format!(r"(?i)\b{}\b", regex::escape(a))).unwrap();
-            let regex_b = Regex::new(&format!(r"(?i)\b{}\b", regex::escape(b))).unwrap();
-
+        for (a, b, regex_a, regex_b) in TONE_REGEXES.iter() {
             if let (Some(_), Some(m_b)) = (regex_a.find(&text_lower), regex_b.find(&text_lower)) {
                 let span = project_span(doc, m_b.start()..m_b.end());
                 diags.push(Diagnostic {

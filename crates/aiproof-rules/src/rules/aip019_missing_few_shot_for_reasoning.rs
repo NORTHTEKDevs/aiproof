@@ -44,43 +44,38 @@ impl Rule for MissingFewShotForReasoning {
             "work through",
         ];
 
-        // Check if any reasoning cue is present
+        // Check if any reasoning cue is present, capturing the earliest match.
         let mut first_cue_match: Option<(usize, &str)> = None;
         for cue in &reasoning_cues {
-            if let Some(pos) = text_lower.find(cue)
-                && (first_cue_match.is_none() || pos < first_cue_match.unwrap().0)
-            {
-                first_cue_match = Some((pos, cue));
+            if let Some(pos) = text_lower.find(cue) {
+                match first_cue_match {
+                    Some((earliest, _)) if pos >= earliest => {}
+                    _ => first_cue_match = Some((pos, cue)),
+                }
             }
         }
 
-        // If no reasoning cue, emit nothing
-        if first_cue_match.is_none() {
+        // If no reasoning cue, emit nothing.
+        let Some((cue_pos, _)) = first_cue_match else {
             return vec![];
-        }
+        };
 
         // Check for example signals
         let has_example_example = text_lower.contains("example:");
         let has_example_1 = text_lower.contains("example 1");
         let has_example_2 = text_lower.contains("example 2");
 
-        // Check for input/output pattern
-        let has_input = text_lower.contains("input:");
-        let has_output = text_lower.contains("output:");
-        let has_input_output = if has_input && has_output {
-            text_lower.find("input:").unwrap() < text_lower.find("output:").unwrap()
-        } else {
-            false
-        };
+        // Check for input/output pattern.
+        let has_input_output = matches!(
+            (text_lower.find("input:"), text_lower.find("output:")),
+            (Some(i), Some(o)) if i < o
+        );
 
-        // Check for q/a pattern
-        let has_q = text_lower.contains("q:");
-        let has_a = text_lower.contains("a:");
-        let has_q_a = if has_q && has_a {
-            text_lower.find("q:").unwrap() < text_lower.find("a:").unwrap()
-        } else {
-            false
-        };
+        // Check for q/a pattern.
+        let has_q_a = matches!(
+            (text_lower.find("q:"), text_lower.find("a:")),
+            (Some(q), Some(a)) if q < a
+        );
 
         // Check for code fence
         let has_code_fence = doc.prompt.text.contains("```");
@@ -106,9 +101,8 @@ impl Rule for MissingFewShotForReasoning {
             return vec![];
         }
 
-        // Emit diagnostic at first reasoning cue position
+        // Emit diagnostic at first reasoning cue position.
         let span = doc.prompt.origin_span.clone().unwrap_or_else(|| {
-            let cue_pos = first_cue_match.unwrap().0;
             aiproof_core::span::Span::from_byte_range(&doc.source, cue_pos..cue_pos)
         });
 

@@ -25,7 +25,10 @@ fn fix_handles_utf8_correctly() {
         .code(0);
 
     let after = fs::read_to_string(&file).unwrap();
-    assert!(after.contains("***REDACTED***"), "credential not redacted: {after:?}");
+    assert!(
+        after.contains("***REDACTED***"),
+        "credential not redacted: {after:?}"
+    );
     assert!(
         after.starts_with("Tu es un assistant utile."),
         "preamble corrupted: {after:?}"
